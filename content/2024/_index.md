@@ -9,9 +9,9 @@ type: home
 layout: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QCrypt 2024 background" logo="/images/2024/QCrypt_2024_logo_final.png" %}}
+{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="TQC 2024 background" logo="/images/2024/tqc2024-biglogo.jpeg" %}}
 
-## 2-6 September 2024
+## 9-13 September 2024
 
 {{< button-link label="Conference Program"
                 url="schedule"
@@ -31,15 +31,17 @@ layout: home
 
 
 {{% home-info what="Participants:>200,Days:5,Invited Talks:9,Tutorials:4" class="primary" %}}
-## What is QCrypt 2024?
+## What is TQC 2024?
 
-QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
+TQC 2024 is the 19th edition of the yearly international scientific conference on the Theory of Quantum Computation, Communication and Cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-tqc">here</a>.
 {{% /home-info %}}
 
 {{% home-keydates %}}
 
-{{% home-keydate-table title="Key Dates QCrypt 2024" %}}
+{{% home-keydate-table title="Key Dates TQC 2024" %}}
 (all times 23:59 AoE)
+
+TODO: update from https://tqc-conference.org/call-for-submissions/
 
 |Date |Event|
 |:----|:----|
@@ -62,14 +64,14 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 
 <!-- THE MAP -->
 {{% home-location
-    image="/images/2024/afundation_venue.png"
-    address="Sede Afundación Vigo, Rúa Policarpo Sanz, 24, 26, Santiago de Vigo, 36202 Vigo, Pontevedra"
+    image="/images/2024/background-2024.jpg"
+    address=""
     latitude="42.237410"
     longitude="-8.722420"
     %}}
 
 ## The 2024 venue
-<strong>Organized by: University of Vigo</strong>
+<strong>Organized by: Squids?</strong>
 {{% /home-location %}}
 
 {{% home-speakers year=2024 %}}
@@ -79,10 +81,10 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
                 icon="cfp" >}}
 {{% /home-speakers %}}
 
-{{% partners categories="gold,bronze,exhibitors" year=2024 %}}
+{{% partners categories="gold,silver,bronze,exhibitors" year=2024 %}}
 ## Sponsors
 
-QCrypt 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@qcrypt.net" url="mailto:2024@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} 
+TQC 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@tqc-conference.net" url="mailto:2024@tqc-conference.net?subject=Sponsorship Enquiry" icon="email" >}} 
 
 {{% /partners %}}
 
