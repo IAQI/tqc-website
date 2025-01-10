@@ -1,7 +1,7 @@
 ---
 title: Call
 year: 2024
-draft: false
+draft: true
 type: text_page
 menu:
     2024:

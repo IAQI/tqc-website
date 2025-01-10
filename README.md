@@ -1,9 +1,14 @@
-# QCrypt 2025+ website
+# TQC 2025+ website
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2d41c-275c-4d5a-90ed-14db4a9accb5/deploy-status)](https://app.netlify.com/sites/qcrypt-website/deploys)
 
-Hugo-powered QCrypt website for 2025 edition and later, live at at https://qcrypt.net. QCrypt is the yearly international scientific conference presenting last year’s top results in quantum cryptography. [Hugo](https://gohugo.io/) is a fast static website generator. https://qcrypt.net is generously hosted by [netlify](https://www.netlify.com/) under a [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
+Hugo-powered TQC website for 2025 edition and later, live at at https://tqc-conference.net. The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science. 
 
-Project initiated in 2020 and maintained since then by [Christian Schaffner](https://github.com/cschaffner).
+ [Hugo](https://gohugo.io/) is a fast static website generator. https://tqc-conference.net is generously hosted by [netlify](https://www.netlify.com/) under a [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
+
+This project branched off from https://github.com/QCrypt/qcrypt-website in 2025 which is maintained since 2020 by [Christian Schaffner](https://github.com/cschaffner).
+
+> [!CAUTION]
+> TODO: adjust everything below here!
 
 ## History
 Originally based on the Hugo template from https://github.com/GDGToulouse/devfest-theme-hugo
@@ -24,13 +29,13 @@ In preparation of the 2025 edition, a more permanent solution is envisioned with
 2. Clone this repo:
 
 ```bash
-$ git clone https://github.com/QCrypt/qcrypt-website.git
+$ git clone https://github.com/QCrypt/tqc-website.git
 ```
 
 3. It's done. Just start Hugo server to see the site live!
 
 ```bash
-$ cd qcrypt-website
+$ cd tqc-website
 $ hugo server
 ``` 
 

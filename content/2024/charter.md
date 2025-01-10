@@ -1,5 +1,5 @@
 ---
-title: QCrypt Charter
+title: TQC Charter
 year: 2024
 draft: false
 type: text_page
@@ -9,56 +9,45 @@ type: text_page
 
 ## Goal of the conference
 
-The Annual conference on quantum cryptography (QCrypt) is a conference for students and researchers working on all aspects of quantum cryptography. This includes theoretical and experimental research on the possibilities and limitations of secure communication and computation with quantum mechanical devices or in the presence of quantum mechanical devices. (The conference includes but is not limited to research on quantum key distribution.)
+The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science. The scientific objective is to bring together the theoretical quantum information science community to present and discuss the latest advances in the field.
 
-It is the goal of the conference to represent the previous year’s best results on quantum cryptography and to support the building of a research community in quantum cryptography.
+## Mission
 
+The Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC) is a conference for students and researchers working on theoretical aspects of quantum computation and quantum information. This includes, but is not limited to, quantum algorithms, models of quantum computation, quantum complexity theory, simulation of quantum systems, quantum cryptography, quantum communication, quantum information theory, quantum estimation and measurement, the intersection of quantum information and condensed-matter theory, quantum coding theory, fault-tolerant quantum computing, and entanglement theory.
 
+It is the goal of the conference to present recent major results on the theory of quantum computing and to support the building of a research community.
 
-## Format of the conference
-
-In order to achieve this goal, the conference features both invited and contributed talks, selected by the steering committee and program committee, respectively. In addition, the steering committee invites up to 5 focus tutorials, one preceding each day, with the goal to ease communication between the different subfields.
-
-In addition, QCrypt features a poster session and an industry exhibit. To further connections to industry, QCrypt also includes an industry session consisting of a panel discussion or short presentation. To share latest advances, QCrypt includes a hot topic session, in which very recent (post-deadline) and high-quality research results are selected and presented. To inform the public, QCrypt typically includes a talk for the general public outside the normal conference program.
-
-QCrypt also features a room that is open for working groups in quantum information. QCrypt is a community event, and participants are highly encouraged by contributing to the program by hosting their own organized sessions in the working group room. There are no restrictions on what this room may be used for, provided all QCRYPT attendees can participate and reasonable time will be available to different working groups. Rooms can be booked at the QCrypt Wiki, which also provides room for the organization of working groups.
-
-In line with the goal of showcasing the best results each year from all subfields, the conference has no published proceedings. Yet, contributed talks are highly competitive. QCrypt welcomes the submission of any interesting and important result, while allowing researchers from a wide range of disciplines to pursue publication in any venue appropriate to their field. For authors who want to put their abstracts to public, and to cite their presentations in QCrypt later, the local organizing committee offers an opportunity to upload such abstracts in an electronic form in the conference web site.
-
-Oral presentations in QCrypt are recorded as videos. If presenters give permission, recorded videos as well as their presentation slides are uploaded to the conference web site.
-
-
-
-## Steering committee
-
-The steering committee (SC) is responsible for shaping the medium- and long-term course of the conference series and for making sure that the conference maintains a high scientific and organizational standard. In particular, the SC has the responsibility to select the main organizer, venue and program chairs for the next conference. The SC has 8 members who serve for four years with two members being replaced each year. The selection of new members is made by the SC during the previous year. The SC chair is selected among the SC members, and is responsible for the external relations of the conference.
-
-To ease communication between the SC and the local organization, it is desirable that a member of the local organizing committee takes part in the SC for at least the year before and during the conference.
-
-The conference usually takes place over one week (Monday to Friday) in August or September. The venue is decided by the steering committee who tries to ensure a suitable rotation of continents wherever possible. The SC will solicit applications to host the conference approximately 2 years in advance.
-
-The SC selects the invited speakers. At most half of the talk time of the conference can be given to invited speakers. The remaining talk time is reserved for contributed talks. SC members cannot be invited speakers, but are allowed to submit and present contributed papers.
-
-The SC reviews submissions to the hot topic session, and selects hot topic papers which present very recent and high-quality research results.
+## Format
+The conference features:
+- Invited talks, selected by the Steering Committee
+- Contributed talks, selected by the Programme Committee
+- Poster sessions, with contributed posters selected by the Programme Committee
+- Published proceedings, which are open access
+- Industry session, at the discretion of the Local Organising Committee
+- Mentorship sessions between junior and senior researchers, at the discretion of the Local Organising Committee
+- Opportunities for small informal meetings, provided by the Local Organising Committee
 
 
+## Published Proceedings
+The conference has a published proceedings, fulfilling a unique niche in doing so. However, in order to encourage submissions from various subfields, these proceedings are to be kept optional. The SC may re-evaluate the existence of conference proceedings as the landscape of academic publishing changes. The proceedings should be open access. The selection criteria for proceedings track and conference track submissions may differ, at the discretion of the PC chair, but possibly satisfying constraints decided by the SC, such as a minimum number of submissions for each track. However, submissions to both tracks must meet a minimum quality level, and this takes precedence over other constraints.
 
-## Program committee
+## Steering Committee
+The Steering Committee (SC) is responsible for shaping the medium- and long-term course of the conference series and for making sure that the conference maintains a high scientific and organisational standard. In particular, the SC has the responsibility to select the main organizer, venue and program chair for the next conference. The SC has 8 members who serve for four to five years with up to two members being replaced each year, normally after that year’s TQC. The selection of new members is made by the SC during the previous year, normally inviting the previous year’s PC Chair and local organizing chair. 
 
-The role of the program committee (PC) is to select the contributed talks. The PC is chaired by one theorist and one experimentalist, of which one will be the primary chair and one the co-chair. The PC chairs are selected by the SC. With input from the SC, the PC chairs select and recruit the PC members of typically 10 or more people representing the broad range of subfields in quantum cryptography. SC members may not simultaneously serve on the PC. PC members are allowed to submit papers and to present contributed papers, except the PC chair, who may not submit contributed papers (but may submit posters). PC members must declare a conflict of interest on submissions to which they contributed so that they are not involved in discussing these papers in the PC.
+A SC chair and SC co-chair are selected among the SC members, with preference given to members in their third and second year of service, respectively. The SC chair is responsible for ensuring that the SC carries out its responsibilities in a timely manner, and for external communication; for example, inviting speakers. The co-chair assists the chair in these tasks. It is generally expected that the co-chair will take over the chair role after one year as co-chair.
 
-Talks are reviewed and selected based on scientific excellence. The two PC chairs make final a selection from the scientifically excellent talks to create a balanced and interesting program, encouraging broad participation and representation of topics in QCRYPT.
+To ease communication with both the local organizing committee and the program chair, two SC members will be appointed as points of contact for these respectively. The local organizing point of contact should ideally be a former local organizer who has served at least one year on the SC, and the PC point of contact should ideally be a former PC Chair who has served at least one year on the SC.
 
+The conference usually takes place around July. The location is decided by the steering committee who tries to ensure a suitable rotation of continents wherever possible. The SC will solicit applications to host the conference approximately 2 years in advance. Solicitation of applications will be announced at the TQC 2 years prior. Applications to host TQC should include, at a minimum, proposed dates and proposed venue. The SC should make a decision at least one year in advance, in time to announce the location and dates at the previous year’s TQC. 
 
-
-## Advisory committee
-
-The advisory committee (AC) advises the SC on the long-term direction of the conference series. The AC has at most 10 members covering a broad range of geographical locations and scientific expertise. The advisory committee is regularly informed by the SC about the progress of the conference organization and gives input on future decisions, for instance on invited speakers and sponsorship contributed talks. AC members can be invited speakers, and are allowed to submit and present contributed papers.
-
+The SC selects the invited speakers, consulting with the local organizing committee on the number of speakers to invite. SC members cannot be invited speakers, but are allowed to submit and present contributed papers.
 
 
-## Student paper prize
+## Programme Committee
+The role of the Programme Committee (PC) is to select the contributed talks. The PC chair is selected by the SC at least six months in advance of the conference. The PC chair selects and invites the PC members at their discretion, taking care to include members representing the range of topics represented by TQC.  The PC chair may select a co-chair or otherwise structure the PC as suitable.  SC members should not simultaneously serve on the PC.
 
-Since 2011, QCrypt features a prize for the best student submission. A submission is eligible for the student prize if and only if the main author(s) is/are a student(s) at the time of the submission and will present the work at QCrypt, and further a significant portion of the work must have been done by said student(s), including contributions to the key ideas. Eligibility can only be indicated at the time of submission. In very exceptional cases, including but not limited to parental leave or visa denial, a submission may still be considered eligible even if it is not presented by the/a student. Such exceptions must be approved by the PC chairs before the start of the conference. The student(s) are responsible for notifying all authors that the paper was nominated for the student prize, and all authors have 14 days following submission to voice any disagreements about the paper’s nomination to the PC chair. The PC chair is free to ask for any clarifications regarding the students’ contributions at any time.
+The PC chair is expected to decide the details of the reviewing process, such as internal and external deadlines, policy on subreviews, etc.  The PC chair should consult the SC on any major  policy decisions or departures from previous years, and on issues that require coordination with the local organizers.
 
-The PC may select a number of eligible submissions for a shortlist. The final decision will be made in discussion with the SC, and the prize will be announced and awarded during the conference.
+Conflict of Interest (COI): PC members are allowed to submit papers and to present contributed papers, except the PC chair, who may not submit contributed papers (but may submit posters).  The reviewing system should permit PC members to declare COI on papers, which will ensure that they are not involved in the PC discussions of these papers.  COI should be declared whenever a paper author is either a PC member, a current advisor or student of a PC member, a close collaborator or personal friend of a PC member, or any other situation in which a PC member would have either a professional or personal interest in the status of a paper.  In case of doubt, PC members should consult the PC chair.  The PC chair can further refine these guidelines and is responsible for ensuring that the COI rules are followed in a uniform way.
+
+Talks are reviewed and selected based on scientific excellence. With the help of input from the PC, the PC chair selects the most scientifically excellent talks to create a balanced and interesting program.  Prizes for best papers and best student papers (potentially limited to one conference track, or to subgroups of participants such as students), if any, are decided upon by the SC in discussion with the LOC prior to the call for submissions. The final selection is done by the PC taking into account the referee reports received.

@@ -11,6 +11,9 @@ menu:
 
 ---
 
+## TODO
+Update from https://tqc-conference.org/registration2024/
+
 ## Online registration for QCrypt 2024 is now closed! See you in Vigo!
 QCrypt is the annual international scientific conference presenting the latest results in quantum cryptography. The 2024 conference will take place in Vigo at Sede Afundación. 
 
