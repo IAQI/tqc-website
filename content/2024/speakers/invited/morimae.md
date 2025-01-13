@@ -1,6 +1,6 @@
 ---
 key: morimae 
-name: Tomoyuku Morimae
+name: Tomoyuki Morimae
 surname: Morimae
 year: 2024
 company: Yukawa Institute for Theoretical Physics, Kyoto University

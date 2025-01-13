@@ -11,7 +11,7 @@ menu:
 ---
  
 ## Presentation Instructions
- QCrypt 2024 is primarily an in-person meeting with presenters expected on-site. In certain exceptional circumstances and as agreed by the Program Committee, some speakers will be able to present remotely.
+ TQC 2024 is primarily an in-person meeting with presenters expected on-site. In certain exceptional circumstances and as agreed by the Program Committee, some speakers will be able to present remotely.
 
 <h2>Talk Length</h2>
 

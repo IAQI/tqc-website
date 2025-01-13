@@ -7,6 +7,7 @@ type: text_page
 ---
 
 TODO: update!
+from https://tqc-conference.org/tqc-charter/
 
 ## PC Chairs & Local Organizers
 |Edition |PC chair| PC co-chair | Local organizer chair(s)
