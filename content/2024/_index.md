@@ -40,8 +40,8 @@ TQC 2024 is the 19th edition of the yearly international scientific conference o
 
 {{% home-keydate-table title="Key Dates TQC 2024" %}}
 (all times 23:59 AoE)
+### TODO: update from https://tqc-conference.org/call-for-submissions/
 
-TODO: update from https://tqc-conference.org/call-for-submissions/
 
 |Date |Event|
 |:----|:----|
@@ -56,7 +56,16 @@ TODO: update from https://tqc-conference.org/call-for-submissions/
 | <strike> Fri, 9 August 2024 </strike>| Registration deadline|
 |<strong>Mon, 2 - Fri, 6 Sept 2024 </strong>| <strong>QCrypt 2024</strong>|
 
-\* The intention of the early poster notification is to facilitate logistics related to registration and travel authorizations. Submissions accepted at this stage will continue through the talk selection process.
+{{% /home-keydate-table %}}
+
+{{% home-keydate-table title="Website Updates" %}}
+|Date |Event|
+|:----|:----|
+|December 12, 2023 |Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
+|August 17, 2023 | QCrypt 2024 Venue Announced <a href="/2023/2024"> here</a>.|
+|August 17, 2023 | <strong>Student Paper Awards Announced</strong> <a href="/2023/sessions/business/">here</a>.|
+|August 15, 2023 | The group photo from Monday evening is now <a href="https://umd.box.com/s/ro56fac22mf5j8xkjcb06ggw0igil4nv">available to view and download.</a>|
+|August 14, 2023 | The <a href="/2023/sessions/rump/">Rump Session</a> theme is: “We love turtles” ❤️🐢❤️|
 {{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
@@ -65,9 +74,7 @@ TODO: update from https://tqc-conference.org/call-for-submissions/
 <!-- THE MAP -->
 {{% home-location
     image="/images/2024/background-2024.jpg"
-    address=""
-    latitude="42.237410"
-    longitude="-8.722420"
+    address="Okinawa Institute of Science and Technology, 1919-1 Tancha, Onna, Kunigami District, Okinawa 904-0412, Japan"
     %}}
 
 ## The 2024 venue
