@@ -35,7 +35,31 @@
 }
 
 .tag-other {
-  background-color: var(--wtf);
+  background-color: var(--breaks);
+}
+
+.tag-crypto {
+  background-color: var(--crypto);
+}
+
+.tag-error {
+  background-color: var(--error);
+}
+
+.tag-algorithms {
+  background-color: var(--algorithms);
+}
+
+.tag-complexity {
+  background-color: var(--complexity);
+}
+
+.tag-learning {
+  background-color: var(--learning);
+}
+
+.tag-physics {
+  background-color: var(--physics);
 }
 
 .tag-break {
@@ -48,7 +72,7 @@
 }
 
 .tag-poster {
-  background-color: var(--web);
+  background-color: var(--social);
 }
 
 .tag-office-hours {
@@ -79,6 +103,11 @@ section .tags {
 .tag-lunch {
   background-image: url('/images/backgrounds/lunch.jpg');
 }
+
+.tag-dinner {
+  background-image: url('/images/backgrounds/dinner.jpg');
+}
+
 
 .tag-party {
   background-image: url('/images/backgrounds/party.jpg');

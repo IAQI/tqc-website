@@ -1,8 +1,8 @@
 ---
-title: 'Lunch break'
-format: lunch
+title: 'Light Dinner'
+format: dinner
 tags:
-  - lunch
+  - dinner
 videoId: null
 presentation: null
 draft: false

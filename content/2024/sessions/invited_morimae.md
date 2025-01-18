@@ -5,10 +5,11 @@ type: sessions
 year: 2024
 speakers:
   - morimae
+tags:
+  - crypto
 presentation: null
 draft: false
 videoId: "xEQayqpdg-I"
-location: auditorium
 ---
 ## Bio
 **Tomoyuki Morimae** is ... 

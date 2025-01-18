@@ -1,38 +1,66 @@
 {{/* following https://discourse.gohugo.io/t/access-site-data-from-partial/31481 and https://gohugo.io/variables/site/ and */}}
 
-{{ $currentYear := string .Params.currentYear }}
-{{ if not (eq .Section "") }}
-  {{ $currentYear = .Section }}
+{{/* retrieve arguments */}}
+{{ $session := .session }}
+{{ $session_page := .page }}
+
+{{ if hugo.IsProduction | not }}
+<!-- Debug Information -->
+<div style="display: none;">
+	<pre>
+		Session: {{ $session | jsonify }}
+		Session Page: {{ $session_page | jsonify }}
+	</pre>
+</div>
+{{ end }}
+
+{{/* get the current year from the section, or use the default year from the front matter */}}
+{{ $currentYear := string $session_page.Params.currentYear }}
+{{ if not (eq $session_page.Section "") }}
+  {{ $currentYear = $session_page.Section }}
 {{ end }}
 {{ $dataKey := printf "accepted-papers-%s" $currentYear }}
 {{ $papers := index site.Data $dataKey | default slice }}
 
-<a href="{{ .RelPermalink }}">
+<a href="{{ $session_page.RelPermalink }}">		
 	<h4>
-		{{ .Title }}
-		<span class="language {{ anchorize .Params.language }}"></span>
+		{{ $session_page.Title }}
+		{{/* <span class="language {{ anchorize $session_page.Params.language }}"></span> */}}
 	</h4>
+	{{ if $session.location }}
+		{{ $all_locations := printf "locations-%s" $currentYear }}
+		{{ $locationData := index site.Data $all_locations }}
+		{{ if $locationData }}
+				{{ if reflect.IsSlice $session.location }}
+						{{ range $loc := $session.location }}
+								{{ $locationData := where $locationData "key" $loc }}
+								{{ if gt (len $locationData) 0 }}
+										{{ $location := index $locationData 0 }}
+										{{ partial "location.html" $location }}
+								{{ else }}
+										<div class="location">location not found</div>
+								{{ end }}
+						{{ end }}
+				{{ else }}
+						{{ $locationData := where $locationData "key" $session.location }}
+						{{ if gt (len $locationData) 0 }}
+								{{ $location := index $locationData 0 }}
+								{{ partial "location.html" $location }}
+						{{ else }}
+								<div class="location">location not found</div>
+						{{ end }}
+				{{ end }}
+		{{ else }}
+				<div class="location">location data not found</div>
+		{{ end }}
+	{{ else }}
+			<div class="location">no location set</div>
+	{{ end }}
 
 	<hr>
 
-	<div class="info">
-		{{ if .Params.tags }}
-		<div class="tags">
-			{{ range .Params.tags }}
-			{{ range first 1 (where $.Site.Data.categories "key" .) }}
-			<span>{{ .name }}</span>
-			{{ end }}
-			{{ end }}
-		</div>
-		{{ end }}
-
-		{{ if .Params.level }}
-		<div class="complexity">{{ .Params.level }}</div>
-		{{ end }}
-	</div>
-
 	<ul class="paper-list">
-		{{ range $pid := .Params.papers }}
+		{{ range $pid := $session_page.Params.papers }}
 		  {{ $paper := index (where $papers "pid" (int $pid) ) 0 }}
 
 			{{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
@@ -49,16 +77,33 @@
 		{{ end }}
 	</ul>
 
-	{{ if .Params.speakers }}
+	{{ if $session_page.Params.speakers }}
 	<ul class="speakers">
-		{{ range sort (where $.Site.RegularPages "Params.key" "in" .Params.speakers) "Params.surname" }}
+		{{ range sort (where $session_page.Site.RegularPages "Params.key" "in" $session_page.Params.speakers) "Params.surname" }}
 		<li class="speaker">
 			<div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
-			<strong class="speaker-name">{{ .Params.surname }}</strong>
-<!--			<div class="speaker-company">{{ .Params.company }}</div>-->
+			<strong class="speaker-name">{{ .Params.name }}</strong>
 		</li>
 		{{ end }}
 	</ul>
 	{{ end }}
+
+	<div class="info">
+		{{ if $session_page.Params.tags }}
+		<div class="tags">
+			{{ range $session_page.Params.tags }}
+				<div style="display: none;"><pre>{{ . }}</pre></div>
+				{{ range first 1 (where site.Data.categories "key" .) }}
+				<span>{{ .name }}</span>
+				{{ end }}
+			{{ end }}
+		</div>
+		{{ end }}
+
+		{{ if .Params.level }}
+		<div class="complexity">{{ .Params.level }}</div>
+		{{ end }}
+
+	</div>
 
 </a>
