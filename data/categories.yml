@@ -13,3 +13,7 @@
   name: "other"  
 - key: photo
   name: "\U0001f4f8 photo"  
+- key: crypto
+  name: "crypto"
+- key: physics
+  name: "physics"

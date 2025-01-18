@@ -1,9 +1,10 @@
 ---
-title: "Contributed Talks 1c"
+title: "Communication, Crypto and IT (Chair: Martin Larocca)"
 format: contributed
 type: sessions
 year: 2024
-
+tags:
+- crypto
 papers:
 - 91
 - 47

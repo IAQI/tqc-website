@@ -1,11 +1,15 @@
 ---
-title: "Contributed Talk 1a"
+title: "Physics(ish) (Chair: Alex B. Grilo)"
 format: contributed
 type: sessions
 year: 2024
+tags:
+- physics
 papers:
-- 43
-- 124
+- 110
+- 42
+- 37
+- 55
 videoId: null
 presentation: null
 draft: false

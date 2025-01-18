@@ -1,41 +1,60 @@
 ---
 key: industry
-title: "Industry Panel"
+title: "Industry Gala"
 format: industry
 type: sessions
 year: 2024
 id: industry
 speakers:
-  - diaz
-  - ortiz
-  - pacher
-  - pegon_2024
-  - prawits
-  - avesani
-
+- munro
+- sata
+- takano
+- khurana
+- morimae
 videoId: null
 presentation: null
 draft: false
 ---
-The session is intended to provide a comprehensive view of the industry landscape for quantum cryptography technologies and services. Organized and chaired by Diego López (Telefónica, leading the QNSP work on commercial services), it is structured around the different layers defining the provisioning of quantum crypto services:
 
-* Quantum device manufacturers, considering the two main QKD technology trends: DV and CV, and featuring:
-    * <strong>Jean-Sébastien Pegon </strong>(IDQ)
-    * <strong>Vanesa Díaz </strong>(LuxQuanta)
-    * <strong>Marco Avesani</strong>(ThinkQuantum)    
-* Key management and crypto service provisioning, featuring:
-    * <strong>Laura Ortiz </strong>(QoolNet)
-* Applications enabled by quantum crypto, featuring:
-    * <strong>Christoph Pacher </strong>(fragmentiX)
-* The system-wide approach, with focus on current testing (NOSTRADOMUS) and deployment (EuroQCI) initiatices, featuring:
-    * <strong>Florian Prawits </strong>(AIT)
+The Industry Gala is scheduled for Tuesday late afternoon. The agenda includes:
+Discussion Panel: Representatives from industry and academia will discuss their research in the context of industry and explore the topic of bridging the gap between academic research and the quantum industry.
 
-Each participant will provide an overview of the status of their respective activities, and will participate in a panel discussion on the industrial landscape and the prospective for it in the coming years.
-
-## Bios
-
-**Vanesa Diaz** is the CEO of LuxQuanta, bringing to the role over 20 years of expertise in the Telecommunication industry, with the majority of her career focused on developing new markets for the multinational Corning. Diaz's background is rooted in her MSc in Telecommunications Engineering and a master’s in business and marketing from Griffith University in Australia. Leading her team with vision and determination, Vanesa is propelling the QKD market with LuxQuanta's team and technology and establishing the young start-up as an industry reference. 
+Panel Members:
+- William John Munro, Professor, OIST – Panel Chair
+- Yutaka Sata, Dr. Eng., Corporate Officer, Corporate Senior Vice President, Chief Technology Officer, Chief Information Security Officer, Toshiba Corporation
+- Ryosei Takano, Quantum-AI Cloud Research Team, G-QuAT, National Institute of Advanced Industrial Science and Technology (AIST)
+- Dakshita Khurana, ​Assistant Professor, University of Illinois Urbana-Champaign
+- Tomoyuki Morimae, Associate Professor, Yukawa Institute for Theoretical Physics, Kyoto University
 
 
-After a Master in Physics and a Master in Telecom, **Jean-Sébastien Pegon**  started his career at NIST as a guest researcher in Mobile Ad Hoc Network (MANET) 20 years ago. Back in Europe, he worked in two startup’s developing wireless internet access, fix and mobile services for Swiss enterprises. Then he joined Orange Business Services as a product manager to develop and launch a worldwide digital voice service (SIP Trunking) for Multinational companies, before moving to the business development team promoting digital collaboration solutions, managing the European and Indirect markets. Jean-Sébastien joined ID Quantique in 2018, participating in business development in the Quantum Security division, which develops next-generation Quantum-Safe solutions, and especially quantum key distribution systems. These systems are designed to be safe against the power of quantum computers, which threaten the conventional encryption methods. As Head of telecom and finance market, he addresses Cloud and Telecom service providers to convince them that Quantum Security is a fast moving and key topic in a world driven by the value of our Data.
+Sponsor Presentations:
+- Platinum Sponsor: JPMorgan Chase represented by Ruslan Shaydulin, Ph.D. | Executive Director, Global Technology Applied Research
+- Gold Sponsor: Google Quantum AI represented by Ryan Babbush | Director of Research, Quantum Algorithms & Applications
+- Gold Sponsor: Horizon Quantum Computing represented by Dr. Angelina Frank | Technical Product Manager
+
+
+Presentations from Japanese Industry Representatives:
+- Tomoki Nagai, General Manager, Materials Informatics Initiative, RD Technology and Digital Transformation Center, JSR Corporation
+- Masahiko Kiminami, Quantum Technology Promotion Section, SoftBank Corp.
+- Chihiro Mori, Quantum Technology Strategy Section, Technology Strategy Center, TOPPAN Digital Inc.
+- Ryoya Ando, Data Science Division, SKILLUP NeXt, Ltd. / Tokyo University of Science, Department of Mathematics, Faculty of Science and Technology
+
+The discussion and presentations will be followed by a networking dinner featuring meal boxes, desserts, and drinks.
+
+
+
+## Industry Gala detailed schedule
+|Time |Event|
+|:----|:----|
+17:00-17:10 | Transfer to Auditorium |
+17:10-17:55	| Panel Discussion |
+17:55-18:10	| Platinum sponsor – JPMorgan Chase |
+18:10-18:20	| Gold sponsor – Google Quantum AI |
+18:20-18:30	| Gold sponsor – Horizon Quantum Computing  |
+18:30-18:35	| Japanese Industry Representative – JSR Corporation |
+18:35-18:40	| Japanese Industry Representative – SoftBank Corp. |
+18:40-18:45	| Japanese Industry Representative – TOPPAN Digital Inc. |
+18:45-18:50	| Japanese Industry Representative – SKILLUP NeXt, Ltd. |
+18:50-19:00	| Transfer to Yuntaku Restaurant |
+19:00-20:30	| Dinner & Networking |
 

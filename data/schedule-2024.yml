@@ -1,60 +1,104 @@
-- day: '2024-09-02'
+- day: '2024-09-09'
+  start: '09:00'
   sessions:
-    - session: __checkin
-      time: '08:30'
+    - session: __registration
+      time: '09:00'
+      location: entrance_hall
     - session: __welcomingremarks
-      time: '09:00'
-    - session: tutorial_tavakoli
-      time: '09:15'
-    - session: invited_lo
+      time: '10:15'
+      location: auditorium
+    - session: invited_morimae
       time: '10:30'
-    - session: __break
-      time: '11:15'
-    - session: invited_malavolta
-      time: '11:45'
-    - session: contributed1a
-      time: '12:30'
+      location: auditorium
     - session: __lunch
-      time: '13:10'
-    - session: contributed1b
-      time: '14:40'
+      time: '11:30'
+      location: entrance_hall
+    - session: contributed11a
+      time: '13:30'
+      location: auditorium
+    - session: contributed11b
+      time: '13:30'
+      location: room1
+    - session: contributed11c
+      time: '13:30'
+      location: brenner 
     - session: __break
-      time: '16:00'
-    - session: contributed1c
-      time: '16:30'
-    - session: __reception
-      time: '19:00'
-
-- day: '2024-09-03'
-  sessions:
-    - session: __updates&announcements
-      time: '09:00'
-    - session: tutorial_lukens
-      time: '09:15'
-    - session: invited_cao
-      time: '10:30'
-    - session: __break
-      time: '11:15'
-    - session: invited_brunner
-      time: '11:45'
-    - session: contributed2a
-      time: '12:30'
-    - session: __lunch
-      time: '13:10'
-    - session: contributed2b
-      time: '14:40'
-    - session: __break
-      time: '16:00'
-    - session: contributed2c
-      time: '16:30'
-    - session: poster
-      time: '17:10'
-    - session: _public_lecture
-      time: '19:00'
+      time: '14:30'
+      location: entrance_hall
+    - session: contributed12a
+      time: '15:00'
+      location: auditorium
+    - session: contributed12b
+      time: '15:00'
+      location: room1
+    - session: contributed12c
+      time: '15:00'
+      location: brenner
+    - session: light_dinner
+      time: '17:00'
+      location: entrance_hall
+    - session: poster_monday
+      time: '18:00'
+      location: poster
     - session: __endofday
-      time: '20:00'
+      time: '20:30'
 
-- day: '2024-09-04'
+- day: '2024-09-10'
+  sessions:
+    - session: invited_khurana
+      time: '09:00'
+      location: auditorium
+    - session: __break
+      time: '10:00'
+      location: 
+        - entrance_hall
+        - brenner        
+    - session: contributed21a
+      time: '10:30'
+      location: auditorium
+    - session: contributed21b
+      time: '10:30'
+      location: room1
+    - session: contributed21c
+      time: '10:30'
+      location: brenner
+    - session: __lunch
+      time: '12:00'
+      location: entrance_hall
+    - session: contributed22a
+      time: '13:30'
+      location: auditorium
+    - session: contributed22b
+      time: '13:30'
+      location: room1
+    - session: contributed22c
+      time: '13:30'
+      location: brenner
+    - session: __break
+      time: '14:30'
+      location:
+        - entrance_hall
+        - brenner
+    - session: contributed23a
+      time: '15:00'
+      location: auditorium
+    - session: contributed23b
+      time: '15:00'
+      location: room1
+    - session: contributed23c
+      time: '15:00'
+      location: brenner
+    - session: industry
+      time: '17:10'
+      location: auditorium
+    - session: industry_dinner
+      time: '19:00'
+      location: industry
+    - session: __endofday
+      time: '21:00'
+
+
+- day: '2024-09-11'
   sessions:
     - session: __updates&announcements
       time: '09:00'
@@ -69,12 +113,16 @@
     - session: contributed3
       time: '12:30'
     - session: __lunch
-      time: '13:10'
+      time: '12:00'
     - session: __excursion
-      time: '15:00'
+      time: '12:30'
+    - session: __banquet
+      time: '19:00'
+    - session: __endofday
+      time: '22:00'
 
 
-- day: '2024-09-05'
+- day: '2024-09-12'
   sessions:
     - session: __updates&announcements
       time: '09:00'
@@ -90,7 +138,7 @@
       time: '12:30'
     - session: __lunch
       time: '13:10'
-    - session: industry
+    - session: __break
       time: '14:40'
     - session: __break
       time: '16:20'
@@ -103,7 +151,7 @@
     - session: __dinner
       time: '20:00'
 
-- day: '2024-09-06'
+- day: '2024-09-13'
   sessions:
     - session: __updates&announcements
       time: '09:00'

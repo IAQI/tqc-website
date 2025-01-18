@@ -1,14 +1,15 @@
 ---
-title: "Contributed Talks 1b"
+title: "Learning (Chair: Nai-Hui Chia)"
 format: contributed
 type: sessions
 year: 2024
-
+tags:
+- learning
 papers:
-- 110
-- 42
-- 37
-- 55
+- 91
+- 47
+- 74
+- 31
 videoId: null
 presentation: null
 draft: false

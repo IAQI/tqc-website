@@ -1,5 +1,5 @@
 ---
-title: Poster Session (Click to see the list of posters)
+title: Poster Session Monday (Click to see the list of posters)
 type: sessions
 format: poster
 tags:
