@@ -23,21 +23,21 @@ enableMissingTranslationPlaceholders = true
 
 [params]
     title = "TQC Conference Website"
-    date = "2024-09-13"
-    currentYear = 2024
+    date = "2025-09-15"
+    currentYear = 2025
     description = "International Conference on Theory of Quantum Computation, Communication and Cryptography (TQC)"
     images = ["/images/social-share.jpg"]
     email = "webmaster@tqc-conference.org"
     keywords = "event, quantum computation, communication, cryptography, TQC"
-    copyright = "We :heart: sheep"
-    copyright_link = "https://github.com/QCrypt/tqc-website"
+    copyright = "We :heart: quantum"
+    copyright_link = "https://github.com/IAQI/tqc-website"
     # cfpUrl = "/2024/call"
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"
-    manifest = "/manifest.json"
-    safariPinnedTab = "/safari-pinned-tab.svg"
+    manifest = "/site.webmanifest"
+    # safariPinnedTab = "/safari-pinned-tab.svg"
 
 [params.2024]
   city = "Okinawa, Japan"
