@@ -1,8 +1,6 @@
 
 :root {
   /* --primary: to be defined in theme-year.scss */
-  // --primary-txt: #ffffff;
-  --primary-txt: #2a1c04;
   --primary-link: #4c9cde; // darkish blue
 
   --accent: grey;
@@ -81,7 +79,7 @@
   --keynote: paleturquoise;
 
   /* Jumbo section */
-  --jumbo-logo-width: 400px;
+  --jumbo-logo-width: 200px;
   --jumbo-overlay-opacity: 0.2;
   --jumbo-overlay-opacity-mobile: 0.5;
   --jumbo-overlay-transition: 0.5s;
