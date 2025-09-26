@@ -30,7 +30,7 @@ In preparation of the 2025 edition, a more permanent solution is envisioned with
 2. Clone this repo:
 
 ```bash
-$ git clone https://github.com/QCrypt/tqc-website.git
+$ git clone https://github.com/IAQI/tqc-website.git
 ```
 
 3. It's done. Just start Hugo server to see the site live!
@@ -44,11 +44,11 @@ $ hugo server
 
 6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
 
-7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qcrypt-website.netlify.com/ and accessible under https://tqc-website.netlify.app. If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/tqc-website/deploys).
+7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://tqc-website.netlify.com/ and accessible under https://tqc-website.netlify.app. If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/tqc-website/deploys).
 
 
 ## Customizing the theme
-Is described in the [README.md](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md) of the theme.
+Is described in the [README.md](/themes/devfest-theme-hugo/README.md) of the theme.
 
 ## High-level overview
 This site is built with modern web technologies:
@@ -63,12 +63,12 @@ This site is built with modern web technologies:
 
 * **Netlify Hosting**: [Netlify](https://www.netlify.com/) automatically builds and publishes the website whenever changes are made and committed to this repository. It ensures the site is secure, fast, and available worldwide through its global network.
 
-This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers. Sounds great? Check out [this guided walk](https://github.com/QCrypt/qcrypt-website/tree/main/themes/devfest-theme-hugo#a-guided-walk-through-the-ingredients) to learn how it actually works in more detail.
+This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers. Sounds great? Check out [this guided walk](/themes/devfest-theme-hugo#a-guided-walk-through-the-ingredients) to learn how it actually works in more detail.
 
 ## Setting up the next year 2025 based on previous years
 
 ### design 
-1. create a new logo, something with a sheep... see [here](https://qcrypt.net/2024/history/#websites--logos) for inspiration.
+1. create a new logo, see previous editions for inspirations.
 2. choose a background image for the main site, e.g. [2024](/static/images/2024/background-2024.jpg) or [2023](/static/images/2023/background-2023.jpg) 
 3. and make a related banner, e.g. [2024](/static/images/2024/banner-2024.jpg) or [2023](/static/images/2023/banner-2023.jpg) 
 4. pick a related themecolor, like `#0099cc` or `#ac191c`.
@@ -96,14 +96,14 @@ This combination of tools creates a website that's fast, secure, and easy to mai
 
 
 ### Steps you will need help with
-1. on https://github.com/orgs/QCrypt/teams, create a new team ```QCrypt 2025```
-2. add admins https://github.com/orgs/QCrypt/teams/qcrypt-2025/members
-3. add repositories https://github.com/orgs/QCrypt/teams/qcrypt-2025/repositories
+1. on https://github.com/orgs/IAQI/teams, create a new team ```tqc-202x```
+2. add admins 
+3. add repositories 
 5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to qcrypt-website
 1. on https://api.slack.com/apps/A01P06YNCCU/incoming-webhooks , create a new Webhook (on the bottom of the page)
 1. paste the Webhook URL into netfliy:  https://app.netlify.com/sites/qcrypt2024/settings/deploys (for deploy succeesful and deploy failed)
 1. add admins to Slack channel
-3. We probably need new email addresses like 2025@qcrypt.net and pcchairs2025@qcrypt.net.
+3. We probably need new email addresses like 2025@tqc-conference.org and pcchairs2025@tqc-conference.org .
 3. connect new admins to admins from last year
 4. Is it time to update the hugo version? check what needs to be updated.
 
@@ -111,7 +111,7 @@ This combination of tools creates a website that's fast, secure, and easy to mai
 Once the new site is ready to be "promoted" to be the current year, make the following changes:
 1. In hugo.toml, in [params], change the currentYear and date
 2. In [[server.redirects]], change the forward to = "/2025/"
-3. In https://github.com/QCrypt/qcrypt-website/blob/main/netlify.toml , adjust the redirect as well
+3. In [/netlify.toml](/netlify.toml) , adjust the redirect as well
 
 
 ## Later Updates
@@ -122,20 +122,20 @@ Once the new site is ready to be "promoted" to be the current year, make the fol
 3. The call-to-action buttons on the main site can be adjusted depending on the news.
 
 ### tutorial, invited speakers, panelists are known
-1. update the .md files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/speakers
+1. update the .md files in [/content/2025/speakers](/content/2025/speakers)
 2. remove previous images from the images subdirectory, upload new ones, and make sure the photoURL field of the speaker is pointing there.
 3. Use sensible names for the .md files, like eleni_diamanti.md 
-4. Per speaker, create an according session in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/sessions , using the examples from previous years.
+4. Per speaker, create an according session in [/content/2025/sessions](/content/2025/sessions), using the examples from previous years.
 
 ### accepted papers and posters are known
 1. Get accepted papers as json export from hotcrp from PC chair
-2. run [this python script](https://github.com/QCrypt/qcrypt-website/blob/main/static/python-scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, pc_conflicts etc.
-3. put the resulting file as accepted-papers-2025.json into [data](https://github.com/QCrypt/qcrypt-website/tree/main/data)
+2. run [this python script](/static/python-scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, pc_conflicts etc.
+3. put the resulting file as accepted-papers-2025.json into [data](/main/data)
 
 Proceed accordingly with the list of accepted posters.
 
 ### creating a schedule
-1. duplicate https://github.com/QCrypt/qcrypt-website/blob/main/data/schedule-2024.yml and call it schedule-2025.yml
+1. duplicate [/main/data/schedule-2024.yml](schedule-2024.yml) and call it schedule-2025.yml
 2. make sure all sessions exist
 3. Adjust the id's of the contributed papers in the sessions with contributed papers
 
@@ -191,7 +191,7 @@ It is a requirement by the Netlify Open Source plan to link to a code of conduct
 ### Main page
 The main home page per year is the `/content/YEAR/_index.html`, like [/content/2024/_index.html](/content/2024/_index.html). It has `type: home` and `layout: home` in the front matter.
 
-It is the only page without a banner on top, as it starts with a [jumbo element](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md#jumbo-bloc) which takes as arguments the background image, label and logo. The content of it is the date, and various call to actions using button-links, which in turn take arguments like label, url, icon.
+It is the only page without a banner on top, as it starts with a [jumbo element](/main/themes/devfest-theme-hugo/README.md#jumbo-bloc) which takes as arguments the background image, label and logo. The content of it is the date, and various call to actions using button-links, which in turn take arguments like label, url, icon.
 
 The following elements are:
 * home-info: some basic information about QCrypt
@@ -216,7 +216,7 @@ The front matter of sessions should specify the `year`, `format` (like `contribu
 
 For sessions with contributed talks, specify the paper ids once they are known.
 
-There is an [overview of speakers](/content/2025/speakers/_index.html) (e.g. [2024](https://qcrypt.net/2024/speakers/)), and and [overview of sessions](/content/2025/sessions/_index.html) (e.g. [2024](https://qcrypt.net/2024/sessions/), both should be added to the "Technical Program" menu when ready.
+There is an [overview of speakers](/content/2025/speakers/_index.html) (e.g. [2024](/2024/speakers/)), and and [overview of sessions](/content/2025/sessions/_index.html) (e.g. [2024](/2024/sessions/), both should be added to the "Technical Program" menu when ready.
 
 ### Schedule
 Once a schedule is drawn up, insert the session names and start times into [/data/schedule-2025.yml](/data/schedule-2025.yml) like in previous years. A schedule is then automatically generated and can be added to the "Technical Program" submenu by setting `draft: false` in [/content/2025/schedule/_index.html](/content/2025/schedule/_index.html)
