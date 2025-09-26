@@ -91,7 +91,7 @@ This combination of tools creates a website that's fast, secure, and easy to mai
 4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under [/content/2025](/content/2025) for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.
 
 ### create new style file
-1. In [/themes/devfest-theme-hugo/assets/style/], duplicate [theme-2024.css](/themes/devfest-theme-hugo/assets/style/theme-2024.css) and rename it to `theme-2025.css`
+1. In [/themes/devfest-theme-hugo/assets/style/](/themes/devfest-theme-hugo/assets/style/), duplicate [theme-2024.css](/themes/devfest-theme-hugo/assets/style/theme-2024.scss) and rename it to `theme-2025.css`
 2. adjust the last line to set the `--primary:` variable in `root` to the themecolor picked above.
 
 
