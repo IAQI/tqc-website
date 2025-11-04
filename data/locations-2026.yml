@@ -1,0 +1,19 @@
+# Location data for 2026
+- key: entrance_hall
+  label: Entrance Hall
+  description: TBD
+- key: auditorium
+  label: Auditorium
+  description: TBD
+- key: room1
+  label: Meeting Room 1
+  description: TBD
+- key: room2
+  label: Meeting Room 2
+  description: TBD
+- key: poster
+  label: Entrance Hall
+  description: TBD
+- key: industry
+  label: Industry Restaurant
+  description: TBD

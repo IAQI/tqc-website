@@ -17,9 +17,9 @@ enableMissingTranslationPlaceholders = true
 # it's probably better not to track people anyways.
 # GoogleAnalytics = "G-221GMGECQ6"
 
-[services]
-  [services.googleAnalytics]
-    id = "G-221GMGECQ6"
+# [services]
+#   [services.googleAnalytics]
+#     id = "G-221GMGECQ6"
 
 [params]
     title = "TQC Conference Website"
@@ -42,7 +42,7 @@ enableMissingTranslationPlaceholders = true
 [params.2024]
   city = "Okinawa, Japan"
   timeanddate_cityid = 775
-  themeColor = "#d71d1f"
+  themeColor = "#f3a31b"
   [params.2024.logos]
     jumbo = "/images/2024/background-2024.png"
     header = "/images/2024/tqc2024-logo.jpg"
@@ -51,11 +51,21 @@ enableMissingTranslationPlaceholders = true
 [params.2025]
   city = "Bengaluru, India"
   timeanddate_cityid = 775
-  themeColor = "#d71d1f"
+  themeColor = "#4e8803"
   [params.2025.logos]
     jumbo = "/images/2025/background-2025.png"
     header = "/images/2025/tqc-logo-2025.png"
     banner = "/images/2025/banner-2025.jpg"
+
+[params.2026]
+  city = "Sherbrooke, Canada"
+  timeanddate_cityid = 1221
+  themeColor = "#1e88e5"
+  [params.2026.logos]
+    jumbo = "/images/2026/background-2026.jpg"
+    header = "/images/2026/logo-2026.png"
+    banner = "/images/2026/banner-2026.png"
+
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -67,56 +77,6 @@ enableMissingTranslationPlaceholders = true
       to = "/2025/"
       status = 302
       force = true 
-
-  [[menu.2024]]
-    name = "Home"
-    weight = 10
-    identifier = "home"
-    pageRef = '/2024'
-  [[menu.2024]]
-    name = "Technical Program"
-    weight = 20
-    identifier = "technical-program"
-  [[menu.2024]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
-  [[menu.2024]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2024/partners"
-  [[menu.2024]]
-    name = "Committees"
-    weight = 50
-    identifier = "committees"
-    pageRef = "/2024/team"
-
-  [[menu.2025]]
-    name = "Home"
-    weight = 10
-    identifier = "home"
-    pageRef = '/2025'
-  [[menu.2025]]
-    name = "Technical Program"
-    weight = 20
-    identifier = "technical-program"
-  [[menu.2025]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
-  [[menu.2025]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2025/partners"
-  [[menu.2025]]
-    name = "Committees"
-    weight = 50
-    identifier = "committees"
-    pageRef = "/2025/team"
-
-
 
 
 [languages]
@@ -153,3 +113,78 @@ unsafe = true
     [privacy.youtube]
         disable = true
         privacyEnhanced = true
+
+
+[[menu.2024]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  pageRef = '/2024'
+[[menu.2024]]
+  name = "Technical Program"
+  weight = 20
+  identifier = "technical-program"
+[[menu.2024]]
+  name = "Attend"
+  weight = 30
+  identifier = "attend"
+[[menu.2024]]
+  name = "Sponsors"
+  weight = 40
+  identifier = "sponsors"
+  pageRef = "/2024/partners"
+[[menu.2024]]
+  name = "Committees"
+  weight = 50
+  identifier = "committees"
+  pageRef = "/2024/team"
+
+[[menu.2025]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  pageRef = '/2025'
+[[menu.2025]]
+  name = "Technical Program"
+  weight = 20
+  identifier = "technical-program"
+[[menu.2025]]
+  name = "Attend"
+  weight = 30
+  identifier = "attend"
+[[menu.2025]]
+  name = "Sponsors"
+  weight = 40
+  identifier = "sponsors"
+  pageRef = "/2025/partners"
+[[menu.2025]]
+  name = "Committees"
+  weight = 50
+  identifier = "committees"
+  pageRef = "/2025/team"
+
+
+
+  [[menu.2026]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2026'
+  [[menu.2026]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
+  [[menu.2026]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2026]]
+    name = "Sponsors"
+    weight = 40
+    identifier = "sponsors"
+    pageRef = "/2026/partners"
+  [[menu.2026]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageRef = "/2026/team"
