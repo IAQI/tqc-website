@@ -24,7 +24,7 @@ enableMissingTranslationPlaceholders = true
 [params]
     title = "TQC Conference Website"
     date = "2025-09-15"
-    currentYear = 2025
+    currentYear = 2026
     description = "International Conference on Theory of Quantum Computation, Communication and Cryptography (TQC)"
     images = ["/images/social-share.jpg"]
     email = "webmaster@tqc-conference.org"
@@ -60,9 +60,9 @@ enableMissingTranslationPlaceholders = true
 [params.2026]
   city = "Sherbrooke, Canada"
   timeanddate_cityid = 1221
-  themeColor = "#1e88e5"
+  themeColor = "#4500fa"
   [params.2026.logos]
-    jumbo = "/images/2026/background-2026.jpg"
+    jumbo = "/images/2026/background2-2026.jpg"
     header = "/images/2026/logo-2026.png"
     banner = "/images/2026/banner-2026.png"
 
@@ -74,7 +74,7 @@ enableMissingTranslationPlaceholders = true
 [server]
   [[server.redirects]]
       from = "/"
-      to = "/2025/"
+      to = "/2026/"
       status = 302
       force = true 
 
