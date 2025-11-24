@@ -30,8 +30,15 @@ type: text_page
 |[2022](https://tqc2022-conference.iquist.illinois.edu/) | Illinois, US | Eric Chitambar | [François Le Gall, Tomoyuki Morimae](https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-232)
 |[2023](https://tqc-conference.org/tqc2023/) | Aveiro, POR | Paulo Almeida, Lídia del Rio | [Omar Fawzi, Michael Walter](https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-266)
 |[2024](https://tqc-conference.org/tqc-2024/) | Okinawa, JP | David Elkouss Coronas, Lídia del Rio | Frédéric Magniez, Alex Bredariol Grilo
+|[2025](https://tqc-conference.org/tqc-2025/) | Bengaluru, IN | C. M. Chandrashekar, Anirban Pathak, Lídia del Rio | Bill Fefferman
 
 ## Websites & Logos
+
+### 2025
+
+<a href="https://tqc-conference.org/tqc-2025/" title="Website" target="_blank">
+	<img src="/images/conferences/2025.jpeg" width="800"/>
+</a>
 
 ### 2024
 
