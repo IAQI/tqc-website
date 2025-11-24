@@ -23,7 +23,7 @@ layout: home
 {{% home-info what="Participants:>200,Days:5,Invited Talks:4" class="primary" %}}
 ## What is TQC 2026?
 
-TQC 2026 is the 20th [ADJUST!] edition of the yearly international scientific conference on the Theory of Quantum Computation, Communication and Cryptography. See the list of previous conferences <a style="color: yellow" href="/2026/charter/#history-of-tqc">here</a>.
+TQC 2026 is the 21st edition of the yearly international scientific conference on the Theory of Quantum Computation, Communication and Cryptography. See the list of previous conferences <a style="color: yellow" href="/2026/charter/#history-of-tqc">here</a>.
 {{% /home-info %}}
 
 {{% home-keydates %}}
