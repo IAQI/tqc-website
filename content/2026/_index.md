@@ -38,7 +38,7 @@ TQC 2026 is the 20th [ADJUST!] edition of the yearly international scientific co
 | Fri, 25 April 2026 | Talk acceptance notification |
 | Wed, 30 April 2026 | Poster-only submission deadline |
 | Mon, 5 May 2026 | Poster-only acceptance notification |
-| Mon, 15 - Fri, 19 Sept 2026 | TQC 2026 |
+| Mon, 31 August - Fri, 4 Sept 2026 | TQC 2026 |
 {{% /home-keydate-table %}}
 
 {{% home-keydate-table title="Website Updates" %}}
