@@ -15,9 +15,9 @@ layout: home
 ## August 31–September 4, 2026
 ## Welcome to Sherbrooke, Québec, Canada!
 
-{{< button-link label="Call For Papers"
+<!-- {{< button-link label="Call For Papers"
                 url="call"
-                icon="cfp" >}}
+                icon="cfp" >}} -->
 
 {{% /jumbo %}}
 

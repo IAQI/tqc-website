@@ -1,7 +1,7 @@
 ---
 title: Call for papers
 year: 2026
-draft: false
+draft: true
 type: text_page
 menu:
     2026:
