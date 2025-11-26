@@ -23,11 +23,11 @@ enableMissingTranslationPlaceholders = true
 
 [params]
     title = "TQC Conference Website"
-    date = "2025-09-15"
-    currentYear = 2025
+    date = "2026-09-15"
+    currentYear = 2026
     description = "International Conference on Theory of Quantum Computation, Communication and Cryptography (TQC)"
     images = ["/images/social-share.jpg"]
-    email = "webmaster@tqc-conference.org"
+    email = "2026@tqc-conference.org"
     keywords = "event, quantum computation, communication, cryptography, TQC"
     copyright = "We :heart: quantum"
     copyright_link = "https://github.com/IAQI/tqc-website"
