@@ -30,7 +30,7 @@ students and researchers working in the theoretical aspects of quantum informati
 is to bring together the theoretical quantum information science community to present and discuss the latest advances 
 in the field. 
 
-See the list of previous conferences <a style="color: yellow" href="/2026/charter/#history-of-tqc">here</a>.
+See the list of previous conferences <a style="color: yellow" href="/2026/history">here</a>.
 {{% /home-info %}}
 
 {{% home-keydates %}}
@@ -51,9 +51,10 @@ See the list of previous conferences <a style="color: yellow" href="/2026/charte
 authorizations. Submissions accepted at this stage will continue through the talk selection process. 
 
 
-## Invited Speakers  
+[//]: # (## Invited Speakers  )
 
-Stay tuned, guest speakers to be announced. 
+[//]: # ()
+[//]: # (Stay tuned, guest speakers to be announced. )
 
 
 

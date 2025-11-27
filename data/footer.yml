@@ -25,12 +25,6 @@ content:
         name: TQC Code of Conduct
         url: /code-of-conduct/
         newTab: false
-      - name: TQC 2026 logo Artist
-        url: https://iosazaso.wixsite.com/sioui-wawanoloath/je-me-presente-i-introduce-myself
-        newTab: true
-      - name: Contact Us
-        url: mailto:tqc2026@usherbrooke.ca
-        newTab: true
 
 
   # - title: footer_extra

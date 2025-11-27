@@ -7,7 +7,7 @@ horizontal: false
 menu:
     2026:
         weight: 10
-        identifier: schedule
+        identifier: technical-program
         parent: attend
 
 ---
