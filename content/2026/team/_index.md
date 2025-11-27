@@ -8,21 +8,22 @@ draft: False
 
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
 
-## Local Organizer
+## Local Organizers
+
 {{< teams types="core" year=2026 >}}
+
+* Stefanos Kourtis (**chair**), Université de Sherbrooke
+* Cunlu Zhou, Université de Sherbrooke
+* Dave Touchette, Université de Sherbrooke
+* Honghao Fu, Concordia University 
+
 
 You can contact the Organizing Committee via email to {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}}
 
+
 {{< teams types="org" year=2026 >}}
 
-### Local Organizers
-* XXX
 
-### National organisers:
-* XXX
-
-### International organisers:
-* XXX
 
 ## Steering Committee
 {{< teams types="steering" year=2026 >}}
@@ -32,5 +33,5 @@ You can contact the Organizing Committee via email to {{< button-link label="202
 You can contact the PC chair via email to {{< button-link label="pcchairs2026@tqc-conference.org" url="mailto:pcchairs2026@tqc-conference.org" icon="email" >}}<br>
 
 ### PC members
-* XXX
-* YYY
+* Rotem Arnon-Friedman (**co-chair**), Weizmann Institute of Science
+* Aram Harrow (**co-chair**), MIT 
