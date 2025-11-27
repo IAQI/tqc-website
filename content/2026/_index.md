@@ -11,7 +11,9 @@ layout: home
 <!-- JUMBO -->
 {{% jumbo img="/images/2026/background-2026.jpg" imgLabel="TQC 2026 background" logo="/images/2026/logo-2026.png" %}}
 
-## 15-19 September 2026
+## TQC 2026
+## August 31–September 4, 2026
+## Welcome to Sherbrooke, Québec, Canada!
 
 {{< button-link label="Call For Papers"
                 url="call"
@@ -23,7 +25,12 @@ layout: home
 {{% home-info what="Participants:>200,Days:5,Invited Talks:4" class="primary" %}}
 ## What is TQC 2026?
 
-TQC 2026 is the 21st edition of the yearly international scientific conference on the Theory of Quantum Computation, Communication and Cryptography. See the list of previous conferences <a style="color: yellow" href="/2026/charter/#history-of-tqc">here</a>.
+The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for 
+students and researchers working in the theoretical aspects of quantum information science. The scientific objective 
+is to bring together the theoretical quantum information science community to present and discuss the latest advances 
+in the field. 
+
+See the list of previous conferences <a style="color: yellow" href="/2026/history">here</a>.
 {{% /home-info %}}
 
 {{% home-keydates %}}
@@ -31,15 +38,26 @@ TQC 2026 is the 21st edition of the yearly international scientific conference o
 {{% home-keydate-table title="Key Dates TQC 2026" %}}
 (all times 23:59 AoE)
 
-|Date |Event|
-|:----|:----|
-| 20 February 2026 | Opening of submission server |
-| Sat, 1 March 2026 |  Talk/Poster submission deadline |
-| Fri, 25 April 2026 | Talk acceptance notification |
-| Wed, 30 April 2026 | Poster-only submission deadline |
-| Mon, 5 May 2026 | Poster-only acceptance notification |
-| Mon, 31 August - Fri, 4 Sept 2026 | TQC 2026 |
+| Date                                  | Event                                  |
+|:--------------------------------------|:---------------------------------------|
+| To be defined                         | Talk submission deadline               |
+| To be defined                         | Early poster notification*             |
+| To be defined                         | Poster submission deadline             |
+| To be defined                         | Talk and poster acceptance notification |
+| **Mon, August 31 – Fri, September 4** | TQC 2026                  |
 {{% /home-keydate-table %}}
+
+*The intention of the early poster notification is to facilitate logistics related to registration and travel 
+authorizations. Submissions accepted at this stage will continue through the talk selection process. 
+
+
+[//]: # (## Invited Speakers  )
+
+[//]: # ()
+[//]: # (Stay tuned, guest speakers to be announced. )
+
+
+
 
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
@@ -55,6 +73,7 @@ TQC 2026 is the 21st edition of the yearly international scientific conference o
     image="/images/2026/venue-2026.jpg"
     address="TBD"
     %}}
+
 
 ## The 2026 venue
 {{% /home-location %}}
