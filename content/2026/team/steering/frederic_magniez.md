@@ -2,8 +2,8 @@
 title: Frédéric Magniez
 surname: Magniez
 type: steering
-subtitle: University of Toronto
-job: SC co-chair
+subtitle: CNRS, Université Paris Cité
+job: SC chair
 year: 2026
 photoURL: /2026/team/images/frederic_magniez.jpg
 socials:
