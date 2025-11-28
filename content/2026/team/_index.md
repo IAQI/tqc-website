@@ -33,5 +33,5 @@ You can contact the Organizing Committee via email to {{< button-link label="202
 You can contact the PC chair via email to {{< button-link label="pcchairs2026@tqc-conference.org" url="mailto:pcchairs2026@tqc-conference.org" icon="email" >}}<br>
 
 ### PC members
-* Rotem Arnon-Friedman (**co-chair**), Weizmann Institute of Science
+* Rotem Arnon (**co-chair**), Weizmann Institute of Science
 * Aram Harrow (**co-chair**), MIT 

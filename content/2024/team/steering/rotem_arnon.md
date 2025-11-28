@@ -1,6 +1,6 @@
 ---
-title: Rotem Arnon-Friedman
-surname: Arnon-Friedman
+title: Rotem Arnon
+surname: Arnon
 type: steering
 subtitle: Weizmann Institute of Science
 job: SC member
