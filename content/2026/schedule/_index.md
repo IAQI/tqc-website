@@ -12,6 +12,6 @@ menu:
 
 ---
 
-<!-- <center>
+<center>
 Stay tuned, Schedule to be announced. 
-</center> -->
+</center>
