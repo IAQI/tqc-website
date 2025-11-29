@@ -1,0 +1,23 @@
+---
+title: Practical Information
+year: 2026
+
+type: text_page
+menu:
+    2026:
+        weight: 2
+        parent: attend
+
+---
+
+More practical information to come!   
+
+### Conference Venue 
+
+TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference Centre**, located in the heart of Sherbrooke.
+
+[Learn more about the venue.](https://www.marriott.com/en-us/hotels/yscdr-delta-hotels-sherbrooke-conference-centre/overview/)
+
+<img src="/images/2026/venue/Delta_pic1.jpg" alt="Delta Hotel lobby" style="width:600px;"/>
+<img src="/images/2026/venue/Delta_pic3.jpg" alt="Delta Hotel conference hall" style="width:600px;"/>
+<img src="/images/2026/venue/Delta_pic2.jpg" alt="Delta Hotel building" style="width:600px;"/>

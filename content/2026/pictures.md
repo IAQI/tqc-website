@@ -1,7 +1,6 @@
 ---
 title: Pictures
 year: 2026
-draft: true
 type: no_toc
 menu:
     2026:
@@ -10,4 +9,8 @@ menu:
 
 ---
 
-to come...
+### Venue
+
+<img src="/images/2026/venue/Delta_pic1.jpg" alt="Delta Hotel lobby" style="width:600px;"/>
+<img src="/images/2026/venue/Delta_pic3.jpg" alt="Delta Hotel conference hall" style="width:600px;"/>
+<img src="/images/2026/venue/Delta_pic2.jpg" alt="Delta Hotel building" style="width:600px;"/>
