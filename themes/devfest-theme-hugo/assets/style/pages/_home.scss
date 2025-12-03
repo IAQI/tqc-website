@@ -207,6 +207,22 @@
       }
     }
   }
+
+  .logo-credit {
+    gap: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    img {
+      width: 600px;
+      align-self: center;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+  }
 }
 
 @supports (grid-template-columns: repeat(auto-fit,minmax(25vmin,1fr))) {
