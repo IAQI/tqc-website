@@ -22,7 +22,7 @@ layout: home
 {{% /jumbo %}}
 
 
-{{% home-info what="Participants:>200,Days:5,Invited Talks:4" class="primary" %}}
+{{% home-info what="Participants:>300,Days:5,Invited Talks:4" class="primary" %}}
 ## What is TQC 2026?
 
 The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for 
@@ -59,11 +59,11 @@ authorizations. Submissions accepted at this stage will continue through the tal
 
 
 
-{{% home-keydate-table title="Website Updates" %}}
+<!--{{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
 |1 Feb 2026 | New website created|
-{{% /home-keydate-table %}}
+{{% /home-keydate-table %}}-->
 
 {{% /home-keydates %}}
 
@@ -94,3 +94,9 @@ TQC 2026 is seeking sponsors. To know more about sponsor packages and other info
 
 {{% /partners %}}
 
+{{% home-logo-credit heading="2026 TQC Logo" img="/images/2026/logo-2026.png" %}}
+Our logo was created by local artist Christine Sioui Wawanoloath. Inspired by quantum
+concepts, vibrant colors, and cultural tradition, Christine incorporated the bear as a
+meaningful symbol in her design. Discover more of her artwork
+[here](https://iosazaso.wixsite.com/sioui-wawanoloath).
+{{% /home-logo-credit %}}
