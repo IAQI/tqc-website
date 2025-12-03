@@ -71,7 +71,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 <!-- THE MAP -->
 {{% home-location
     image="/images/2026/venue-2026.jpg"
-    address="TBD"
+    address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"
     %}}
 
 
