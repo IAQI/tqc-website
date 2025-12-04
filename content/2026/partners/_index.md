@@ -56,6 +56,6 @@ promote diversity and inclusion within the quantum community.
 
  
 
-For more information about sponsorship packages, please contact us at tqc2026@usherbrooke.ca. 
+For more information about sponsorship packages, please contact us at {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}}
 
 

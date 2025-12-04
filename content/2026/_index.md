@@ -90,7 +90,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% partners categories="community" year=2026 %}}
 ## Sponsors
 
-TQC 2026 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}} 
+TQC 2026 is seeking sponsors to help make the event a success. Sponsorship provides organizations with visibility among a highly specialized audience and demonstrates support for cutting-edge research in quantum information science. To know more about sponsor packages and other information, contact {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}} 
 
 {{% /partners %}}
 
