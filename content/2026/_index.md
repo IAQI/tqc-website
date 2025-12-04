@@ -9,7 +9,7 @@ type: home
 layout: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/2026/background-2026.jpg" imgLabel="TQC 2026 background" logo="/images/2026/logo-2026.png" %}}
+{{% jumbo img="/images/2026/Ville_Sherbrooke_officiel.jpg" imgLabel="TQC 2026 background" logo="/images/2026/logo-2026.png" %}}
 
 ## TQC 2026
 ## August 31–September 4, 2026
