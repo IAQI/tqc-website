@@ -8,7 +8,7 @@ draft: False
 
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
 
-## Local Organizers
+## Local Organizing Committee
 
 {{< teams types="core" year=2026 >}}
 
@@ -18,7 +18,7 @@ draft: False
 * Honghao Fu, Concordia University 
 
 
-You can contact the Organizing Committee via email to {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}}
+You can contact the Local Organizing Committee via email to {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}}
 
 
 {{< teams types="org" year=2026 >}}
@@ -33,5 +33,5 @@ You can contact the Organizing Committee via email to {{< button-link label="202
 You can contact the PC chair via email to {{< button-link label="pcchairs2026@tqc-conference.org" url="mailto:pcchairs2026@tqc-conference.org" icon="email" >}}<br>
 
 ### PC members
-* Rotem Arnon (**co-chair**), Weizmann Institute of Science
+* Rotem Arnon-Friedman (**co-chair**), Weizmann Institute of Science
 * Aram Harrow (**co-chair**), MIT 
