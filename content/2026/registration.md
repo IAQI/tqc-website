@@ -20,8 +20,8 @@ Please check back for updates on fees and deadlines.
 Your registration will grant access to: 
 - All scientific sessions and presentations 
 - Coffee breaks and refreshments 
-- Welcome reception 
 - Conference materials 
+- Other non-scientific activities — stay tuned!
 
 ### Conference Venue 
 TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference Centre**, located in the heart of Sherbrooke. 
