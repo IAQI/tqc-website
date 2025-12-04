@@ -59,11 +59,11 @@ authorizations. Submissions accepted at this stage will continue through the tal
 
 
 
-{{% home-keydate-table title="Website Updates" %}}
+<!--{{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
 |1 Feb 2026 | New website created|
-{{% /home-keydate-table %}}
+{{% /home-keydate-table %}}-->
 
 {{% /home-keydates %}}
 
@@ -71,7 +71,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 <!-- THE MAP -->
 {{% home-location
     image="/images/2026/venue-2026.jpg"
-    address="TBD"
+    address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"
     %}}
 
 
@@ -90,7 +90,13 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% partners categories="community" year=2026 %}}
 ## Sponsors
 
-TQC 2026 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}} 
+TQC 2026 is seeking sponsors to help make the event a success. Sponsorship provides organizations with visibility among a highly specialized audience and demonstrates support for cutting-edge research in quantum information science. To know more about sponsor packages and other information, contact {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}} 
 
 {{% /partners %}}
 
+{{% home-logo-credit heading="2026 TQC Logo" img="/images/2026/logo-2026.png" %}}
+Our logo was created by local artist Christine Sioui Wawanoloath. Inspired by quantum
+concepts, vibrant colors, and cultural tradition, Christine incorporated the bear as a
+meaningful symbol in her design. Discover more of her artwork
+[here](https://iosazaso.wixsite.com/sioui-wawanoloath).
+{{% /home-logo-credit %}}
