@@ -49,7 +49,7 @@
     &.show {
       opacity: var(--jumbo-overlay-opacity, 0.2);
       @include mq.mq($until: md) {
-        opacity: var(--jumbo-overlay-opacity-mobile, 0.5);
+        opacity: var(--jumbo-overlay-opacity-mobile, 0.2);
       }
     }
   }
