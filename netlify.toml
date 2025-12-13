@@ -29,3 +29,15 @@ TZ = "Europe/Amsterdam"
     to = "/2026/"
     status = 302
     force = true 
+
+[[redirects]]
+    from = "/tqc-2024"
+    to = "https://tqc.iaqi.org/2025/tqc-2024"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/tqc2023"
+    to = "https://tqc.iaqi.org/2025/tqc2023"
+    status = 301
+    force = true
