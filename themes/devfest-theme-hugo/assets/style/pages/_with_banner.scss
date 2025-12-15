@@ -11,6 +11,9 @@ main > .with_banner {
 
       text-shadow: 1px 0 0 var(--lighten-3);
       min-height: 45vmin;
+      max-width: 100%;
+      height: auto;
+      width: auto/* Maintains aspect ratio */
     }
 
     h1 {
