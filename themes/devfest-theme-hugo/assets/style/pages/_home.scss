@@ -215,7 +215,8 @@
     flex-direction: column;
     
     img {
-      width: 600px;
+      width: 100%;
+      max-width: 600px;
       align-self: center;
     }
     
