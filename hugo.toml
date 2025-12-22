@@ -170,10 +170,10 @@ unsafe = true
     weight = 10
     identifier = "home"
     pageRef = '/2026'
-#  [[menu.2026]]
-#    name = "Technical Program"
-#    weight = 20
-#    identifier = "technical-program"
+  [[menu.2026]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
   [[menu.2026]]
     name = "Attend"
     weight = 30
