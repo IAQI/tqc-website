@@ -40,10 +40,11 @@ See the list of previous conferences <a style="color: yellow" href="/2026/histor
 
 | Date                                  | Event                                  |
 |:--------------------------------------|:---------------------------------------|
-| To be defined                         | Talk submission deadline               |
-| To be defined                         | Early poster notification*             |
-| To be defined                         | Poster submission deadline             |
-| To be defined                         | Talk and poster acceptance notification |
+| February 1st, 2026                         | Talk submission deadline               |
+| March 1st, 2026                         | Early poster notification deadline*             |
+| April 2nd, 2026                         | Talk notification to authors             |
+| April 20th, 2026                         | Poster-only submission deadline             |
+| May 1st 2026                         | Poster-only acceptance notification to authors|
 | **Mon, August 31 – Fri, September 4** | TQC 2026                  |
 {{% /home-keydate-table %}}
 
