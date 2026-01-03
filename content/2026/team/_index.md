@@ -29,14 +29,12 @@ You can contact the LOC staff via email: {{< button-link label="2026@tqc-confere
 {{< teams types="steering" year=2026 >}}
 
 ## Program Committee
-{{< teams types="pcchairs=PC chairs" year=2026 >}}
-* Rotem Arnon (**chair**), Weizmann Institute of Science
-* Aram Harrow (**co-chair**), MIT
-* Christian Schaffner (**Technical Operations chair**)  University of Amsterdam and QuSoft
+### PC Chairs
+{{< teams types="pcchairs" year=2026 >}}
 
 You can contact the PC chair via email: {{< button-link label="pcchairs2026@tqc-conference.org" url="mailto:pcchairs2026@tqc-conference.org" icon="email" >}}<br>
 
-### PC members
+### PC Members
 * Abhinav Deshpande, IBM
 * Aleksander Kubica, Yale University
 * Alexander Schmidhuber, MIT
