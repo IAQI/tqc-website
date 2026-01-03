@@ -113,7 +113,7 @@ You can submit your work for a poster-only presentation (the submission will not
 Talk submissions (in both tracks) that are not retained will be considered for the poster session, if chosen by the authors while submitting. Works submitted as a talk should not be submitted to the poster-only submission server. 
 
 ## Program Committee
-The program committee list can be found <a href="/team/#program-committee">here</a>.
+The program committee list can be found [here](team/_index.md#program-committee).
 
 ## Questions
 Please direct any questions or comments to the PC chairs via email to {{< button-link label="pcchairs2026@tqc-conference.org" url="mailto:pcchairs2026@tqc-conference.org" icon="email" >}}.
