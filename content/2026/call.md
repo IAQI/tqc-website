@@ -12,7 +12,9 @@ menu:
 **All deadlines are in the AoE (Anywhere on Earth) time zone.**
 
 ## Talks With Proceedings and Without Proceedings tracks
-**Link for talk submission:** TBA
+**Link for talk submission:** {{< button-link label="submit your talk" url="https://hotcrp.science.uva.nl/tqc2026/" icon="link" >}}
+
+
 |Date |Event|
 |:----|:----|
 | January 10th, 2026 | Opening of submission server |
@@ -24,7 +26,8 @@ menu:
 **Note:** When submitting the work, the authors can choose whether to automatically consider the submission as a poster if not accepted as a talk or not. If chosen, there is no need to submit the work in the poster-only submission server.
 
 ## Poster-only submissions
-**Link for poster-only submission: TBA**
+**Link for poster-only submission:** {{< button-link label="submit your poster" url="https://hotcrp.science.uva.nl/tqc2026_posteronly/" icon="link" >}}
+
 |Date |Event|
 |:----|:----|
 | February 8th, 2026 | Opening of submission server |
@@ -107,7 +110,8 @@ As a research community, our goal is that contributed talks at quantum informati
 On the first page of your submission, indicate if your work is currently under submission to, has been accepted at, or has been presented at any other conference or workshop, as a talk. If that is the case, quickly discuss the reason for the multiple submissions as well as significant differences relative to these submissions or venues.  The assessment of this information is at the Program Committee’s discretion.
 
 ### Poster submissions
-**Link for poster-only submission:** TBA
+**Link for poster-only submission:** {{< button-link label="submit your poster" url="https://hotcrp.science.uva.nl/tqc2026_posteronly/" icon="link" >}}
+
 You can submit your work for a poster-only presentation (the submission will not be considered for a  talk). Poster-only submissions must consist of either a short summary (2 pages) or follow the format of the talk submission above and should be submitted in the poster-only submission server using the above link. 
 
 Talk submissions (in both tracks) that are not retained will be considered for the poster session, if chosen by the authors while submitting. Works submitted as a talk should not be submitted to the poster-only submission server. 
