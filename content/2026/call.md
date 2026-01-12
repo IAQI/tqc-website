@@ -72,7 +72,7 @@ It is possible to present a poster if a submission is not accepted for a talk, i
 
 PC-chair and co-chair are not allowed to submit papers but can submit posters. PC members are allowed to submit papers for either track.
 
-Authors of accepted papers are expected to present their work on-site. If none of the authors can attend in person, the paper will be withdrawn from the program, with exceptions granted only for unforeseen and exceptional circumstances
+Authors of accepted papers are expected to present their work on-site. If none of the authors can attend in person, the paper will be withdrawn from the program, with exceptions granted only for unforeseen and exceptional circumstances.
 
 ### Best Paper Prize
 The Best Paper prize will be given to the best paper accepted to the conference (both tracks combined). The program committee may decide to split the prize between multiple papers, or to decline to make an award.
