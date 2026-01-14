@@ -83,8 +83,9 @@
   .scroll-down {
     position: absolute;
     bottom: 2rem;
-    left: 0;
-    transform: translateX(50vw);
+    
+    align-items: center;
+    
     transform-origin: center center;
     color: var(--base, white);
 
