@@ -1,6 +1,6 @@
 # publishDir = "docs"
 
-baseURL = "https://tqc-website.netlify.app/"
+baseURL = "https://tqc-conference.org/"
 languageCode = "en"
 title = "TQC Conference Website"
 
