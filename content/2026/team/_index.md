@@ -11,7 +11,6 @@ draft: False
 
 
 ## Local Organizing Committee
-
 {{< teams types="LOC" year=2026 >}}
 
 You can contact the LOC staff via email: {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}}
