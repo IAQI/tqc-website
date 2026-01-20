@@ -8,21 +8,13 @@ draft: False
 
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
 
+
+
 ## Local Organizing Committee
 
-{{< teams types="core" year=2026 >}}
-
-* Stefanos Kourtis (**chair**), Université de Sherbrooke
-* Cunlu Zhou, Université de Sherbrooke
-* Dave Touchette, Université de Sherbrooke
-* Honghao Fu, Concordia University 
-
+{{< teams types="LOC" year=2026 >}}
 
 You can contact the LOC staff via email: {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}}
-
-
-{{< teams types="org" year=2026 >}}
-
 
 
 ## Steering Committee
