@@ -3,7 +3,7 @@ title: Shelby Kimmel
 surname: Kimmel
 type: steering
 subtitle: Middlebury College
-job: SC member
+job: SC Member
 year: 2026
 photoURL: /2026/team/images/shelby_kimmel.jpg
 socials:

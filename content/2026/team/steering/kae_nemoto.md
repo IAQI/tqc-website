@@ -3,7 +3,7 @@ title: Kae Nemoto
 surname: Nemoto
 type: steering
 subtitle: Okinawa Institute of Science and Technology
-job: SC member
+job: SC Member
 year: 2026
 photoURL: /2026/team/images/kae_nemoto.jpg
 socials:
