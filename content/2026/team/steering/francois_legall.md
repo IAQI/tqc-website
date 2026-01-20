@@ -3,7 +3,7 @@ title: François Le Gall
 surname: Le Gall
 type: steering
 subtitle: Nagoya University
-job: SC member
+job: SC Member
 year: 2026
 photoURL: /2026/team/images/francois_legall.jpg
 socials:

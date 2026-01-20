@@ -3,7 +3,7 @@ title: Kai-Min Chung
 surname: Chung
 type: steering
 subtitle: IIS, Academia Sinica
-job: SC member
+job: SC Member
 year: 2026
 photoURL: /2026/team/images/kmchung.jpg
 socials:

@@ -3,7 +3,7 @@ title: Lídia del Rio
 surname: Rio
 type: steering
 subtitle: University of Zurich
-job: SC member
+job: SC Member
 year: 2026
 photoURL: /2026/team/images/lidia_delrio.png
 socials:

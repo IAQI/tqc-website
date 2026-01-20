@@ -4,7 +4,7 @@ title: Dave Touchette
 surname: Touchette
 subtitle: Université de Sherbrooke
 photoURL: /2026/team/images/touchette_dave.jpg
-job: LOC member
+job: LOC Member
 type: LOC
 year: 2026
 socials: 
