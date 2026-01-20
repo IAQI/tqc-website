@@ -3,7 +3,7 @@ title: Min-Hsiu Hsieh
 surname: Hsieh
 type: steering
 subtitle: Hon Hai (Foxconn)
-job: SC member
+job: SC Member
 year: 2026
 photoURL: /2026/team/images/min-hsiu_hsieh.avif
 socials:

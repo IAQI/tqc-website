@@ -4,7 +4,7 @@ title: William Fefferman
 surname: Fefferman
 subtitle: University of Chicago
 photoURL: /2026/team/images/bill_fefferman.png
-job: SC member
+job: SC Member
 type: steering
 year: 2026
 socials:
