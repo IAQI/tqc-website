@@ -1,7 +1,7 @@
 ---
 title: Steve Flammia
 surname: Flammia
-type: steering
+type: #steering (ex-SCmember)
 subtitle: AWS Center for Quantum Computing
 job: SC Member
 year: 2026

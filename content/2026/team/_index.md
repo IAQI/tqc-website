@@ -77,7 +77,7 @@ You can contact the PC chair via email: {{< button-link label="pcchairs2026@tqc-
 * Nicolas Delfosse, IonQ
 * Peter Brown, Télécom Paris
 * Philippe Faist, Freie Universität Berlin
-* Qisheng Wang, University of Edinburgh
+* Qisheng Wang, Shanghai Jiao Tong University
 * Ramona Wolf, University of Siegen/University of Innsbruck
 * Robert T. König, Technical University of Munich
 * Sam McArdle, AWS Center for Quantum Computing
