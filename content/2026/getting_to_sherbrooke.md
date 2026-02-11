@@ -14,15 +14,15 @@ menu:
 
 <img src="/images/2026/getting_to_sherbrooke/YUL_to_Delta.png" alt="YUL to Delta Hotel" style="width:600px;"/>
 
-Sherbrooke is located about an hour and a half drive from Montreal when there is not traffic. There is a bus service from Montréal but no train service. To assist you in planning your trip efficiently, here are a couple of resources that might be useful for traveling between Sherbrooke and Montreal.
+Sherbrooke is located about an hour and a half drive from Montréal when there is no traffic. There is a bus service from Montréal but no train service. To assist you in planning your trip efficiently, here are a couple of resources that might be useful for traveling between Sherbrooke and Montreal.
 
 Keep in mind that we highly encourage you to be __mindful of the environment__ and take public transportation as much as possible.
 
 ## From Montréal airport
 
-* The easiest and cheapest way to get to Sherbrooke is to take the [bus line 747](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to go to the __Montréal bus station (Gare d'autocars)__ and then follow the instructions to go from there.
+As both a gateway to and from Montreal, [Montreal-Trudeau International airport (YUL)](https://www.admtl.com/en) is a hub that serves more than 150 international destinations with more than 19 million passengers annually! As YUL expands, it obtained the prestigious 4-star certification of Skytrax's "World Airport Star Rating" in 2019, for the quality of the service offered to passengers.
 
-* As both a gateway to and from Montreal, [Montreal-Trudeau International airport (YUL)](https://www.admtl.com/en) is a hub that serves more than 150 international destinations with more than 19 million passengers annually! As YUL expands, it obtained the prestigious 4-star certification of Skytrax's "World Airport Star Rating" in 2019, for the quality of the service offered to passengers. 
+* The easiest and cheapest way to get to Sherbrooke is to take the [bus line 747](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to go to the __Montréal bus station (Gare d'autocars)__ and then follow the instructions to go from there.
 
 * [Aeroshuttle](https://aeronavette.ca/en/home/) is a shuttle service specializing in your travel needs between the regions of Sherbrooke, Magog/Orford, Bromont, Granby, L’Ange-Gardien, Richelieu and Montreal’s Pierre Elliott Trudeau International Airport. The shuttle is available from and to the airport, 24/7 and 365 days a year. It works with your flight information to bring you directly to the hotel. The cost is 125$ one way or 175$ return.
 
@@ -35,7 +35,7 @@ Keep in mind that we highly encourage you to be __mindful of the environment__ a
 
 * [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada that is committed to provide a fast, reliable and punctual transport service. The cost to Sherbrooke Terminus is 50.05$ (or 42.54$ for students) one-way and 90.10$ (or 76.58$ for students) return. Hotel Delta is 4km to the west of the terminus on the main thoroughfare, King Street West at Place des Congrès.
 
-NB: Local buses cost 3.75$ cash.
+NB: Local buses cost 4$ cash.
 
 
 ## Kangaride - Long distance ridesharing
@@ -63,4 +63,4 @@ There is also a few possibilities to get to Sherbrooke from Ottawa.
 
 In many options listed above, you will end up at the Sherbrooke bus station. From there you can take a 
 [local bus](https://www.google.com/maps/dir/Terminus+Limocar,+60+Rue+King+Ouest,+Sherbrooke,+QC+J1H+5G1/Delta+Hotels+Sherbrooke+Conference+Centre,+2685+Rue+King+Ouest,+Sherbrooke,+Quebec+J1L+1C1/@45.3995618,-71.9251448,15z/data=!4m14!4m13!1m5!1m1!1s0x4cb7b34df917056f:0xbe2d847099285957!2m2!1d-71.8890215!2d45.4010816!1m5!1m1!1s0x4cb7b4989b732919:0x2dd76a2c41235afe!2m2!1d-71.9392866!2d45.3996478!3e3?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D) 
-that cost 3.75$ and go to the Delta hotel.
+that cost 4$ and go to the Delta hotel.
