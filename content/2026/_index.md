@@ -23,7 +23,7 @@ layout: home
 
 
 {{% home-info what="Participants:>300,Days:5,Invited Talks:4" class="primary" %}}
-## What is TQC 2026?
+## **What is TQC 2026?**
 
 The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for 
 students and researchers working in the theoretical aspects of quantum information science. The scientific objective 
@@ -88,16 +88,42 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% /home-speakers %}}
 -->
 
-{{% partners categories="community" year=2026 %}}
-## Sponsors
 
+
+<div align="center">
+
+# Sponsors
+
+</div>
+<div style="margin-bottom: 50px; margin-top: 50px">
+{{% partners categories="platinum" year=2026 %}}{{% /partners %}}
+</div>
+<div style="margin-bottom: 30px;">
+{{% partners categories="gold" year=2026 %}}{{% /partners %}}
+</div>
+<div style="margin-bottom: 40px;">
+{{% partners categories="silver" year=2026 %}}{{% /partners %}}
+</div>
+<div style="margin-bottom: 40px;">
+{{% partners categories="⭐ local stars ⭐" year=2026 %}}{{% /partners %}}
+</div>
+<div style="margin-bottom: 40px;">
+{{% partners categories="community" year=2026 %}}{{% /partners %}}
+</div>
+
+<div style="padding-left: 10%; padding-right: 10%;">
 TQC 2026 is seeking sponsors to help make the event a success. Sponsorship provides organizations with visibility among a highly specialized audience and demonstrates support for cutting-edge research in quantum information science. To know more about sponsor packages and other information, contact {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}} 
+</div>
 
-{{% /partners %}}
 
 {{% home-logo-credit heading="2026 TQC Logo" img="/images/2026/logo-2026.png" %}}
+
+<div style="padding-left: 10%; padding-right: 10%;">
+
 Our logo was created by local artist Christine Sioui Wawanoloath. Inspired by quantum
 concepts, vibrant colors, and cultural tradition, Christine incorporated the bear as a
 meaningful symbol in her design. Discover more of her artwork
 [here](https://iosazaso.wixsite.com/sioui-wawanoloath).
+
+</div>
 {{% /home-logo-credit %}}
