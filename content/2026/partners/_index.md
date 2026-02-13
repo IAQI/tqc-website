@@ -6,30 +6,38 @@ draft: false
 ---
 
 
-## Our Sponsors
-
-{{% partners categories="community" year=2026 %}}
-
-### Platinum 
-
-
-
-### Gold 
-
-
-
-### Silver 
-
-
-
-### Local Star 
-
-
-
+<!-- Platinum -->
+{{% partners categories="platinum" year=2026 %}}
 {{% /partners %}}
 
 
-## Call for Sponsors
+
+<!-- Gold -->
+{{% partners categories="gold" year=2026 %}}
+{{% /partners %}}
+
+
+
+<!-- Silver -->
+{{% partners categories="silver" year=2026 %}}
+{{% /partners %}}
+
+
+<!-- Local star -->
+{{% partners categories="⭐ local stars ⭐" year=2026 %}}
+{{% /partners %}}
+
+
+
+
+{{% partners categories="community" year=2026 %}}
+{{% /partners %}}
+
+<br>
+
+<br>
+
+# Call for Sponsors
 
 The TQC conference is one of the leading international events focused on the theoretical foundations of quantum 
 information science. Each year, TQC brings together researchers from around the world to share the latest advances 
