@@ -24,7 +24,7 @@ draft: false
 
 
 <!-- Local star -->
-{{% partners categories="⭐ local stars ⭐" year=2026 %}}
+{{% partners categories="Local stars" year=2026 %}}
 {{% /partners %}}
 
 

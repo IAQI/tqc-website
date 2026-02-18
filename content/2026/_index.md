@@ -105,7 +105,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% partners categories="silver" year=2026 %}}{{% /partners %}}
 </div>
 <div style="margin-bottom: 40px;">
-{{% partners categories="⭐ local stars ⭐" year=2026 %}}{{% /partners %}}
+{{% partners categories="Local stars" year=2026 %}}{{% /partners %}}
 </div>
 <div style="margin-bottom: 40px;">
 {{% partners categories="community" year=2026 %}}{{% /partners %}}
