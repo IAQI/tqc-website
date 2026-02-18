@@ -10,10 +10,47 @@ menu:
 
 ---
 
-### Registration to be announced. 
-Please check back for updates on fees and deadlines. 
 
-<!-- In case of questions or technical difficulties with the registration process, please contact: {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}} -->
+### Summary prices for registration (before fees)
+<br>
+
+<table style="border-collapse: collapse; width: 100%;text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: none; width: 15%; white-space: nowrap;"></th> 
+      <th style="border: 2px solid black; padding: 8px;">Early bird</th>
+      <th style="border: 2px solid black; padding: 8px;">Late bird</th>
+      <th style="border: 2px solid black; padding: 8px;">Very late bird</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border: 2px solid black; width: 15%">
+      <td style="border: 2px solid black; padding: 8px;"><strong>Student & Postdocs</strong></td>
+      <td style="border: 2px solid black; padding: 8px;">$ 475 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 775 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 300 + fees*</td>
+    </tr>
+    <tr style="border: 2px solid black;">
+      <td style="border: 2px solid black; padding: 8px;"><strong>Faculty & Staff</strong></td>
+      <td style="border: 2px solid black; padding: 8px;">$ 725 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 975 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 600 + fees*</td>
+    </tr>
+    <tr style="border: 2px solid black;">
+      <td style="border: 2px solid black; padding: 8px;"><strong>Industry</strong></td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 200 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 500 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 2 000 + fees*</td>
+    </tr>
+  </tbody>
+</table>
+
+**\*Fees include:** 
+* Registration platform (Fourwaves)
+* Payment processing (Stripe)
+* Taxes
+
+ **In case of questions or technical difficulties with the registration process, please contact: {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org" icon="email" >}}**
 
 ### What’s Included 
 
