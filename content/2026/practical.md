@@ -115,7 +115,7 @@ If you are entering Canada by air, you may need an [Electronic Travel Authorizat
 
 Canadian citizens and permanent residents don't need an eTA, and should travel with their Canadian passport or permanent resident card. U.S. citizens and permanent residents also don't need an eTA, and should travel with their U.S. passport, or their passport and official proof of resident status. French citizens resident in Saint Pierre and Miquelon also don't need an eTA and can travel with only a National Identification Card.
 
-All other travellers will need a passport and either an eTA or visa, depending on their [country of origin](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html).
+All other travellers will need a passport and either an eTA or Temporary Resident Visa (TRV), depending on their [country of origin](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html).
 
 #### Visa
 
