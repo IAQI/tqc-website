@@ -76,6 +76,7 @@
 /* Partner fancy name */
 
 .partners-group .fancy {
+  font-size: 2em;
   line-height: 0.5;
   text-align: center;
   color: var(--base-secondary-text);
@@ -118,7 +119,7 @@
 }
 
 .partners-group.partner-gold .fancy {
-  font-size: 1.9em;
+  font-size: 2em;
   color: var(--color-gold);
 
   span:before, span:after {
@@ -128,7 +129,7 @@
 }
 
 .partners-group.partner-silver .fancy {
-  font-size: 1.8em;
+  font-size: 2em;
   color: var(--color-silver);
 
   span:before, span:after {
@@ -138,13 +139,13 @@
 }
 
 .partners-group.partner-bronze .fancy {
-  font-size: 1.5em;
+  font-size: 2em;
   color: var(--color-bronze);
 
 }
 
 .partners-group.partner-maxi .fancy {
-  font-size: 1.4em;
+  font-size: 2em;
 
 }
 
