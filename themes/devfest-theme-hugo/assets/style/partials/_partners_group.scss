@@ -12,9 +12,9 @@
     padding: 0;
 
     li {
-      flex-basis: 160px;
+      flex-basis: 360px;
       margin: var(--space-3);
-      height: var(--partner-support-height);
+      height: var(--partner-gold-height);
     }
   }
 
@@ -39,43 +39,44 @@
 }
 
 .partners-group.partner-platinum ul li {
-  height: var(--partner-platinum-height);
+  height: var(--partner-gold-height);
   flex-basis: 360px;
 }
 
 .partners-group.partner-gold ul li {
   height: var(--partner-gold-height);
-  flex-basis: 320px;
+  flex-basis: 360px;
 }
 
 .partners-group.partner-silver ul li {
-  height: var(--partner-silver-height);
-  flex-basis: 280px;
+  height: var(--partner-gold-height);
+  flex-basis: 360px;
 }
 
 .partners-group.partner-bronze ul li {
-  height: var(--partner-bronze-height);
-  flex-basis: 240px;
+  height: var(--partner-gold-height);
+  flex-basis: 360px;
 }
 
 .partners-group.partner-community ul li {
-  height: var(--partner-bronze-height);
-  flex-basis: 200px;
+  height: var(--partner-gold-height);
+  flex-basis: 360px;
 }
 
 .partners-group.partner-exhibitors ul li {
-  height: var(--partner-bronze-height);
-  flex-basis: 200px; 
+  height: var(--partner-gold-height);
+  flex-basis: 360px; 
 }
 
 .partners-group.partner-maxi ul li {
-  height: var(--partner-maxi-height);
-  flex-basis: 180px;
+  height: var(--partner-gold-height);
+  flex-basis: 360px;
 }
 
 /* Partner fancy name */
 
 .partners-group .fancy {
+  font-size: 2em;
   line-height: 0.5;
   text-align: center;
   color: var(--base-secondary-text);
@@ -118,7 +119,7 @@
 }
 
 .partners-group.partner-gold .fancy {
-  font-size: 1.9em;
+  font-size: 2em;
   color: var(--color-gold);
 
   span:before, span:after {
@@ -128,7 +129,7 @@
 }
 
 .partners-group.partner-silver .fancy {
-  font-size: 1.8em;
+  font-size: 2em;
   color: var(--color-silver);
 
   span:before, span:after {
@@ -138,13 +139,13 @@
 }
 
 .partners-group.partner-bronze .fancy {
-  font-size: 1.5em;
+  font-size: 2em;
   color: var(--color-bronze);
 
 }
 
 .partners-group.partner-maxi .fancy {
-  font-size: 1.4em;
+  font-size: 2em;
 
 }
 
