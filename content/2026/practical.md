@@ -53,6 +53,23 @@ For more information about the physical features of our accessible rooms, common
 - Toilet Seat at Wheelchair Height - Toilet for Disabled
 
 
+### Entering Canada
+
+#### Electronic Travel Authorization
+If you are entering Canada by air, you may need an [Electronic Travel Authorization](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html) (eTA) in order to be allowed to fly.
+
+Canadian citizens and permanent residents don't need an eTA, and should travel with their Canadian passport or permanent resident card. U.S. citizens and permanent residents also don't need an eTA, and should travel with their U.S. passport, or their passport and official proof of resident status. French citizens resident in Saint Pierre and Miquelon also don't need an eTA and can travel with only a National Identification Card.
+
+All other travellers will need a passport and either an eTA or Temporary Resident Visa (TRV), depending on their [country of origin](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html).
+
+#### Visa
+
+If you need a visa, you should [apply for it](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html) as soon as possible—no less than six weeks in advance!
+
+After registering for the conference, please request a letter confirming your conference attendance from us, and include it with your visa application. When you request the letter, inform us of your current employment or study status, your full address, your email address, and a brief description of who you are and why you are attending TQC.
+
+You may also be required to provide [biometrics](https://www.canada.ca/en/immigration-refugees-citizenship/services/biometrics.html) when applying for the visa.
+
 ### Getting to Sherbrooke from Montréal
 
 <img src="/images/2026/getting_to_sherbrooke/YUL_to_Delta.png" alt="YUL to Delta Hotel" style="width:600px;"/>
