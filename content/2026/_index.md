@@ -98,19 +98,19 @@ authorizations. Submissions accepted at this stage will continue through the tal
 <div style="margin-bottom: 50px; margin-top: 50px">
 {{% partners categories="platinum" year=2026 %}}{{% /partners %}}
 </div>
-<div style="margin-bottom: 30px;">
+<div style="margin-bottom: 50px;">
 {{% partners categories="gold" year=2026 %}}{{% /partners %}}
 </div>
-<div style="margin-bottom: 40px;">
+<div style="margin-bottom: 50px;">
 {{% partners categories="silver" year=2026 %}}{{% /partners %}}
 </div>
-<div style="margin-bottom: 40px;">
+<div style="margin-bottom: 50px;">
 {{% partners categories="Local stars" year=2026 %}}{{% /partners %}}
 </div>
-<div style="margin-bottom: 40px;">
+<div style="margin-bottom: 50px;">
 {{% partners categories="Other Sponsors" year=2026 %}}{{% /partners %}}
 </div>
-<div style="margin-bottom: 40px;">
+<div style="margin-bottom: 50px;">
 {{% partners categories="community" year=2026 %}}{{% /partners %}}
 </div>
 
