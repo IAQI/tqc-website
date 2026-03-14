@@ -58,7 +58,7 @@ For more information about the physical features of our accessible rooms, common
 #### Electronic Travel Authorization
 If you are entering Canada by air, you may need an [Electronic Travel Authorization](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html) (eTA) in order to be allowed to fly.
 
-Canadian citizens and permanent residents don't need an eTA, and should travel with their Canadian passport or permanent resident card. U.S. citizens and permanent residents also don't need an eTA, and should travel with their U.S. passport, or their passport and official proof of resident status. French citizens resident in Saint Pierre and Miquelon also don't need an eTA and can travel with only a National Identification Card.
+Canadian citizens and permanent residents don't need an eTA, and should travel with their Canadian passport or permanent resident card. U.S. citizens and permanent residents also don't need an eTA, and should travel with their U.S. passport, or their passport and official proof of resident status. French citizens residing in Saint Pierre and Miquelon also don't need an eTA and can travel with only a National Identification Card.
 
 All other travellers will need a passport and either an eTA or Temporary Resident Visa (TRV), depending on their [country of origin](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html).
 
@@ -70,32 +70,33 @@ After registering for the conference, please request a letter confirming your co
 
 You may also be required to provide [biometrics](https://www.canada.ca/en/immigration-refugees-citizenship/services/biometrics.html) when applying for the visa.
 
-### Getting to Sherbrooke from Montréal
+### Getting to Sherbrooke from Montreal
 
 <img src="/images/2026/getting_to_sherbrooke/YUL_to_Delta.png" alt="YUL to Delta Hotel" style="width:600px;"/>
 
-Sherbrooke is located about an hour and a half drive from Montréal when there is no traffic. There is a bus service from Montréal but no train service. To assist you in planning your trip efficiently, here are a couple of resources that might be useful for traveling between Sherbrooke and Montreal.
+Sherbrooke is located about a 1.5-hour drive with no traffic with no traffic. There is a bus service from Montreal but 
+no train service. To assist you in planning your trip efficiently, here are a few resources that might be useful for 
+traveling between Sherbrooke and Montreal.
 
-Keep in mind that we highly encourage you to be __mindful of the environment__ and take public transportation as much as possible.
+Keep in mind that we highly encourage you to be __mindful of the environment__ and take public transportation as much as 
+possible.
 
-#### From Montréal airport
+#### From Montreal airport
 
-As both a gateway to and from Montreal, [Montreal-Trudeau International airport (YUL)](https://www.admtl.com/en) is a hub that serves more than 150 international destinations with more than 19 million passengers annually! As YUL expands, it obtained the prestigious 4-star certification of Skytrax's "World Airport Star Rating" in 2019, for the quality of the service offered to passengers.
+* The easiest and cheapest way to get to Sherbrooke is to take the [747 bus](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to the __Montreal bus station (Gare d'autocars)__ and then follow the instructions to go from there.
 
-* The easiest and cheapest way to get to Sherbrooke is to take the [bus line 747](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to go to the __Montréal bus station (Gare d'autocars)__ and then follow the instructions to go from there.
-
-* [Aeroshuttle](https://aeronavette.ca/en/home/) is a shuttle service specializing in your travel needs between the regions of Sherbrooke, Magog/Orford, Bromont, Granby, L’Ange-Gardien, Richelieu and Montreal’s Pierre Elliott Trudeau International Airport. The shuttle is available from and to the airport, 24/7 and 365 days a year. It works with your flight information to bring you directly to the hotel. The cost is 125$ one way or 175$ return.
+* [Aeroshuttle](https://aeronavette.ca/en/home/) is a shuttle service specializing in your travel needs between the regions of Sherbrooke, Magog/Orford, Bromont, Granby, L’Ange-Gardien, Richelieu and Montreal’s Pierre Elliott Trudeau International Airport. The shuttle is available to and from the airport, 24/7 and 365 days a year. It works with your flight information to bring you directly to the hotel. The cost is $125 one way or $175 return.
 
 * [Taxi navette](https://taxinavette.ca/) offers airport transfer services 24 hours a day, 7 days a week.
 
-* [Car rental](https://www.admtl.com/en/access/car-rental): Several options are available; you can consult them [here](https://www.admtl.com/en/access/car-rental). Note that we do not recommend this option since it is not environmentally friendly.
+* [Car rental](https://www.admtl.com/en/access/car-rental): Several options are available; you can view them [here](https://www.admtl.com/en/access/car-rental). Note that we do not recommend this option since it is not environmentally friendly.
 
 
-#### From Montréal bus station (Gare d'autocars)
+#### From Montreal bus station (Gare d'autocars)
 
-* [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada that is committed to provide a fast, reliable and punctual transport service. The cost to Sherbrooke Terminus is 50.05$ (or 42.54$ for students) one-way and 90.10$ (or 76.58$ for students) return. Hotel Delta is 4km to the west of the terminus on the main thoroughfare, King Street West at Place des Congrès.
+* [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada that is committed to providing a fast, reliable and punctual transport service. The cost to Sherbrooke Terminus is $50.05 (or $42.54 for students) one-way and $90.10 (or $76.58 for students) return. The Delta Hotel is 4 km west of the terminus, on the main thoroughfare, King Street West at Place des Congrès.
 
-NB: Local buses cost 4$ cash.
+Note: Local buses cost $4 cash.
 
 
 #### Kangaride - Long distance ridesharing
@@ -103,18 +104,18 @@ NB: Local buses cost 4$ cash.
 * Register [here](https://www.kangaride.com/?gad_source=1&gad_campaignid=600062378&gbraid=0AAAAAD-s3RduQRmoUzm5FrS6uIqrSrn2v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4aHt_i9XzvmUYqRMCiV31A_pfGXqf9kIHfPKGmwnFFiroGLbiSHrrYaAgkQEALw_wcB).
 
 
-### Getting to Sherbrooke from Ottawa
+### Getting to Sherbrooke from Ottawa (If you're attending QCrypt)
 
 <img src="/images/2026/getting_to_sherbrooke/Ottawa_to_Delta.png" alt="Ottawa to Delta Hotel" style="width:600px;"/>
 
 Ottawa is further away from Sherbrooke than Montreal, so it typically takes from 3h15 to 4h to get to Sherbrooke from there.
-There is also a few possibilities to get to Sherbrooke from Ottawa.
+There are also a few possibilities to get to Sherbrooke from Ottawa.
 
 * [Kangaride](https://www.kangaride.com/?gad_source=1&gad_campaignid=600062378&gbraid=0AAAAAD-s3RduQRmoUzm5FrS6uIqrSrn2v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4aHt_i9XzvmUYqRMCiV31A_pfGXqf9kIHfPKGmwnFFiroGLbiSHrrYaAgkQEALw_wcB)
 
 * Use [Rome2Rio](https://www.rome2rio.com/map/Ottawa/Sherbrooke-Station) to plan your trip.
 
-* Use one option listed above to go to __Montréal__ and then take one of the other options listed above to go to Sherbrooke.
+* Use one of the options above to reach __Montreal__, then take another to continue to Sherbrooke.
 
 
 ### Getting to the Delta Hotel from Sherbrooke bus station (Terminus Limocar)
@@ -123,4 +124,12 @@ There is also a few possibilities to get to Sherbrooke from Ottawa.
 
 In many options listed above, you will end up at the Sherbrooke bus station. From there you can take a 
 [local bus](https://www.google.com/maps/dir/Terminus+Limocar,+60+Rue+King+Ouest,+Sherbrooke,+QC+J1H+5G1/Delta+Hotels+Sherbrooke+Conference+Centre,+2685+Rue+King+Ouest,+Sherbrooke,+Quebec+J1L+1C1/@45.3995618,-71.9251448,15z/data=!4m14!4m13!1m5!1m1!1s0x4cb7b34df917056f:0xbe2d847099285957!2m2!1d-71.8890215!2d45.4010816!1m5!1m1!1s0x4cb7b4989b732919:0x2dd76a2c41235afe!2m2!1d-71.9392866!2d45.3996478!3e3?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D) 
-that cost 4$ and go to the Delta hotel.
+that cost $4 and go to the Delta Hotel.
+
+---
+
+<small>
+All prices listed on this page are based on information available as of the date of publication. Prices are provided 
+for informational purposes only and are subject to change at any time without notice. We do not guarantee the continued 
+accuracy or availability of the prices displayed.
+</small>
