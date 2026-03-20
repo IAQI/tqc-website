@@ -1,9 +1,9 @@
 ---
 title: Speakers
 year: 2026
-draft: true
+draft: false
 type: speakers
-layout: list_with_header
+layout: list
 menu:
     2026:
         weight: 40
@@ -14,7 +14,7 @@ menu:
 
 
 {{< speakers types="tutorial=Tutorial Speakers" year=2026 >}}
-
+{{< speakers types="contributed = Contributed" year=2026 >}}
 {{< speakers types="invited=Invited Speakers" year=2026 >}}
 
 {{< speakers types="industry=Industry Panel" year=2026 >}}
