@@ -74,7 +74,7 @@ You may also be required to provide [biometrics](https://www.canada.ca/en/immigr
 
 <img src="/images/2026/getting_to_sherbrooke/YUL_to_Delta.png" alt="YUL to Delta Hotel" style="width:600px;"/>
 
-Sherbrooke is located about a 1.5-hour drive with no traffic with no traffic. There is a bus service from Montreal but 
+Sherbrooke is located about a 1.5-hour drive with no traffic. There is a bus service from Montreal but 
 no train service. To assist you in planning your trip efficiently, here are a few resources that might be useful for 
 traveling between Sherbrooke and Montreal.
 
