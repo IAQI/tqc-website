@@ -59,14 +59,14 @@ TQC {{ .Name }} is the 20th [ADJUST!] edition of the yearly international scient
 ## The {{ .Name }} venue
 {{% /home-location %}}
 
-<!-- 
+
 {{% home-speakers year={{ .Name }} %}}
 ## Featured Speakers
 {{< button-link label="All Speakers"
                 url="/{{ .Name }}/speakers"
                 icon="cfp" >}}
 {{% /home-speakers %}}
--->
+
 
 {{% partners categories="community" year={{ .Name }} %}}
 ## Sponsors
