@@ -74,7 +74,7 @@ You may also be required to provide [biometrics](https://www.canada.ca/en/immigr
 
 <img src="/images/2026/getting_to_sherbrooke/YUL_to_Delta.png" alt="YUL to Delta Hotel" style="width:600px;"/>
 
-Sherbrooke is located about a 1.5-hour drive with no traffic. There is a bus service from Montreal but 
+Sherbrooke is located about a 1.5-hour drive from Montreal with no traffic. There is a bus service from Montreal but 
 no train service. To assist you in planning your trip efficiently, here are a few resources that might be useful for 
 traveling between Sherbrooke and Montreal.
 
@@ -83,9 +83,9 @@ possible.
 
 #### From Montreal airport
 
-* The easiest and cheapest way to get to Sherbrooke is to take the [747 bus](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to the __Montreal bus station (Gare d'autocars)__ and then follow the instructions to go from there.
+* The easiest and cheapest way to get to Sherbrooke is to take the [747 bus](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to the __Montreal bus station (Gare d'autocars)__ and then take the Limocar [as described below](#from-montreal-bus-station-gare-dautocars).
 
-* [Aeroshuttle](https://aeronavette.ca/en/home/) is a shuttle service specializing in your travel needs between the regions of Sherbrooke, Magog/Orford, Bromont, Granby, L’Ange-Gardien, Richelieu and Montreal’s Pierre Elliott Trudeau International Airport. The shuttle is available to and from the airport, 24/7 and 365 days a year. It works with your flight information to bring you directly to the hotel. The cost is $125 one way or $175 return.
+* [Aeroshuttle](https://aeronavette.ca/en/home/) is a shuttle service between the regions of Sherbrooke, Magog/Orford, Bromont, Granby, L’Ange-Gardien, Richelieu and Montreal’s Pierre Elliott Trudeau International Airport. The shuttle is available to and from the airport, 24/7 and 365 days a year. It works with your flight information to bring you directly to the hotel. The cost is $125 one way or $175 return.
 
 * [Taxi navette](https://taxinavette.ca/) offers airport transfer services 24 hours a day, 7 days a week.
 
@@ -94,14 +94,14 @@ possible.
 
 #### From Montreal bus station (Gare d'autocars)
 
-* [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada that is committed to providing a fast, reliable and punctual transport service. The cost to Sherbrooke Terminus is $50.05 (or $42.54 for students) one-way and $90.10 (or $76.58 for students) return. The Delta Hotel is 4 km west of the terminus, on the main thoroughfare, King Street West at Place des Congrès.
+* [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada. The cost to Sherbrooke Terminus is $50.05 (or $42.54 for students) one-way and $90.10 (or $76.58 for students) return. The Delta Hotel is 4 km west of the terminus, on the main thoroughfare, King Street West at Place des Congrès.
 
 Note: Local buses cost $4 cash.
 
 
-#### Kangaride - Long distance ridesharing
+#### From anywhere in Montreal
 
-* Register [here](https://www.kangaride.com/?gad_source=1&gad_campaignid=600062378&gbraid=0AAAAAD-s3RduQRmoUzm5FrS6uIqrSrn2v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4aHt_i9XzvmUYqRMCiV31A_pfGXqf9kIHfPKGmwnFFiroGLbiSHrrYaAgkQEALw_wcB).
+* Kangaride is a long-distance ridesharing service. You can register for it [here](https://www.kangaride.com/?gad_source=1&gad_campaignid=600062378&gbraid=0AAAAAD-s3RduQRmoUzm5FrS6uIqrSrn2v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4aHt_i9XzvmUYqRMCiV31A_pfGXqf9kIHfPKGmwnFFiroGLbiSHrrYaAgkQEALw_wcB).
 
 
 ### Getting to Sherbrooke from Ottawa (If you're attending QCrypt)
@@ -113,9 +113,9 @@ There are also a few possibilities to get to Sherbrooke from Ottawa.
 
 * [Kangaride](https://www.kangaride.com/?gad_source=1&gad_campaignid=600062378&gbraid=0AAAAAD-s3RduQRmoUzm5FrS6uIqrSrn2v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4aHt_i9XzvmUYqRMCiV31A_pfGXqf9kIHfPKGmwnFFiroGLbiSHrrYaAgkQEALw_wcB)
 
-* Use [Rome2Rio](https://www.rome2rio.com/map/Ottawa/Sherbrooke-Station) to plan your trip.
+* Use [Rome2Rio](https://www.rome2rio.com/map/Ottawa/Sherbrooke) to plan your trip.
 
-* Use one of the options above to reach __Montreal__, then take another to continue to Sherbrooke.
+* Use Kangaride, [VIA Rail](https://www.viarail.ca/en), or the [Orleans Express bus](https://orleansexpress.com/en/) to reach __Montreal__, then continue to Sherbrooke.
 
 
 ### Getting to the Delta Hotel from Sherbrooke bus station (Terminus Limocar)
