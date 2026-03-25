@@ -52,6 +52,12 @@ For more information about the physical features of our accessible rooms, common
 - Non-slip Grab Rails in the Bathroom
 - Toilet Seat at Wheelchair Height - Toilet for Disabled
 
+### How to Book an Accommodation
+To ensure a comfortable and convenient stay, TQC 2026 has partnered with Delta Hotels by Marriott Sherbrooke, the venue hosting the conference. A limited number of discounted rooms will be available exclusively for TQC 2026 participants.
+ 
+We warmly encourage attendees to book through our partner hotel to benefit from these preferential rates. Please note that each participant is responsible for making their own reservation. **The booking link and promotional code will be shared shortly -- stay tuned!**
+
+
 
 ### Entering Canada
 
