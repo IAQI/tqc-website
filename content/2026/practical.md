@@ -75,7 +75,7 @@ With some exceptions, most applicants who wish to travel to Canada are required 
 
 ##### How to apply for a temporary resident visa (TRV)
 
-To assist with visa issuance, CSEE will provide an invitation letter (upon request) to registered participants. This letter is mandatory for your online TRV application.
+To assist with visa issuance, TQC will provide an invitation letter (upon request) to registered participants. This letter is mandatory for your online TRV application.
 
 Unless you are a visa-exempt visitor, you are required to apply online for your TRV. We encourage participants to use the following method to apply for the visa to enter Canada:
 
