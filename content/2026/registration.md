@@ -18,9 +18,9 @@ menu:
   <thead>
     <tr>
       <th style="border: none; width: 15%; white-space: nowrap;"></th> 
-      <th style="border: 2px solid black; padding: 8px;">Early bird</th>
-      <th style="border: 2px solid black; padding: 8px;">Late bird</th>
-      <th style="border: 2px solid black; padding: 8px;">Very late bird</th>
+      <th style="border: 2px solid black; padding: 8px;">Early bird (Until June 28)</th>
+      <th style="border: 2px solid black; padding: 8px;">On-time bird (June 29-July 31)</th>
+      <th style="border: 2px solid black; padding: 8px;">Late bird (August 1-August 16)</th>
     </tr>
   </thead>
   <tbody>
