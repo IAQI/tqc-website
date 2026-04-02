@@ -81,9 +81,9 @@ authorizations. Submissions accepted at this stage will continue through the tal
  
 {{% home-speakers year=2026 %}}
 ## Featured Speakers
-{{< button-link label="All Speakers"
+<!--{{< button-link label="All Speakers"
                 url="/2026/speakers"
-                icon="cfp" >}}
+                icon="cfp" >}}-->
 {{% /home-speakers %}}
 
 
