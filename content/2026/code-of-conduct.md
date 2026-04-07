@@ -88,20 +88,20 @@ reports, and may intervene in real-time situations to address immediate concerns
 issues. Enforcement of this Code of Conduct may include, but is not limited to:
 
 - Before the event:
-- - Verbal or written warnings
-- - Conditions on participation
-- - Denial of admission — if the incident is far enough before the event, the individual may
+  - Verbal or written warnings
+  - Conditions on participation
+  - Denial of admission — if the incident is far enough before the event, the individual may
 receive a full refund or transfer their registration to a colleague.
 
 Measures may be taken based on prior substantiated violations of this Code (including
 incidents reported from previous years and violations during the registration process).
 - During the event:
-- - Verbal or written warnings
-- - Conditions on further participation
-- - Removal from a session
-- - Temporary or permanent expulsion from the event; participation fees are not refunded once
+  - Verbal or written warnings
+  - Conditions on further participation
+  - Removal from a session
+  - Temporary or permanent expulsion from the event; participation fees are not refunded once
 the conference has begun, as event services cannot be cancelled.
-- - If participants’ safety is at risk or if legal violations occur, the venue staff or the organizing
+  - If participants’ safety is at risk or if legal violations occur, the venue staff or the organizing
 institution’s staff will contact the appropriate authorities for the relevant jurisdiction.
 
 Please note that the circumstances of an incident may not permit us to provide a detailed
