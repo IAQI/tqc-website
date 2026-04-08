@@ -67,6 +67,3 @@ TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference
 
 ### Accommodation 
 We are working with the Delta Hotel to secure discounted room rates for attendees. Details will be announced soon. 
-
-### Visa Information 
-Travelers from some countries may need a visa or an Electronic Travel Authorization (eTA) to enter Canada. To find out if you require one and how to apply, please consult the official [Government of Canada website](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html). Note that an Invitation Letter will be necessary as part of the application process.
