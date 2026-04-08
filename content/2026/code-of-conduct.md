@@ -38,7 +38,7 @@ All participants are expected to:
 - Recognize power dynamics and avoid conduct that exploits or abuses positions of authority.
 - Participate in scientific sessions constructively and without disrupting meetings, presentations,
 or discussions.
-- Be mindful and act with consideration toward others in both in-person- and virtual settings.
+- Be mindful and act with consideration toward others in both in-person and virtual settings.
 - Respect privacy, confidentiality, and conflict-of-interest disclosure where applicable.
 - Set and communicate boundaries when needed. Respect the boundaries of others.
 - Seek help when needed and offer help when asked, within reasonable capacity. Staff and
