@@ -1,0 +1,261 @@
+Verifiable Quantum Advantage via Optimized DQI Circuits.
+Tanuj Khattar, Noah Shutty, Craig Gidney, Adam Zalcman, Noureldin Yosri, Dmitri Maslov, Ryan Babbush, Stephen P. Jordan
+
+Unentanglement and Post-Measurement Branching in Quantum Interactive Proofs.
+Sabee Grewal, William Kretschmer
+
+On the Pure Quantum Polynomial Hierarchy and Quantified Hamiltonian Complexity.
+Sabee Grewal, Dorian Rudolph
+
+Classification and implementation of unitary-equivariant and permutation-invariant quantum channels.
+Elias Theil, Laura Mancinska
+
+Randomized measurements for multi-parameter quantum metrology.
+Sisi Zhou, Senrui Chen
+
+Will it glue? On short-depth designs beyond the unitary group.
+Lorenzo Grevink, Jonas Haferkamp, Markus Heinrich, Jonas Helsen, Marcel Hinsche, Thomas Schuster, Zoltán Zimborás
+
+Magic and communication complexity.
+Uma Girish, Alex May, Natalie Parham, Henry Yuen
+
+Rapid Mixing of Quantum Gibbs Samplers for Weakly-Interacting Quantum Systems.
+Štěpán Šmíd, Richard Meister, Mario Berta, Roberto Bondesan
+
+Efficient magic-state generation with quantum tricycle codes.
+Varun Menon, J. Pablo Bonilla Ataides, Rohan Mehta, Andi Gu, Daniel Bochen Tan, Mikhail D. Lukin
+
+Quantum lower bounds for simulating fluid dynamics.
+Abtin Ameri, Joseph Carolan, Andrew M. Childs, Hari Krovi
+
+Quantum computation with qubit-oscillator systems: Trading modes against energy.
+Lukas Brenner, Beatriz Dias, Robert König
+
+Reconquering Bell sampling on qudits: stabilizer learning and testing, quantum pseudorandomness bounds, and more.
+Jonathan Allcock, Joao F. Doriguello, Gábor Ivanyos, Miklos Santha, Joao F. Doriguello
+
+A complexity theory for non-local quantum computation.
+Andreas Bluhm, Simon Höfer, Alex May, Mikka Stasiuk, Philip Verduyn Lunel, Henry Yuen
+
+Lower bounds on non-local computation from controllable correlation.
+Richard Cleve, Alex May
+
+Clifford testing: algorithms and lower bounds.
+Marcel Hinsche, Zongbo Bao, Philippe van Dordrecht, Jens Eisert, Jop Briët, Jonas Helsen
+
+Instance-Optimal Quantum State Certification with Entangled Measurements.
+Ryan O'Donnell, Chirag Wadhwa
+
+On the complexity of unique quantum witnesses and quantum approximate counting.
+Anurag Anshu, Jonas Haferkamp, Yeongwoo Hwang, Quynh T. Nguyen
+
+Quantum statistics in the minimal Bell scenario.
+Victor Barizien, Jean-Daniel Bancal
+
+Randomness from causally independent processes.
+Martin Sandfuchs, Carla Ferradini, Renato Renner
+
+Near-optimal performance of square-root measurement for general score functions and quantum ensembles.
+Hemant Mishra, Ludovico Lami, Mark Wilde
+
+Fundamentals of quantum Boltzmann machine learning with visible and hidden units.
+Mark Wilde
+
+Certifying and learning local quantum Hamiltonians.
+Andreas Bluhm, Matthias C. Caro, Francisco Escudero Gutiérrez, Junseo Lee, Aadil Oufkir, Cambyse Rouzé, Myeongjin Shin
+
+A Sharp Computational Phase Transition for the Partition Function of the Transverse-Field Ising Model.
+Alistair Sinclair, Thuy-Duong Vuong
+
+Channel Coding and Quantum Channel Discrimination against Jammers: a Minimax Approach.
+Mario Berta, Michael Xuan Cao, Kun Fang, Yongsheng Yao
+
+The Necessity of Extending Quantum Prior Beliefs.
+Mingxuan Liu, Ge Bai, Valerio Scarani
+
+Complexity Theory for Quantum Promise Problems.
+Nai-Hui Chia, Kai-Min Chung, Tzu-Hsiang Huang, Jhih-Wei Shih
+
+The code distance of Floquet codes.
+Keller Blackwell, Jeongwan Haah
+
+High-dimensional quantum Schur transforms and Quantum Fourier transform for the symmetric group.
+Carli Bruinsma, Adam Burchardt, Jiani Fei, Dmitry Grinko, Martin Larocca, Maris Ozols, Sydney Timmerman, Vladyslav Visnevskyi
+
+Fermionic Insights into Measurement-Based Quantum Computation: Circle Graph States Are Not Universal Resources.
+Brent Harrison, Vishnu Iyer, Ojas Parekh, Kevin Thompson, Andrew Zhao
+
+Characterization of permutation gates in the third level of the Clifford hierarchy.
+Zhiyang (Sunny) He, Luke Robitaille, Xinyu Tan
+
+Nearly optimal algorithms to learn sparse quantum Hamiltonians.
+Amira Abbas, Nunzia Cerrato, Francisco Escudero Gutiérrez, Dmitry Grinko, Francesco Anna Mele, Pulkit Sinha, Amira Abbas
+
+Post-Quantum Security of Block Cipher Constructions.
+Gorjan Alagic, Chen Bai, Christian Majenz, Kaiyan Shi
+
+The Black-Box Simulation Barrier Persists in a Fully Quantum World.
+Nai-Hui Chia, Kai-Min Chung, Xiao Liang, Jiahui Liu
+
+Unified Architecture for Quantum Lookup Tables.
+Shuchen Zhu, Aarthi Sundaram, Guang Hao Low
+
+Higher moment theory and learnability of bosonic states.
+Joseph T. Iosue, Yu-Xin Wang, Ishaun Datta, Soumik Ghosh, Changhun Oh, Bill Fefferman, Alexey V. Gorshkov
+
+Entangling logical qubits without physical operations.
+Shayan Majidy, Jin Ming Koh, Anqi Gong, Andrei C. Diaconu, Daniel Bochen Tan, Alexandra A. Geim, Michael J. Gullans, Norman Y. Yao, Mikhail D. Lukin
+
+Quantum simulation of chemistry via quantum fast multipole method.
+Dominic Berry, Kianna Wan, Andrew Baczewski, Elliot Eklund, Arkin Tikku, Ryan Babbush
+
+Power and limitations of distributed quantum state purification.
+Benchi Zhao, Yu-Ao Chen, Xuanqiang Zhao, Chengkai Zhu, Giulio Chiribella, Xin Wang
+
+Efficient quantum circuits for high-dimensional representations of SU(n) and Ramanujan quantum expanders.
+Vishnu Iyer, Siddhartha Jain, Stephen Jordan, Rolando Somma
+
+Quantum Search With Generalized Wildcards.
+Arjan Cornelissen, Nikhil S. Mande, Subhasree Patro, Nithish Raja, Swagato Sanyal
+
+Optimal Qubit Purification and Unitary Schur Sampling via Random SWAP Tests.
+Shrigyan Brahmachari, Austin Hulse, Henry Pfister, Iman Marvian
+
+Quantum Metrology with Constrained Ancillae.
+Qiushi Liu, Yuxiang Yang, Qiushi Liu
+
+High-Performance qLDPC Codes with Efficient Layouts on Flying Qubits.
+Edwin Tham, Nicolas Delfosse, Min Ye, Arda Aydin
+
+Quadratic tensors as a unification of Clifford, Gaussian, and free-fermion physics.
+Andreas Bauer, Seth Lloyd
+
+Energy, Bosons and Computational Complexity.
+Ulysse Chabaud, Sevag Gharibian, Saeed Mehraban, Arsalan Motamedi, Hamid Reza Naeij, Dorian Rudolph, Dhruva Sambrani
+
+Entanglement area law in interacting bosons: from Bose-Hubbard, $\phi4$, and beyond.
+Donghoon Kim, Tomotaka Kuwahara
+
+Beyond Belief Propagation: Cluster-Corrected Tensor Network Contraction with Exponential Convergence.
+Siddhant Midha, Yifan Frank Zhang
+
+Simulating noisy IQP circuits under amplitude damping.
+Shravan Shravan, Mohsin Raza, Ariel Shlosberg
+
+Provable Speedups for Convex Optimization via Quantum Dynamics.
+Shouvanik Chakrabarti, Dylan Herman, Jacob Watkins, Enrico Fontana, Brandon Augustino, Junhyung Lyle Kim, Marco Pistoia
+
+Spectral Small-Incremental Entangling: Breaking Quasi-Polynomial Complexity Barriers in Long-Range Interacting Systems.
+Tomotaka Kuwahara, Yusuke Kimura, Hugo Mackay, Ayumi Ukai, Carla Rubiliani, Donghoon Kim, Yosuke Mitsuhashi, Hideaki Nishikawa, Cheng Shang
+
+Fine-Grained Complexity for Quantum Problems from Size-Preserving Circuit-to-Hamiltonian Constructions.
+Nai-Hui Chia, Atsuya Hasegawa, Francois Le Gall, Yu-Ching Shen
+
+Constant-Overhead Entanglement Distillation via Scrambling.
+Andi Gu, Lorenzo Leone, Kenneth Goodenough, Sumeet Khatri
+
+On the Complexity of Decoded Quantum Interferometry.
+Kunal Marwaha, Bill Fefferman, Alexandru Gheorghiu, Vojtech Havlicek
+
+A Unified Approach to Quantum Key Leasing with a Classical Lessor.
+Fuyuki Kitagawa, Jiahui Liu, Shota Yamada, Takashi Yamakawa
+
+Quantum Merlin-Arthur with an Internally Separable Proof.
+Roozbeh Bassirian, Bill Fefferman, Itai Leigh, Kunal Marwaha, Pei Wu
+
+Tight and Robust Consecutive Measurement Theorems with Applications to Quantum Cryptography.
+Chen-Xun Weng, Minglong Qin, Yanglin Hu, Marco Tomamichel
+
+Learning and certification of local time-dependent quantum dynamics and noise.
+Daniel Stilck França, Tim Moebus, Albert Werner, Cambyse Rouzé
+
+Transversal Dimension Jump for Product qLDPC Codes.
+Christine Li, John Preskill, Qian Xu
+
+Powerful Primitives in the Bounded Quantum Storage Model.
+Mohammed Barhoush, Louis Salvail
+
+Composable simultaneous purification: when all communication scenarios reduce to spatial correlations.
+Matilde Baroni, Dominik Leichtle, Ivan Šupić, Damian Markham, Marco Túlio Quintino
+
+Cloning is as Hard as Learning for Stabilizer States.
+Nikhil Bansal, Matthias C. Caro, Gaurav Mahajan
+
+Positive maps and extendibility hierarchies from copositive matrices.
+Aabhas Gulati, Ion Nechita, Sang-Jun Park
+
+Unitary synthesis with fewer T gates.
+Xinyu Tan
+
+Limitations of Decoded Quantum Interferometry for MaxCut.
+Ojas Parekh
+
+Plugging Leaks in Fault-Tolerant Quantum Computation and Verification.
+Theodoros Kapourniotis, Dominik Leichtle, Luka Music, Harold Ollivier
+
+Classically simulating noisy quantum circuits via exponential decay of conditional correlation.
+Yifan (Frank) Zhang, Su-un Lee, Sarang Gopalakrishnan, Soumik Ghosh, Changhun Oh, Kyungjoo Noh, Bill Fefferman, Liang Jiang
+
+Complexity of Fermionic 2-SAT.
+Maarten Stroeks, Barbara M. Terhal
+
+Unclonable Cryptography in Linear Quantum Memory.
+Omri Shmueli, Mark Zhandry
+
+End-to-end quantum algorithms for tensor problems.
+Enrico Fontana, Sivaprasad Omanakuttan, Junhyung Lyle Kim, Joseph Sullivan, Michael Perlin, Ruslan Shaydulin, Shouvanik Chakrabarti
+
+A New Approach to Arguments of Quantum Knowledge.
+James Bartusek, Ruta Jawale, Justin Raizes, Kabir Tomer
+
+Universal thermodynamic implementation of a process with a variable work cost.
+Philippe Faist
+
+Dequantization Barriers for Guided Stoquastic Hamiltonians.
+Shrinidhi Teganahally Sridhara, Yassine Hamoudi, Yvan Le Borgne
+
+Space–Time Efficient Transversal Architectures for Large-Scale Quantum Computation.
+Hengyun Zhou, Casey Duckering, Chen Zhao, Dolev Bluvstein, Madelyn Cain, Aleksander Kubica, Sheng-Tao Wang, Mikhail Lukin
+
+Hiding, Shuﬄing, and Cycle Finding: Quantum Algorithms on Edge Lists.
+Amin Shiraz Gilani, Daochen Wang, Pei Wu, Xingyu Zhou
+
+The Power of Quantum Circuits in Sampling.
+Guy Blanc, Caleb Koch, Jane Lange, Carmen Strassle, Li-Yang Tan
+
+Topology for qLDPC: transversal non-Clifford gates and magic state fountain on homological product codes with constant rate and beyond the N^{1/3} distance barrier.
+Guanyu Zhu
+
+Limitations of Noisy Geometrically Local Quantum Circuits.
+Jon Nelson, Joel Rajakumar, Michael J. Gullans
+
+A robust and composable device-independent protocol for oblivious transfer using (fully) untrusted quantum devices in the bounded storage model.
+Rishabh Batra, Sayantan Chakraborty, Rahul Jain, Upendra Kapshikar
+
+Geometric optimization for quantum communication.
+Chengkai Zhu, Hongyu Mao, Kun Fang, Xin Wang
+
+Classical Obfuscation of Quantum Circuits via Publicly-Verifiable QFHE.
+James Bartusek, Aparna Gupte, Saachi Mutreja, Omri Shmueli
+
+Measuring gravitational lensing time delays with quantum information processing.
+Zhenning Liu, William DeRocco, Shiming Gu, Emil T. Khabiboulline, Soonwon Choi, Andrew M. Childs, Anson Hook, Alexey V. Gorshkov, Daniel Gottesman
+
+On the Complexity of the Circuit Width Problem.
+Zhengfeng Ji, Yinchen Liu, Zhe'ou Zhou
+
+Quantum Speedups for Sampling and Non-convex Optimization with Stochastic Oracles.
+Guneykan Ozgul, Xiantao Li, Mehrdad Mahdavi, Chunhao Wang
+
+Limits on Quantum Information Processing from Non-Commutative Probability Theory.
+Ian George, Marco Tomamichel
+
+A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization.
+Mario Berta, Omar Fawzi, Gereon Koßmann, Martin Plavála, Julius A. Zeiss
+
+Quantum algorithms through graph composition.
+Arjan Cornelissen
+
+Optimizing fermionic Hamiltonians with classical interactions.
+Maarten Stroeks, Barbara M. Terhal, Yaroslav Herasymenko
+
