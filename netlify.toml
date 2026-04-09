@@ -15,7 +15,7 @@ TZ = "Europe/Amsterdam"
 
 [context.production.environment]
   HUGO_VERSION = "0.140.0"
-  HUGO_ENV = "production"
+  HUGO_ENV = "dev"
   HUGO_ENABLEGITINFO = "true"
 
 [context.branch-deploy.environment]

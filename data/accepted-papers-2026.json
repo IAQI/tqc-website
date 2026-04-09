@@ -1,1 +1,2458 @@
-[]
+[
+    {
+        "pid": 1,
+        "title": "Verifiable Quantum Advantage via Optimized DQI Circuits.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Tanuj",
+                "last": "Khattar",
+                "affiliation": ""
+            },
+            {
+                "first": "Noah",
+                "last": "Shutty",
+                "affiliation": ""
+            },
+            {
+                "first": "Craig",
+                "last": "Gidney",
+                "affiliation": ""
+            },
+            {
+                "first": "Adam",
+                "last": "Zalcman",
+                "affiliation": ""
+            },
+            {
+                "first": "Noureldin",
+                "last": "Yosri",
+                "affiliation": ""
+            },
+            {
+                "first": "Dmitri",
+                "last": "Maslov",
+                "affiliation": ""
+            },
+            {
+                "first": "Ryan",
+                "last": "Babbush",
+                "affiliation": ""
+            },
+            {
+                "first": "Stephen P.",
+                "last": "Jordan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 2,
+        "title": "Unentanglement and Post-Measurement Branching in Quantum Interactive Proofs.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Sabee",
+                "last": "Grewal",
+                "affiliation": ""
+            },
+            {
+                "first": "William",
+                "last": "Kretschmer",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 3,
+        "title": "On the Pure Quantum Polynomial Hierarchy and Quantified Hamiltonian Complexity.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Sabee",
+                "last": "Grewal",
+                "affiliation": ""
+            },
+            {
+                "first": "Dorian",
+                "last": "Rudolph",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 4,
+        "title": "Classification and implementation of unitary-equivariant and permutation-invariant quantum channels.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Elias",
+                "last": "Theil",
+                "affiliation": ""
+            },
+            {
+                "first": "Laura",
+                "last": "Mancinska",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 5,
+        "title": "Randomized measurements for multi-parameter quantum metrology.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Sisi",
+                "last": "Zhou",
+                "affiliation": ""
+            },
+            {
+                "first": "Senrui",
+                "last": "Chen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 6,
+        "title": "Will it glue? On short-depth designs beyond the unitary group.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Lorenzo",
+                "last": "Grevink",
+                "affiliation": ""
+            },
+            {
+                "first": "Jonas",
+                "last": "Haferkamp",
+                "affiliation": ""
+            },
+            {
+                "first": "Markus",
+                "last": "Heinrich",
+                "affiliation": ""
+            },
+            {
+                "first": "Jonas",
+                "last": "Helsen",
+                "affiliation": ""
+            },
+            {
+                "first": "Marcel",
+                "last": "Hinsche",
+                "affiliation": ""
+            },
+            {
+                "first": "Thomas",
+                "last": "Schuster",
+                "affiliation": ""
+            },
+            {
+                "first": "Zoltán",
+                "last": "Zimborás",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 7,
+        "title": "Magic and communication complexity.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Uma",
+                "last": "Girish",
+                "affiliation": ""
+            },
+            {
+                "first": "Alex",
+                "last": "May",
+                "affiliation": ""
+            },
+            {
+                "first": "Natalie",
+                "last": "Parham",
+                "affiliation": ""
+            },
+            {
+                "first": "Henry",
+                "last": "Yuen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 8,
+        "title": "Rapid Mixing of Quantum Gibbs Samplers for Weakly-Interacting Quantum Systems.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Štěpán",
+                "last": "Šmíd",
+                "affiliation": ""
+            },
+            {
+                "first": "Richard",
+                "last": "Meister",
+                "affiliation": ""
+            },
+            {
+                "first": "Mario",
+                "last": "Berta",
+                "affiliation": ""
+            },
+            {
+                "first": "Roberto",
+                "last": "Bondesan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 9,
+        "title": "Efficient magic-state generation with quantum tricycle codes.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Varun",
+                "last": "Menon",
+                "affiliation": ""
+            },
+            {
+                "first": "J. Pablo Bonilla",
+                "last": "Ataides",
+                "affiliation": ""
+            },
+            {
+                "first": "Rohan",
+                "last": "Mehta",
+                "affiliation": ""
+            },
+            {
+                "first": "Andi",
+                "last": "Gu",
+                "affiliation": ""
+            },
+            {
+                "first": "Daniel Bochen",
+                "last": "Tan",
+                "affiliation": ""
+            },
+            {
+                "first": "Mikhail D.",
+                "last": "Lukin",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 10,
+        "title": "Quantum lower bounds for simulating fluid dynamics.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Abtin",
+                "last": "Ameri",
+                "affiliation": ""
+            },
+            {
+                "first": "Joseph",
+                "last": "Carolan",
+                "affiliation": ""
+            },
+            {
+                "first": "Andrew M.",
+                "last": "Childs",
+                "affiliation": ""
+            },
+            {
+                "first": "Hari",
+                "last": "Krovi",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 11,
+        "title": "Quantum computation with qubit-oscillator systems: Trading modes against energy.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Lukas",
+                "last": "Brenner",
+                "affiliation": ""
+            },
+            {
+                "first": "Beatriz",
+                "last": "Dias",
+                "affiliation": ""
+            },
+            {
+                "first": "Robert",
+                "last": "König",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 12,
+        "title": "Reconquering Bell sampling on qudits: stabilizer learning and testing, quantum pseudorandomness bounds, and more.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Jonathan",
+                "last": "Allcock",
+                "affiliation": ""
+            },
+            {
+                "first": "Joao F.",
+                "last": "Doriguello",
+                "affiliation": ""
+            },
+            {
+                "first": "Gábor",
+                "last": "Ivanyos",
+                "affiliation": ""
+            },
+            {
+                "first": "Miklos",
+                "last": "Santha",
+                "affiliation": ""
+            },
+            {
+                "first": "Joao F.",
+                "last": "Doriguello",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 13,
+        "title": "A complexity theory for non-local quantum computation.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Andreas",
+                "last": "Bluhm",
+                "affiliation": ""
+            },
+            {
+                "first": "Simon",
+                "last": "Höfer",
+                "affiliation": ""
+            },
+            {
+                "first": "Alex",
+                "last": "May",
+                "affiliation": ""
+            },
+            {
+                "first": "Mikka",
+                "last": "Stasiuk",
+                "affiliation": ""
+            },
+            {
+                "first": "Philip Verduyn",
+                "last": "Lunel",
+                "affiliation": ""
+            },
+            {
+                "first": "Henry",
+                "last": "Yuen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 14,
+        "title": "Lower bounds on non-local computation from controllable correlation.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Richard",
+                "last": "Cleve",
+                "affiliation": ""
+            },
+            {
+                "first": "Alex",
+                "last": "May",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 15,
+        "title": "Clifford testing: algorithms and lower bounds.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Marcel",
+                "last": "Hinsche",
+                "affiliation": ""
+            },
+            {
+                "first": "Zongbo",
+                "last": "Bao",
+                "affiliation": ""
+            },
+            {
+                "first": "Philippe van",
+                "last": "Dordrecht",
+                "affiliation": ""
+            },
+            {
+                "first": "Jens",
+                "last": "Eisert",
+                "affiliation": ""
+            },
+            {
+                "first": "Jop",
+                "last": "Briët",
+                "affiliation": ""
+            },
+            {
+                "first": "Jonas",
+                "last": "Helsen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 16,
+        "title": "Instance-Optimal Quantum State Certification with Entangled Measurements.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Ryan",
+                "last": "O'Donnell",
+                "affiliation": ""
+            },
+            {
+                "first": "Chirag",
+                "last": "Wadhwa",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 17,
+        "title": "On the complexity of unique quantum witnesses and quantum approximate counting.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Anurag",
+                "last": "Anshu",
+                "affiliation": ""
+            },
+            {
+                "first": "Jonas",
+                "last": "Haferkamp",
+                "affiliation": ""
+            },
+            {
+                "first": "Yeongwoo",
+                "last": "Hwang",
+                "affiliation": ""
+            },
+            {
+                "first": "Quynh T.",
+                "last": "Nguyen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 18,
+        "title": "Quantum statistics in the minimal Bell scenario.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Victor",
+                "last": "Barizien",
+                "affiliation": ""
+            },
+            {
+                "first": "Jean-Daniel",
+                "last": "Bancal",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 19,
+        "title": "Randomness from causally independent processes.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Martin",
+                "last": "Sandfuchs",
+                "affiliation": ""
+            },
+            {
+                "first": "Carla",
+                "last": "Ferradini",
+                "affiliation": ""
+            },
+            {
+                "first": "Renato",
+                "last": "Renner",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 20,
+        "title": "Near-optimal performance of square-root measurement for general score functions and quantum ensembles.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Hemant",
+                "last": "Mishra",
+                "affiliation": ""
+            },
+            {
+                "first": "Ludovico",
+                "last": "Lami",
+                "affiliation": ""
+            },
+            {
+                "first": "Mark",
+                "last": "Wilde",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 21,
+        "title": "Fundamentals of quantum Boltzmann machine learning with visible and hidden units.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Mark",
+                "last": "Wilde",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 22,
+        "title": "Certifying and learning local quantum Hamiltonians.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Andreas",
+                "last": "Bluhm",
+                "affiliation": ""
+            },
+            {
+                "first": "Matthias C.",
+                "last": "Caro",
+                "affiliation": ""
+            },
+            {
+                "first": "Francisco Escudero",
+                "last": "Gutiérrez",
+                "affiliation": ""
+            },
+            {
+                "first": "Junseo",
+                "last": "Lee",
+                "affiliation": ""
+            },
+            {
+                "first": "Aadil",
+                "last": "Oufkir",
+                "affiliation": ""
+            },
+            {
+                "first": "Cambyse",
+                "last": "Rouzé",
+                "affiliation": ""
+            },
+            {
+                "first": "Myeongjin",
+                "last": "Shin",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 23,
+        "title": "A Sharp Computational Phase Transition for the Partition Function of the Transverse-Field Ising Model.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Alistair",
+                "last": "Sinclair",
+                "affiliation": ""
+            },
+            {
+                "first": "Thuy-Duong",
+                "last": "Vuong",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 24,
+        "title": "Channel Coding and Quantum Channel Discrimination against Jammers: a Minimax Approach.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Mario",
+                "last": "Berta",
+                "affiliation": ""
+            },
+            {
+                "first": "Michael Xuan",
+                "last": "Cao",
+                "affiliation": ""
+            },
+            {
+                "first": "Kun",
+                "last": "Fang",
+                "affiliation": ""
+            },
+            {
+                "first": "Yongsheng",
+                "last": "Yao",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 25,
+        "title": "The Necessity of Extending Quantum Prior Beliefs.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Mingxuan",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "Ge",
+                "last": "Bai",
+                "affiliation": ""
+            },
+            {
+                "first": "Valerio",
+                "last": "Scarani",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 26,
+        "title": "Complexity Theory for Quantum Promise Problems.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Nai-Hui",
+                "last": "Chia",
+                "affiliation": ""
+            },
+            {
+                "first": "Kai-Min",
+                "last": "Chung",
+                "affiliation": ""
+            },
+            {
+                "first": "Tzu-Hsiang",
+                "last": "Huang",
+                "affiliation": ""
+            },
+            {
+                "first": "Jhih-Wei",
+                "last": "Shih",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 27,
+        "title": "The code distance of Floquet codes.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Keller",
+                "last": "Blackwell",
+                "affiliation": ""
+            },
+            {
+                "first": "Jeongwan",
+                "last": "Haah",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 28,
+        "title": "High-dimensional quantum Schur transforms and Quantum Fourier transform for the symmetric group.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Carli",
+                "last": "Bruinsma",
+                "affiliation": ""
+            },
+            {
+                "first": "Adam",
+                "last": "Burchardt",
+                "affiliation": ""
+            },
+            {
+                "first": "Jiani",
+                "last": "Fei",
+                "affiliation": ""
+            },
+            {
+                "first": "Dmitry",
+                "last": "Grinko",
+                "affiliation": ""
+            },
+            {
+                "first": "Martin",
+                "last": "Larocca",
+                "affiliation": ""
+            },
+            {
+                "first": "Maris",
+                "last": "Ozols",
+                "affiliation": ""
+            },
+            {
+                "first": "Sydney",
+                "last": "Timmerman",
+                "affiliation": ""
+            },
+            {
+                "first": "Vladyslav",
+                "last": "Visnevskyi",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 29,
+        "title": "Fermionic Insights into Measurement-Based Quantum Computation: Circle Graph States Are Not Universal Resources.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Brent",
+                "last": "Harrison",
+                "affiliation": ""
+            },
+            {
+                "first": "Vishnu",
+                "last": "Iyer",
+                "affiliation": ""
+            },
+            {
+                "first": "Ojas",
+                "last": "Parekh",
+                "affiliation": ""
+            },
+            {
+                "first": "Kevin",
+                "last": "Thompson",
+                "affiliation": ""
+            },
+            {
+                "first": "Andrew",
+                "last": "Zhao",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 30,
+        "title": "Characterization of permutation gates in the third level of the Clifford hierarchy.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Zhiyang (Sunny)",
+                "last": "He",
+                "affiliation": ""
+            },
+            {
+                "first": "Luke",
+                "last": "Robitaille",
+                "affiliation": ""
+            },
+            {
+                "first": "Xinyu",
+                "last": "Tan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 31,
+        "title": "Nearly optimal algorithms to learn sparse quantum Hamiltonians.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Amira",
+                "last": "Abbas",
+                "affiliation": ""
+            },
+            {
+                "first": "Nunzia",
+                "last": "Cerrato",
+                "affiliation": ""
+            },
+            {
+                "first": "Francisco Escudero",
+                "last": "Gutiérrez",
+                "affiliation": ""
+            },
+            {
+                "first": "Dmitry",
+                "last": "Grinko",
+                "affiliation": ""
+            },
+            {
+                "first": "Francesco Anna",
+                "last": "Mele",
+                "affiliation": ""
+            },
+            {
+                "first": "Pulkit",
+                "last": "Sinha",
+                "affiliation": ""
+            },
+            {
+                "first": "Amira",
+                "last": "Abbas",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 32,
+        "title": "Post-Quantum Security of Block Cipher Constructions.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Gorjan",
+                "last": "Alagic",
+                "affiliation": ""
+            },
+            {
+                "first": "Chen",
+                "last": "Bai",
+                "affiliation": ""
+            },
+            {
+                "first": "Christian",
+                "last": "Majenz",
+                "affiliation": ""
+            },
+            {
+                "first": "Kaiyan",
+                "last": "Shi",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 33,
+        "title": "The Black-Box Simulation Barrier Persists in a Fully Quantum World.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Nai-Hui",
+                "last": "Chia",
+                "affiliation": ""
+            },
+            {
+                "first": "Kai-Min",
+                "last": "Chung",
+                "affiliation": ""
+            },
+            {
+                "first": "Xiao",
+                "last": "Liang",
+                "affiliation": ""
+            },
+            {
+                "first": "Jiahui",
+                "last": "Liu",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 34,
+        "title": "Unified Architecture for Quantum Lookup Tables.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Shuchen",
+                "last": "Zhu",
+                "affiliation": ""
+            },
+            {
+                "first": "Aarthi",
+                "last": "Sundaram",
+                "affiliation": ""
+            },
+            {
+                "first": "Guang Hao",
+                "last": "Low",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 35,
+        "title": "Higher moment theory and learnability of bosonic states.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Joseph T.",
+                "last": "Iosue",
+                "affiliation": ""
+            },
+            {
+                "first": "Yu-Xin",
+                "last": "Wang",
+                "affiliation": ""
+            },
+            {
+                "first": "Ishaun",
+                "last": "Datta",
+                "affiliation": ""
+            },
+            {
+                "first": "Soumik",
+                "last": "Ghosh",
+                "affiliation": ""
+            },
+            {
+                "first": "Changhun",
+                "last": "Oh",
+                "affiliation": ""
+            },
+            {
+                "first": "Bill",
+                "last": "Fefferman",
+                "affiliation": ""
+            },
+            {
+                "first": "Alexey V.",
+                "last": "Gorshkov",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 36,
+        "title": "Entangling logical qubits without physical operations.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Shayan",
+                "last": "Majidy",
+                "affiliation": ""
+            },
+            {
+                "first": "Jin Ming",
+                "last": "Koh",
+                "affiliation": ""
+            },
+            {
+                "first": "Anqi",
+                "last": "Gong",
+                "affiliation": ""
+            },
+            {
+                "first": "Andrei C.",
+                "last": "Diaconu",
+                "affiliation": ""
+            },
+            {
+                "first": "Daniel Bochen",
+                "last": "Tan",
+                "affiliation": ""
+            },
+            {
+                "first": "Alexandra A.",
+                "last": "Geim",
+                "affiliation": ""
+            },
+            {
+                "first": "Michael J.",
+                "last": "Gullans",
+                "affiliation": ""
+            },
+            {
+                "first": "Norman Y.",
+                "last": "Yao",
+                "affiliation": ""
+            },
+            {
+                "first": "Mikhail D.",
+                "last": "Lukin",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 37,
+        "title": "Quantum simulation of chemistry via quantum fast multipole method.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Dominic",
+                "last": "Berry",
+                "affiliation": ""
+            },
+            {
+                "first": "Kianna",
+                "last": "Wan",
+                "affiliation": ""
+            },
+            {
+                "first": "Andrew",
+                "last": "Baczewski",
+                "affiliation": ""
+            },
+            {
+                "first": "Elliot",
+                "last": "Eklund",
+                "affiliation": ""
+            },
+            {
+                "first": "Arkin",
+                "last": "Tikku",
+                "affiliation": ""
+            },
+            {
+                "first": "Ryan",
+                "last": "Babbush",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 38,
+        "title": "Power and limitations of distributed quantum state purification.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Benchi",
+                "last": "Zhao",
+                "affiliation": ""
+            },
+            {
+                "first": "Yu-Ao",
+                "last": "Chen",
+                "affiliation": ""
+            },
+            {
+                "first": "Xuanqiang",
+                "last": "Zhao",
+                "affiliation": ""
+            },
+            {
+                "first": "Chengkai",
+                "last": "Zhu",
+                "affiliation": ""
+            },
+            {
+                "first": "Giulio",
+                "last": "Chiribella",
+                "affiliation": ""
+            },
+            {
+                "first": "Xin",
+                "last": "Wang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 39,
+        "title": "Efficient quantum circuits for high-dimensional representations of SU(n) and Ramanujan quantum expanders.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Vishnu",
+                "last": "Iyer",
+                "affiliation": ""
+            },
+            {
+                "first": "Siddhartha",
+                "last": "Jain",
+                "affiliation": ""
+            },
+            {
+                "first": "Stephen",
+                "last": "Jordan",
+                "affiliation": ""
+            },
+            {
+                "first": "Rolando",
+                "last": "Somma",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 40,
+        "title": "Quantum Search With Generalized Wildcards.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Arjan",
+                "last": "Cornelissen",
+                "affiliation": ""
+            },
+            {
+                "first": "Nikhil S.",
+                "last": "Mande",
+                "affiliation": ""
+            },
+            {
+                "first": "Subhasree",
+                "last": "Patro",
+                "affiliation": ""
+            },
+            {
+                "first": "Nithish",
+                "last": "Raja",
+                "affiliation": ""
+            },
+            {
+                "first": "Swagato",
+                "last": "Sanyal",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 41,
+        "title": "Optimal Qubit Purification and Unitary Schur Sampling via Random SWAP Tests.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Shrigyan",
+                "last": "Brahmachari",
+                "affiliation": ""
+            },
+            {
+                "first": "Austin",
+                "last": "Hulse",
+                "affiliation": ""
+            },
+            {
+                "first": "Henry",
+                "last": "Pfister",
+                "affiliation": ""
+            },
+            {
+                "first": "Iman",
+                "last": "Marvian",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 42,
+        "title": "Quantum Metrology with Constrained Ancillae.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Qiushi",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "Yuxiang",
+                "last": "Yang",
+                "affiliation": ""
+            },
+            {
+                "first": "Qiushi",
+                "last": "Liu",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 43,
+        "title": "High-Performance qLDPC Codes with Efficient Layouts on Flying Qubits.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Edwin",
+                "last": "Tham",
+                "affiliation": ""
+            },
+            {
+                "first": "Nicolas",
+                "last": "Delfosse",
+                "affiliation": ""
+            },
+            {
+                "first": "Min",
+                "last": "Ye",
+                "affiliation": ""
+            },
+            {
+                "first": "Arda",
+                "last": "Aydin",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 44,
+        "title": "Quadratic tensors as a unification of Clifford, Gaussian, and free-fermion physics.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Andreas",
+                "last": "Bauer",
+                "affiliation": ""
+            },
+            {
+                "first": "Seth",
+                "last": "Lloyd",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 45,
+        "title": "Energy, Bosons and Computational Complexity.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Ulysse",
+                "last": "Chabaud",
+                "affiliation": ""
+            },
+            {
+                "first": "Sevag",
+                "last": "Gharibian",
+                "affiliation": ""
+            },
+            {
+                "first": "Saeed",
+                "last": "Mehraban",
+                "affiliation": ""
+            },
+            {
+                "first": "Arsalan",
+                "last": "Motamedi",
+                "affiliation": ""
+            },
+            {
+                "first": "Hamid Reza",
+                "last": "Naeij",
+                "affiliation": ""
+            },
+            {
+                "first": "Dorian",
+                "last": "Rudolph",
+                "affiliation": ""
+            },
+            {
+                "first": "Dhruva",
+                "last": "Sambrani",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 46,
+        "title": "Entanglement area law in interacting bosons: from Bose-Hubbard, $\\phi4$, and beyond.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Donghoon",
+                "last": "Kim",
+                "affiliation": ""
+            },
+            {
+                "first": "Tomotaka",
+                "last": "Kuwahara",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 47,
+        "title": "Beyond Belief Propagation: Cluster-Corrected Tensor Network Contraction with Exponential Convergence.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Siddhant",
+                "last": "Midha",
+                "affiliation": ""
+            },
+            {
+                "first": "Yifan Frank",
+                "last": "Zhang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 48,
+        "title": "Simulating noisy IQP circuits under amplitude damping.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Shravan",
+                "last": "Shravan",
+                "affiliation": ""
+            },
+            {
+                "first": "Mohsin",
+                "last": "Raza",
+                "affiliation": ""
+            },
+            {
+                "first": "Ariel",
+                "last": "Shlosberg",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 49,
+        "title": "Provable Speedups for Convex Optimization via Quantum Dynamics.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Shouvanik",
+                "last": "Chakrabarti",
+                "affiliation": ""
+            },
+            {
+                "first": "Dylan",
+                "last": "Herman",
+                "affiliation": ""
+            },
+            {
+                "first": "Jacob",
+                "last": "Watkins",
+                "affiliation": ""
+            },
+            {
+                "first": "Enrico",
+                "last": "Fontana",
+                "affiliation": ""
+            },
+            {
+                "first": "Brandon",
+                "last": "Augustino",
+                "affiliation": ""
+            },
+            {
+                "first": "Junhyung Lyle",
+                "last": "Kim",
+                "affiliation": ""
+            },
+            {
+                "first": "Marco",
+                "last": "Pistoia",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 50,
+        "title": "Spectral Small-Incremental Entangling: Breaking Quasi-Polynomial Complexity Barriers in Long-Range Interacting Systems.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Tomotaka",
+                "last": "Kuwahara",
+                "affiliation": ""
+            },
+            {
+                "first": "Yusuke",
+                "last": "Kimura",
+                "affiliation": ""
+            },
+            {
+                "first": "Hugo",
+                "last": "Mackay",
+                "affiliation": ""
+            },
+            {
+                "first": "Ayumi",
+                "last": "Ukai",
+                "affiliation": ""
+            },
+            {
+                "first": "Carla",
+                "last": "Rubiliani",
+                "affiliation": ""
+            },
+            {
+                "first": "Donghoon",
+                "last": "Kim",
+                "affiliation": ""
+            },
+            {
+                "first": "Yosuke",
+                "last": "Mitsuhashi",
+                "affiliation": ""
+            },
+            {
+                "first": "Hideaki",
+                "last": "Nishikawa",
+                "affiliation": ""
+            },
+            {
+                "first": "Cheng",
+                "last": "Shang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 51,
+        "title": "Fine-Grained Complexity for Quantum Problems from Size-Preserving Circuit-to-Hamiltonian Constructions.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Nai-Hui",
+                "last": "Chia",
+                "affiliation": ""
+            },
+            {
+                "first": "Atsuya",
+                "last": "Hasegawa",
+                "affiliation": ""
+            },
+            {
+                "first": "Francois Le",
+                "last": "Gall",
+                "affiliation": ""
+            },
+            {
+                "first": "Yu-Ching",
+                "last": "Shen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 52,
+        "title": "Constant-Overhead Entanglement Distillation via Scrambling.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Andi",
+                "last": "Gu",
+                "affiliation": ""
+            },
+            {
+                "first": "Lorenzo",
+                "last": "Leone",
+                "affiliation": ""
+            },
+            {
+                "first": "Kenneth",
+                "last": "Goodenough",
+                "affiliation": ""
+            },
+            {
+                "first": "Sumeet",
+                "last": "Khatri",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 53,
+        "title": "On the Complexity of Decoded Quantum Interferometry.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Kunal",
+                "last": "Marwaha",
+                "affiliation": ""
+            },
+            {
+                "first": "Bill",
+                "last": "Fefferman",
+                "affiliation": ""
+            },
+            {
+                "first": "Alexandru",
+                "last": "Gheorghiu",
+                "affiliation": ""
+            },
+            {
+                "first": "Vojtech",
+                "last": "Havlicek",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 54,
+        "title": "A Unified Approach to Quantum Key Leasing with a Classical Lessor.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Fuyuki",
+                "last": "Kitagawa",
+                "affiliation": ""
+            },
+            {
+                "first": "Jiahui",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "Shota",
+                "last": "Yamada",
+                "affiliation": ""
+            },
+            {
+                "first": "Takashi",
+                "last": "Yamakawa",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 55,
+        "title": "Quantum Merlin-Arthur with an Internally Separable Proof.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Roozbeh",
+                "last": "Bassirian",
+                "affiliation": ""
+            },
+            {
+                "first": "Bill",
+                "last": "Fefferman",
+                "affiliation": ""
+            },
+            {
+                "first": "Itai",
+                "last": "Leigh",
+                "affiliation": ""
+            },
+            {
+                "first": "Kunal",
+                "last": "Marwaha",
+                "affiliation": ""
+            },
+            {
+                "first": "Pei",
+                "last": "Wu",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 56,
+        "title": "Tight and Robust Consecutive Measurement Theorems with Applications to Quantum Cryptography.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Chen-Xun",
+                "last": "Weng",
+                "affiliation": ""
+            },
+            {
+                "first": "Minglong",
+                "last": "Qin",
+                "affiliation": ""
+            },
+            {
+                "first": "Yanglin",
+                "last": "Hu",
+                "affiliation": ""
+            },
+            {
+                "first": "Marco",
+                "last": "Tomamichel",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 57,
+        "title": "Learning and certification of local time-dependent quantum dynamics and noise.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Daniel Stilck",
+                "last": "França",
+                "affiliation": ""
+            },
+            {
+                "first": "Tim",
+                "last": "Moebus",
+                "affiliation": ""
+            },
+            {
+                "first": "Albert",
+                "last": "Werner",
+                "affiliation": ""
+            },
+            {
+                "first": "Cambyse",
+                "last": "Rouzé",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 58,
+        "title": "Transversal Dimension Jump for Product qLDPC Codes.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Christine",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "John",
+                "last": "Preskill",
+                "affiliation": ""
+            },
+            {
+                "first": "Qian",
+                "last": "Xu",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 59,
+        "title": "Powerful Primitives in the Bounded Quantum Storage Model.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Mohammed",
+                "last": "Barhoush",
+                "affiliation": ""
+            },
+            {
+                "first": "Louis",
+                "last": "Salvail",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 60,
+        "title": "Composable simultaneous purification: when all communication scenarios reduce to spatial correlations.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Matilde",
+                "last": "Baroni",
+                "affiliation": ""
+            },
+            {
+                "first": "Dominik",
+                "last": "Leichtle",
+                "affiliation": ""
+            },
+            {
+                "first": "Ivan",
+                "last": "Šupić",
+                "affiliation": ""
+            },
+            {
+                "first": "Damian",
+                "last": "Markham",
+                "affiliation": ""
+            },
+            {
+                "first": "Marco Túlio",
+                "last": "Quintino",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 61,
+        "title": "Cloning is as Hard as Learning for Stabilizer States.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Nikhil",
+                "last": "Bansal",
+                "affiliation": ""
+            },
+            {
+                "first": "Matthias C.",
+                "last": "Caro",
+                "affiliation": ""
+            },
+            {
+                "first": "Gaurav",
+                "last": "Mahajan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 62,
+        "title": "Positive maps and extendibility hierarchies from copositive matrices.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Aabhas",
+                "last": "Gulati",
+                "affiliation": ""
+            },
+            {
+                "first": "Ion",
+                "last": "Nechita",
+                "affiliation": ""
+            },
+            {
+                "first": "Sang-Jun",
+                "last": "Park",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 63,
+        "title": "Unitary synthesis with fewer T gates.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Xinyu",
+                "last": "Tan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 64,
+        "title": "Limitations of Decoded Quantum Interferometry for MaxCut.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Ojas",
+                "last": "Parekh",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 65,
+        "title": "Plugging Leaks in Fault-Tolerant Quantum Computation and Verification.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Theodoros",
+                "last": "Kapourniotis",
+                "affiliation": ""
+            },
+            {
+                "first": "Dominik",
+                "last": "Leichtle",
+                "affiliation": ""
+            },
+            {
+                "first": "Luka",
+                "last": "Music",
+                "affiliation": ""
+            },
+            {
+                "first": "Harold",
+                "last": "Ollivier",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 66,
+        "title": "Classically simulating noisy quantum circuits via exponential decay of conditional correlation.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Yifan (Frank)",
+                "last": "Zhang",
+                "affiliation": ""
+            },
+            {
+                "first": "Su-un",
+                "last": "Lee",
+                "affiliation": ""
+            },
+            {
+                "first": "Sarang",
+                "last": "Gopalakrishnan",
+                "affiliation": ""
+            },
+            {
+                "first": "Soumik",
+                "last": "Ghosh",
+                "affiliation": ""
+            },
+            {
+                "first": "Changhun",
+                "last": "Oh",
+                "affiliation": ""
+            },
+            {
+                "first": "Kyungjoo",
+                "last": "Noh",
+                "affiliation": ""
+            },
+            {
+                "first": "Bill",
+                "last": "Fefferman",
+                "affiliation": ""
+            },
+            {
+                "first": "Liang",
+                "last": "Jiang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 67,
+        "title": "Complexity of Fermionic 2-SAT.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Maarten",
+                "last": "Stroeks",
+                "affiliation": ""
+            },
+            {
+                "first": "Barbara M.",
+                "last": "Terhal",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 68,
+        "title": "Unclonable Cryptography in Linear Quantum Memory.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Omri",
+                "last": "Shmueli",
+                "affiliation": ""
+            },
+            {
+                "first": "Mark",
+                "last": "Zhandry",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 69,
+        "title": "End-to-end quantum algorithms for tensor problems.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Enrico",
+                "last": "Fontana",
+                "affiliation": ""
+            },
+            {
+                "first": "Sivaprasad",
+                "last": "Omanakuttan",
+                "affiliation": ""
+            },
+            {
+                "first": "Junhyung Lyle",
+                "last": "Kim",
+                "affiliation": ""
+            },
+            {
+                "first": "Joseph",
+                "last": "Sullivan",
+                "affiliation": ""
+            },
+            {
+                "first": "Michael",
+                "last": "Perlin",
+                "affiliation": ""
+            },
+            {
+                "first": "Ruslan",
+                "last": "Shaydulin",
+                "affiliation": ""
+            },
+            {
+                "first": "Shouvanik",
+                "last": "Chakrabarti",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 70,
+        "title": "A New Approach to Arguments of Quantum Knowledge.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "James",
+                "last": "Bartusek",
+                "affiliation": ""
+            },
+            {
+                "first": "Ruta",
+                "last": "Jawale",
+                "affiliation": ""
+            },
+            {
+                "first": "Justin",
+                "last": "Raizes",
+                "affiliation": ""
+            },
+            {
+                "first": "Kabir",
+                "last": "Tomer",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 71,
+        "title": "Universal thermodynamic implementation of a process with a variable work cost.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Philippe",
+                "last": "Faist",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 72,
+        "title": "Dequantization Barriers for Guided Stoquastic Hamiltonians.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Shrinidhi Teganahally",
+                "last": "Sridhara",
+                "affiliation": ""
+            },
+            {
+                "first": "Yassine",
+                "last": "Hamoudi",
+                "affiliation": ""
+            },
+            {
+                "first": "Yvan Le",
+                "last": "Borgne",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 73,
+        "title": "Space–Time Efficient Transversal Architectures for Large-Scale Quantum Computation.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Hengyun",
+                "last": "Zhou",
+                "affiliation": ""
+            },
+            {
+                "first": "Casey",
+                "last": "Duckering",
+                "affiliation": ""
+            },
+            {
+                "first": "Chen",
+                "last": "Zhao",
+                "affiliation": ""
+            },
+            {
+                "first": "Dolev",
+                "last": "Bluvstein",
+                "affiliation": ""
+            },
+            {
+                "first": "Madelyn",
+                "last": "Cain",
+                "affiliation": ""
+            },
+            {
+                "first": "Aleksander",
+                "last": "Kubica",
+                "affiliation": ""
+            },
+            {
+                "first": "Sheng-Tao",
+                "last": "Wang",
+                "affiliation": ""
+            },
+            {
+                "first": "Mikhail",
+                "last": "Lukin",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 74,
+        "title": "Hiding, Shuﬄing, and Cycle Finding: Quantum Algorithms on Edge Lists.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Amin Shiraz",
+                "last": "Gilani",
+                "affiliation": ""
+            },
+            {
+                "first": "Daochen",
+                "last": "Wang",
+                "affiliation": ""
+            },
+            {
+                "first": "Pei",
+                "last": "Wu",
+                "affiliation": ""
+            },
+            {
+                "first": "Xingyu",
+                "last": "Zhou",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 75,
+        "title": "The Power of Quantum Circuits in Sampling.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Guy",
+                "last": "Blanc",
+                "affiliation": ""
+            },
+            {
+                "first": "Caleb",
+                "last": "Koch",
+                "affiliation": ""
+            },
+            {
+                "first": "Jane",
+                "last": "Lange",
+                "affiliation": ""
+            },
+            {
+                "first": "Carmen",
+                "last": "Strassle",
+                "affiliation": ""
+            },
+            {
+                "first": "Li-Yang",
+                "last": "Tan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 76,
+        "title": "Topology for qLDPC: transversal non-Clifford gates and magic state fountain on homological product codes with constant rate and beyond the N^{1/3} distance barrier.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Guanyu",
+                "last": "Zhu",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 77,
+        "title": "Limitations of Noisy Geometrically Local Quantum Circuits.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Jon",
+                "last": "Nelson",
+                "affiliation": ""
+            },
+            {
+                "first": "Joel",
+                "last": "Rajakumar",
+                "affiliation": ""
+            },
+            {
+                "first": "Michael J.",
+                "last": "Gullans",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 78,
+        "title": "A robust and composable device-independent protocol for oblivious transfer using (fully) untrusted quantum devices in the bounded storage model.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Rishabh",
+                "last": "Batra",
+                "affiliation": ""
+            },
+            {
+                "first": "Sayantan",
+                "last": "Chakraborty",
+                "affiliation": ""
+            },
+            {
+                "first": "Rahul",
+                "last": "Jain",
+                "affiliation": ""
+            },
+            {
+                "first": "Upendra",
+                "last": "Kapshikar",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 79,
+        "title": "Geometric optimization for quantum communication.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Chengkai",
+                "last": "Zhu",
+                "affiliation": ""
+            },
+            {
+                "first": "Hongyu",
+                "last": "Mao",
+                "affiliation": ""
+            },
+            {
+                "first": "Kun",
+                "last": "Fang",
+                "affiliation": ""
+            },
+            {
+                "first": "Xin",
+                "last": "Wang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 80,
+        "title": "Classical Obfuscation of Quantum Circuits via Publicly-Verifiable QFHE.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "James",
+                "last": "Bartusek",
+                "affiliation": ""
+            },
+            {
+                "first": "Aparna",
+                "last": "Gupte",
+                "affiliation": ""
+            },
+            {
+                "first": "Saachi",
+                "last": "Mutreja",
+                "affiliation": ""
+            },
+            {
+                "first": "Omri",
+                "last": "Shmueli",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 81,
+        "title": "Measuring gravitational lensing time delays with quantum information processing.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Zhenning",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "William",
+                "last": "DeRocco",
+                "affiliation": ""
+            },
+            {
+                "first": "Shiming",
+                "last": "Gu",
+                "affiliation": ""
+            },
+            {
+                "first": "Emil T.",
+                "last": "Khabiboulline",
+                "affiliation": ""
+            },
+            {
+                "first": "Soonwon",
+                "last": "Choi",
+                "affiliation": ""
+            },
+            {
+                "first": "Andrew M.",
+                "last": "Childs",
+                "affiliation": ""
+            },
+            {
+                "first": "Anson",
+                "last": "Hook",
+                "affiliation": ""
+            },
+            {
+                "first": "Alexey V.",
+                "last": "Gorshkov",
+                "affiliation": ""
+            },
+            {
+                "first": "Daniel",
+                "last": "Gottesman",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 82,
+        "title": "On the Complexity of the Circuit Width Problem.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Zhengfeng",
+                "last": "Ji",
+                "affiliation": ""
+            },
+            {
+                "first": "Yinchen",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "Zhe'ou",
+                "last": "Zhou",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 83,
+        "title": "Quantum Speedups for Sampling and Non-convex Optimization with Stochastic Oracles.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Guneykan",
+                "last": "Ozgul",
+                "affiliation": ""
+            },
+            {
+                "first": "Xiantao",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "Mehrdad",
+                "last": "Mahdavi",
+                "affiliation": ""
+            },
+            {
+                "first": "Chunhao",
+                "last": "Wang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 84,
+        "title": "Limits on Quantum Information Processing from Non-Commutative Probability Theory.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Ian",
+                "last": "George",
+                "affiliation": ""
+            },
+            {
+                "first": "Marco",
+                "last": "Tomamichel",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 85,
+        "title": "A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Mario",
+                "last": "Berta",
+                "affiliation": ""
+            },
+            {
+                "first": "Omar",
+                "last": "Fawzi",
+                "affiliation": ""
+            },
+            {
+                "first": "Gereon",
+                "last": "Koßmann",
+                "affiliation": ""
+            },
+            {
+                "first": "Martin",
+                "last": "Plavála",
+                "affiliation": ""
+            },
+            {
+                "first": "Julius A.",
+                "last": "Zeiss",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 86,
+        "title": "Quantum algorithms through graph composition.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Arjan",
+                "last": "Cornelissen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 87,
+        "title": "Optimizing fermionic Hamiltonians with classical interactions.",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Maarten",
+                "last": "Stroeks",
+                "affiliation": ""
+            },
+            {
+                "first": "Barbara M.",
+                "last": "Terhal",
+                "affiliation": ""
+            },
+            {
+                "first": "Yaroslav",
+                "last": "Herasymenko",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    }
+]
