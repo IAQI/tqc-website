@@ -1,11 +1,11 @@
 ---
 title: Accepted Papers
 year: 2026
-type: text_page
-draft: true
+type: list_with_header
+draft: false
 menu:
     2026:
-        weight: 20
+        weight: 10
         identifier: accepted-papers
         parent: technical-program
 
@@ -14,16 +14,14 @@ menu:
 
 
 ## List of Accepted Contributed Talks
-
 (in order of submission)
-
-{{< papers-accepted year=2026 >}}{{< /papers-accepted >}}
+{{< papers-accepted year=2026 >}}
+{{< /papers-accepted >}}
 
 
 ## List of Accepted Posters
 
-(in order of submission)
-
+(List to come, stay tuned!)
 {{< posters-accepted year=2026 >}}
 {{< /posters-accepted >}}
 

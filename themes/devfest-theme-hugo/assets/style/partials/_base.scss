@@ -93,3 +93,7 @@ body > main > section.container, body > header.container, body > footer.containe
   margin-top: calc(-1 * var(--toolbar-height));
   visibility: hidden;
 }
+
+.display-block{
+  display:block!important;
+}

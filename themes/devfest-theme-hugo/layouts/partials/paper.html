@@ -5,7 +5,7 @@
 {{ $paper := .paper }}
 {{ $currentYear := (string .currentYear) }}
 
-<!-- Debug Info (only visible in development) -->
+<!-- Debug Info (only visible in development)
 {{ if hugo.IsProduction | not }}
 
 <div style="background: #f0f0f0; padding: 10px; margin: 10px; font-family: monospace; font-size: 12px;">
@@ -18,7 +18,7 @@ CurrentYear: {{ $currentYear }}
 	</details>
 </div>
 {{ end }}
-
+ -->
 
 {{ with $paper }}
 <div class="paper-single">
@@ -28,16 +28,18 @@ CurrentYear: {{ $currentYear }}
 	{{ $options := .options }}
 	<div class="paper-authors">
 		{{ range $key, $author := .authors }}
-		  {{ $author.first }} {{ $author.last }} ({{ $author.affiliation}}){{ if ne $key (sub (len $authors) 1) }};{{ else }}{{ end }}
+		  {{ $author.first }} {{ $author.last }} {{ if $author.affiliation }}({{ $author.affiliation}}){{ end }}{{ if ne $key (sub (len $authors) 1) }};{{ else }}{{ end }}
 		{{ end }}
 	</div>
 
+{{ if .abstract }}
 	<div class="paper-abstract">
-		<a style="color:#4c9cde;" onclick="$('#abstract-{{ .pid }}').toggle(200); return false">[abstract]</a>
+		<a style="color:#4c9cde;cursor:pointer" onclick="document.getElementById('abstract-{{ .pid }}').classList.toggle('display-block'); return false">[abstract]</a>
 		<div class="paper-abstract-full" id="abstract-{{.pid}}" style="display:none">
 			<b>Abstract:</b> {{ .abstract }}
 		</div>
 	</div>
+{{ end }}
 
 	{{ if isset .options "arxiv-id" }}
 	<div class="paper-arxivid">
