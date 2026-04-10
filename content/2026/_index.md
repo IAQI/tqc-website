@@ -9,7 +9,7 @@ type: home
 layout: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/2026/Ville_Sherbrooke_officiel.jpg" imgLabel="TQC 2026 background" logo="/images/2026/logo-2026.png" %}}
+{{% jumbo img="/images/2026/Ville_Sherbrooke_officiel.jpg" imgLabel="TQC 2026 background" logo="/images/2026/logo-2026.png" address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"%}}
 
 ## TQC 2026
 ## August 31–September 4, 2026
@@ -19,10 +19,24 @@ layout: home
                 url="call"
                 icon="direction" >}}
 
+{{< button-link label="Registration is now open!"
+                url= https://event.fourwaves.com/tqc2026
+                icon="direction" >}}
+
 {{% /jumbo %}}
 
+<!-- THE MAP -->
+{{% home-location
+    address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"
+    booking_link="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fapp.marriott.com%2Freslink%3Fid%3D1774892407579%26key%3DGRP%26app%3Dresvlink&data=05%7C02%7Ctqc2026%40USherbrooke.ca%7Cd550584d7e24432878b108de8f12022d%7C3a5a8744593545f99423b32c3a5de082%7C0%7C0%7C639105505098330560%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=A0vvRMeB58qAY4oVTLO8T0drX5GzGcjdWNuR97ui5uU%3D&reserved=0"
+    %}}
 
-{{% home-info what="Participants:>300,Days:5,Invited Talks:4" class="primary" %}}
+
+## The 2026 venue
+{{% /home-location %}}
+
+
+{{% home-info what="Participants:>300,Days:5,Invited Talks:4, Contributed Talks:87" class="primary" %}}
 ## **What is TQC 2026?**
 
 The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for 
@@ -69,15 +83,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% /home-keydates %}}
 
 
-<!-- THE MAP -->
-{{% home-location
-    image="/images/2026/venue-2026.jpg"
-    address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"
-    %}}
 
-
-## The 2026 venue
-{{% /home-location %}}
  
 {{% home-speakers year=2026 %}}
 ## Featured Speakers
