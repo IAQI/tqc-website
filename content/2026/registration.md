@@ -9,7 +9,7 @@ menu:
         parent: attend
 
 ---
-
+Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to register.
 
 ### Summary prices for registration (before fees)
 <br>
@@ -20,7 +20,7 @@ menu:
       <th style="border: none; width: 15%; white-space: nowrap;"></th> 
       <th style="border: 2px solid black; padding: 8px;">Early bird (Until June 28)</th>
       <th style="border: 2px solid black; padding: 8px;">On-time bird (June 29-July 31)</th>
-      <th style="border: 2px solid black; padding: 8px;">Late bird (August 1-August 16)</th>
+      <th style="border: 2px solid black; padding: 8px;">Late bird (August 1-August 12)</th>
     </tr>
   </thead>
   <tbody>
@@ -63,7 +63,6 @@ Your registration will grant access to:
 ### Conference Venue 
 TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference Centre**, located in the heart of Sherbrooke. 
 
-[Learn more about the venue.](https://www.marriott.com/en-us/hotels/yscdr-delta-hotels-sherbrooke-conference-centre/overview/)
+[Book your group rate for TQC 2026](https://www.marriott.com/event-reservations/reservation-link.mi?id=1774892407579&key=GRP&app=resvlink&_branch_match_id=1495112812147034689&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTywo0MtNLCrKzC8p0UvOz9UvSi3OyczLtgdK2ALZZSCOWmaKraG5uYmFpZGJgbmpuaVadmqlrXtQgFpdUWpaKlB3Xnp8UlF%2BeXFqka1zRlF%2BbioARETjrmAAAAA%3D)
 
-### Accommodation 
-We are working with the Delta Hotel to secure discounted room rates for attendees. Details will be announced soon. 
+[Learn more about the venue](https://www.marriott.com/en-us/hotels/yscdr-delta-hotels-sherbrooke-conference-centre/overview/)
