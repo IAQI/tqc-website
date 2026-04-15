@@ -8,6 +8,6 @@ job: LOC Chair
 type: LOC
 year: 2026
 socials: 
-  - link: 'https://www.usherbrooke.ca/physique/nous-joindre/personnel/corps-professoral/professeurs/stefanos-kourtis'
+  - link: 'https://nontrivial.ca/en/'
     name: Site
 ---
