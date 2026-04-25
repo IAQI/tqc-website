@@ -864,7 +864,7 @@
     {
         "object": "paper",
         "pid": 123,
-        "title": "The code distance of Floquet codes",
+        "title": "The code distance of Floquet codes (Winner of the Best Paper Award!) ",
         "abstract": "For fault-tolerant quantum memory defined by periodic Pauli measurements, called Floquet codes, we prove that every correctable, undetectable spacetime error occurring during the steady stage is a product of (i) measurement operators inserted at the time of the measurement and (ii) pairs of identical Pauli operators sandwiching a measurement that commutes with the operator. We call such errors benign; they define a binary vector subspace of spacetime errors which properly generalize stabilizers of static Pauli stabilizer codes. Hence, the code distance of a Floquet code is the minimal weight of an undetectable spacetime Pauli error that is not benign. Our results apply more generally to families of dynamical codes for which every instantaneous stabilizer is inferred from measurements in a time interval of bounded length.",
         "authors": [
             {
@@ -1442,7 +1442,7 @@
     {
         "object": "paper",
         "pid": 186,
-        "title": "Optimal Qubit Purification and Unitary Schur Sampling via Random SWAP Tests",
+        "title": "Optimal Qubit Purification and Unitary Schur Sampling via Random SWAP Tests (Winner of the Best Student Paper Award!)",
         "abstract": "The goal of qubit purification is to combine multiple noisy copies of an unknown pure quantum state to obtain one or more copies that are closer to the pure state. We show that a simple protocol based solely on random SWAP tests achieves the same fidelity as the Schur transform, which is optimal. This protocol relies only on elementary two-qubit SWAP tests, which project a pair of qubits onto the singlet or triplet subspaces, to identify and isolate singlet pairs, and then proceeds with the remaining qubits. For a system of $n$ qubits, we show that after approximately $T \\approx n \\ln n$ random SWAP tests, a sharp transition occurs: the probability of detecting any new singlet decreases exponentially with $T$. Similarly, the fidelity of each remaining qubit approaches the optimal value given by the Schur transform, up to an error that is exponentially small in $T$. More broadly, this protocol achieves what is known as weak Schur sampling and unitary Schur sampling with error $\\epsilon$, after only $2n \\ln(n \\epsilon^{-1})$ SWAP tests. That is, it provides a lossless method for extracting any information invariant under permutations of qubits, making it a powerful subroutine for tasks such as quantum state tomography and metrology.",
         "authors": [
             {
@@ -2946,7 +2946,6 @@
         "object": "paper",
         "pid": 403,
         "title": "A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization",
-        "abstract": "See extended abstract attached.",
         "authors": [
             {
                 "first": "Mario",
