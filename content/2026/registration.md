@@ -26,24 +26,28 @@ Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to 
   <tbody>
     <tr style="border: 2px solid black; width: 15%">
       <td style="border: 2px solid black; padding: 8px;"><strong>Student & Postdocs</strong></td>
-      <td style="border: 2px solid black; padding: 8px;">$ 475 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 775 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 300 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 475 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 775 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 300 CAD + fees*</td>
     </tr>
     <tr style="border: 2px solid black;">
       <td style="border: 2px solid black; padding: 8px;"><strong>Faculty & Staff</strong></td>
-      <td style="border: 2px solid black; padding: 8px;">$ 725 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 975 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 600 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 725 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 975 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 600 CAD + fees*</td>
     </tr>
     <tr style="border: 2px solid black;">
       <td style="border: 2px solid black; padding: 8px;"><strong>Industry</strong></td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 200 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 500 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 2 000 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 200 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 1 500 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;">$ 2 000 CAD + fees*</td>
     </tr>
   </tbody>
 </table>
+
+**\*Currency and prices notice:** 
+All prices listed on this page are in CAD and based on information available as of the date of publication. Prices are provided for informational purposes only and are subject to change at any time without notice. We do not guarantee the continued accuracy or availability of the prices displayed.
+
 
 **\*Fees include:** 
 * Registration platform (Fourwaves)
@@ -66,3 +70,4 @@ TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference
 [Book your group rate for TQC 2026](https://www.marriott.com/event-reservations/reservation-link.mi?id=1774892407579&key=GRP&app=resvlink&_branch_match_id=1495112812147034689&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTywo0MtNLCrKzC8p0UvOz9UvSi3OyczLtgdK2ALZZSCOWmaKraG5uYmFpZGJgbmpuaVadmqlrXtQgFpdUWpaKlB3Xnp8UlF%2BeXFqka1zRlF%2BbioARETjrmAAAAA%3D)
 
 [Learn more about the venue](https://www.marriott.com/en-us/hotels/yscdr-delta-hotels-sherbrooke-conference-centre/overview/)
+
