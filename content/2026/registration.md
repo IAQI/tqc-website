@@ -26,27 +26,24 @@ Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to 
   <tbody>
     <tr style="border: 2px solid black; width: 15%">
       <td style="border: 2px solid black; padding: 8px;"><strong>Student & Postdocs</strong></td>
-      <td style="border: 2px solid black; padding: 8px;">$ 475 CAD + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 775 CAD + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 300 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 475+ fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 775 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 300 + fees*</td>
     </tr>
     <tr style="border: 2px solid black;">
       <td style="border: 2px solid black; padding: 8px;"><strong>Faculty & Staff</strong></td>
-      <td style="border: 2px solid black; padding: 8px;">$ 725 CAD + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 975 CAD + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 600 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 725 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 975 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 600 + fees*</td>
     </tr>
     <tr style="border: 2px solid black;">
       <td style="border: 2px solid black; padding: 8px;"><strong>Industry</strong></td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 200 CAD + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 1 500 CAD + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;">$ 2 000 CAD + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 200 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 500 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px;"> CAD $ 2 000 + fees*</td>
     </tr>
   </tbody>
 </table>
-
-**\*Currency and prices notice:** 
-All prices listed on this page are in CAD and based on information available as of the date of publication. Prices are provided for informational purposes only and are subject to change at any time without notice. We do not guarantee the continued accuracy or availability of the prices displayed.
 
 
 **\*Fees include:** 
