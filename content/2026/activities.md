@@ -63,6 +63,7 @@ As part of the TQC 2026 social program, participants are invited to choose one o
         <p>This excursion is designed for nature lovers and wildlife enthusiasts, offering participants the opportunity to discover one of the Eastern Townships&rsquo; most iconic outdoor destinations: Parc de la Gorge de Coaticook. Participants will hike the Coaticook Gorge &ldquo;Canyon&rdquo; Trail, a 3.5 km route that takes approximately 1 h 30 min and includes the longest suspended footbridge in North America. The bridge stretches 169 meters in length and stands approximately 50 meters above the river, providing spectacular views of the canyon and surrounding forest.</p>
         <p>Along the trail, participants will encounter interpretation panels presenting various aspects of the park&rsquo;s natural environment, including its wildlife, plant life, and geological features, making this excursion both scenic and educational.</p>
         <p>Following the visit, the excursion continues to Laiterie de Coaticook, a renowned local dairy shop famous for its ice cream, cheese curds, and traditional dairy products. This stop offers participants the opportunity to relax and enjoy one of Coaticook&rsquo;s signature culinary experiences before returning from the excursion.</p>
+        <p><em>Round-trip transportation by bus is included.</em></p>
         <img src="/images/2026/nature-gorge-1.jpg" alt="Parc de la Gorge de Coaticook">
         <small><em>Source: <a href="https://gorgedecoaticook.qc.ca/activites-estivales/randonnee-pedestre/" target="_blank" rel="noopener">gorgedecoaticook.qc.ca</a></em></small>
         <img src="/images/2026/nature-gorge-2.jpg" alt="Parc de la Gorge de Coaticook suspended footbridge">
@@ -95,9 +96,10 @@ As part of the TQC 2026 social program, participants are invited to choose one o
         <p>Université de Sherbrooke&rsquo;s interdisciplinary research institute bridging fundamental science and industrial innovation, with expertise in micro- and nano-fabrication, photonics, advanced materials, and energy systems that underpin emerging quantum and electronic technologies.</p>
         <p class="site-name"><strong>DistriQ (Sherbrooke Quantum Innovation Zone)</strong></p>
         <p>Discover the career and collaboration opportunities offered by the companies and partners based in the Sherbrooke Quantum Innovation Zone!</p>
-        <img src="/images/2026/iq-devteq.jpg" alt="DevTeQ Espace Quantique">
-        <img src="/images/2026/iq-terrasse.jpg" alt="Terrasse Espace Quantique">
-        <img src="/images/2026/iq-quantum-institute.jpg" alt="Quantum Institute">
+        <p><em>Round-trip transportation by bus is included.</em></p>
+        <img src="/images/2026/DistriQ_image.jpg" alt="DistriQ - Sherbrooke Quantum Innovation Zone">
+        <img src="/images/2026/iq_image.jpeg" alt="Institut Quantique">
+        <img src="/images/2026/3it_image.jpg" alt="3IT - Institut interdisciplinaire d'innovation technologique">
         <small><em>Source: <a href="https://www.usherbrooke.ca/iq/fr/a-propos" target="_blank" rel="noopener">usherbrooke.ca</a></em></small>
     </div>
 </div>
