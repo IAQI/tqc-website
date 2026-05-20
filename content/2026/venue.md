@@ -13,7 +13,12 @@ menu:
 ### How to Book an Accommodation
 To ensure a comfortable and convenient stay, TQC 2026 has partnered with Delta Hotels by Marriott Sherbrooke, the venue hosting the conference. A limited number of discounted rooms will be available exclusively for TQC 2026 participants.
  
-We warmly encourage attendees to book through our partner hotel to benefit from these preferential rates. Please note that each participant is responsible for making their own reservation. **The booking link and promotional code will be shared shortly -- stay tuned!**
+We warmly encourage attendees to book through our partner hotel to benefit from these preferential rates. Please note that each participant is responsible for making their own reservation.
+
+{{< button-link label="Book your room"
+                url="https://www.marriott.com/event-reservations/reservation-link.mi?id=1774892407579&key=GRP&app=resvlink&_branch_match_id=1495112812147034689&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTywo0MtNLCrKzC8p0UvOz9UvSi3OyczLtgdK2ALZZSCOWmaKraG5uYmFpZGJgbmpuaVadmqlrXtQgFpdUWpaKlB3Xnp8UlF%2BeXFqka1zRlF%2BbioARETjrmAAAAA%3D"
+                target="_blank"
+                icon="link" >}}
 
 ### Conference Venue 
 
