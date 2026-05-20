@@ -29,6 +29,11 @@ As part of the TQC 2026 social program, participants are invited to choose one o
     margin-top: 1rem;
     border-radius: 4px;
 }
+.activities-grid .activity small {
+    display: block;
+    text-align: center;
+    margin-top: 0.25rem;
+}
 @media (max-width: 768px) {
     .activities-grid {
         grid-template-columns: 1fr;
@@ -43,8 +48,11 @@ As part of the TQC 2026 social program, participants are invited to choose one o
         <p>Along the trail, participants will encounter interpretation panels presenting various aspects of the park&rsquo;s natural environment, including its wildlife, plant life, and geological features, making this excursion both scenic and educational.</p>
         <p>Following the visit, the excursion continues to Laiterie de Coaticook, a renowned local dairy shop famous for its ice cream, cheese curds, and traditional dairy products. This stop offers participants the opportunity to relax and enjoy one of Coaticook&rsquo;s signature culinary experiences before returning from the excursion.</p>
         <img src="/images/2026/nature-gorge-1.jpg" alt="Parc de la Gorge de Coaticook">
+        <small><em>Source: <a href="https://gorgedecoaticook.qc.ca/activites-estivales/randonnee-pedestre/" target="_blank" rel="noopener">gorgedecoaticook.qc.ca</a></em></small>
         <img src="/images/2026/nature-gorge-2.jpg" alt="Parc de la Gorge de Coaticook suspended footbridge">
+        <small><em>Source: <a href="https://www.quebecvacances.com/fr/attractions/parc-de-la-gorge-de-coaticook" target="_blank" rel="noopener">quebecvacances.com</a></em></small>
         <img src="/images/2026/nature-laiterie.jpg" alt="Laiterie de Coaticook">
+        <small><em>Source: <a href="https://www.cantonsdelest.com/quoi-faire/623/laiterie-de-coaticook" target="_blank" rel="noopener">cantonsdelest.com</a></em></small>
     </div>
     <div class="activity">
         <h3>Cultural Excursion</h3>
@@ -52,8 +60,11 @@ As part of the TQC 2026 social program, participants are invited to choose one o
         <p>The guided routes will feature a selection of Sherbrooke&rsquo;s cultural and historical landmarks, including Marché de la Gare, a walk around the scenic Lac des Nations circuit, the Musée de la Nature et des Sciences, the famous Tour des Murales, and the historic district along the Magog River near the dam area, featuring heritage sites such as the old prison and the Wellington North and Dufferin sectors.</p>
         <p>The excursion concludes at Siboire, where participants will enjoy a guided visit of the microbrewery accompanied by beer tastings before returning to the hotel at their convenience.</p>
         <img src="/images/2026/cultural-murale.jpg" alt="Tour des Murales Sherbrooke">
+        <small><em>Source: <a href="https://www.cantonsdelest.com/randonnee/130/sherbrooke-circuit-des-murales" target="_blank" rel="noopener">cantonsdelest.com</a></em></small>
         <img src="/images/2026/cultural-siboire.jpg" alt="Siboire microbrewery">
+        <small><em>Source: <a href="https://createursdesaveurs.com/createurs/microbrasserie-siboire-jacques-cartier/" target="_blank" rel="noopener">createursdesaveurs.com</a></em></small>
         <img src="/images/2026/cultural-lac-nations.jpg" alt="Lac des Nations">
+        <small><em>Source: <a href="https://www.leprogres.net/actualites/quelques-incontournables-des-cantons-de-lest/" target="_blank" rel="noopener">leprogres.net</a></em></small>
     </div>
     <div class="activity">
         <h3>Scientific Excursion</h3>
@@ -67,5 +78,6 @@ As part of the TQC 2026 social program, participants are invited to choose one o
         <img src="/images/2026/iq-devteq.jpg" alt="DevTeQ Espace Quantique">
         <img src="/images/2026/iq-terrasse.jpg" alt="Terrasse Espace Quantique">
         <img src="/images/2026/iq-quantum-institute.jpg" alt="Quantum Institute">
+        <small><em>Source: <a href="https://www.usherbrooke.ca/iq/fr/a-propos" target="_blank" rel="noopener">usherbrooke.ca</a></em></small>
     </div>
 </div>
