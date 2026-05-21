@@ -85,8 +85,8 @@ As part of the TQC 2026 social program, participants are invited to choose one o
     </div>
     <div class="activity">
         <h3>Scientific Excursion</h3>
-        <p>This excursion offers participants a behind-the-scenes look at three pillars of Sherbrooke&rsquo;s quantum and technology ecosystem: the <strong>Institut Quantique (IQ)</strong>, the <strong>Institut interdisciplinaire d&rsquo;innovation technologique (3IT)</strong>, and <strong>DistriQ &ndash; Quantum Innovation Zone</strong>. The excursion provides a unique opportunity to engage with the people, tools, and ideas shaping the future of quantum technologies in Sherbrooke.</p>
-        <p class="site-name"><strong>Institut Quantique (IQ)</strong></p>
+        <p>This excursion offers participants a behind-the-scenes look at three pillars of Sherbrooke&rsquo;s quantum and technology ecosystem: the <strong>Institut quantique (IQ)</strong>, the <strong>Institut interdisciplinaire d&rsquo;innovation technologique (3IT)</strong>, and <strong>DistriQ &ndash; Quantum Innovation Zone</strong>. The excursion provides a unique opportunity to engage with the people, tools, and ideas shaping the future of quantum technologies in Sherbrooke.</p>
+        <p class="site-name"><strong>Institut quantique (IQ)</strong></p>
         <p>One of Canada&rsquo;s leading research centers dedicated entirely to quantum science and technology. Through a guided tour of the facilities, participants will gain insight into the experimental and computational infrastructure that supports the institute&rsquo;s research, and discover how fundamental discoveries are translated into emerging quantum technologies. The visit will showcase the institute&rsquo;s two flagship platforms:</p>
         <ul>
             <li><strong>Quantum FabLab</strong>, an interdisciplinary collaboration platform dedicated to the fabrication and characterization of quantum materials and devices.</li>
