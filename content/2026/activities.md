@@ -93,7 +93,7 @@ As part of the TQC 2026 social program, participants are invited to choose one o
             <li><strong>AlgoLab</strong>, which explores the potential of quantum computing across a wide range of application domains.</li>
         </ul>
         <p class="site-name"><strong>3IT (Institut interdisciplinaire d&rsquo;innovation technologique)</strong></p>
-        <p>Université de Sherbrooke&rsquo;s interdisciplinary research institute bridging fundamental science and industrial innovation, with expertise in micro- and nano-fabrication, photonics, advanced materials, and energy systems that underpin emerging quantum and electronic technologies.</p>
+        <p>The 3IT is the Université de Sherbrooke’s interdisciplinary research institute bridging fundamental science and industrial innovation. With state-of-the-art infrastructure supporting socially responsible technologies, the institute advances research in micro- and nano-fabrication, photonics, advanced materials, energy systems, robotics, medical technologies, and digital innovation. During the visit, you will see firsthand how the 3IT accelerates innovation to address major societal challenges and support emerging quantum and electronic technologies.</p>
         <p class="site-name"><strong>DistriQ (Sherbrooke Quantum Innovation Zone)</strong></p>
         <p>Discover the career and collaboration opportunities offered by the companies and partners based in the Sherbrooke Quantum Innovation Zone!</p>
         <p><em>Round-trip transportation by bus is included.</em></p>
