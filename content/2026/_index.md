@@ -59,6 +59,9 @@ See the list of previous conferences <a style="color: yellow" href="/2026/histor
 | April 2nd, 2026                         | Talk notification to authors             |
 | April 20th, 2026                         | Poster-only submission deadline             |
 | May 1st 2026                         | Poster-only acceptance notification to authors|
+| Until June 28, 2026                  | Early bird registration                |
+| June 29 – July 31, 2026              | On-time bird registration              |
+| August 1 – August 12, 2026           | Late bird registration                 |
 | **Mon, August 31 – Fri, September 4** | TQC 2026                  |
 {{% /home-keydate-table %}}
 

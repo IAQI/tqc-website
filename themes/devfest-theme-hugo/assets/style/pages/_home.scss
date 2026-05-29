@@ -155,9 +155,10 @@
     // align-items: center;
 
     .keydate-table table {
-      width: 500px;
+      width: 750px;
+      white-space: nowrap;
       th:nth-child(1) {
-        width: 30%;
+        width: 35%;
       }
     }
     
@@ -255,7 +256,8 @@
     .keydates {
       .keydate-table table {
         width: auto;
-        max-width: 500px;
+        max-width: 750px;
+        white-space: normal;
       }
     }
   }
