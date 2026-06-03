@@ -28,6 +28,12 @@ City id: {{ $timeanddate_cityid }}
 </div>
 {{ end }}
 
+{{ if .Params.coming_soon }}
+<section class="coming-soon" style="text-align: center; padding: 80px 20px;">
+  <h2>Schedule Coming Soon</h2>
+  <p>The detailed schedule for TQC 2026 will be posted here shortly. Stay tuned!</p>
+</section>
+{{ else }}
 <section class="schedule">
 	<nav class="day-tabs">
 		{{ range $day := $schedule }}
@@ -100,6 +106,7 @@ City id: {{ $timeanddate_cityid }}
 	{{ end }}
 
 </section>
+{{ end }}
 
 {{ .Content }}
 
