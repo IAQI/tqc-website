@@ -5,7 +5,7 @@ type: list_with_header
 draft: false
 menu:
     2026:
-        name: Posters
+        name: Accepted Posters
         weight: 12
         identifier: accepted-posters
         parent: technical-program
