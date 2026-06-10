@@ -17,13 +17,3 @@ menu:
 (in order of submission)
 {{< papers-accepted year=2026 >}}
 {{< /papers-accepted >}}
-
-
-## List of Accepted Posters
-
-(List to come, stay tuned!)
-{{< posters-accepted year=2026 >}}
-{{< /posters-accepted >}}
-
-
-

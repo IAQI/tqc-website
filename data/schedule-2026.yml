@@ -1,1 +1,139 @@
-# Schedule data for 2026
+# TQC 2026 — Sherbrooke, Canada
+# Placeholder schedule. Times and slot assignments are tentative
+# and need to be confirmed by the program committee.
+
+- day: '2026-08-31'
+  start: '09:00'
+  end: '20:00'
+  sessions:
+    - session: __registration
+      time: '09:00'
+      location: entrance_hall
+    - session: __welcomingremarks
+      time: '10:00'
+      location: auditorium
+    - session: invited_eisert
+      time: '10:30'
+      location: auditorium
+    - session: __coffee&snacks
+      time: '11:30'
+      location: entrance_hall
+    - session: contributed2a
+      time: '12:00'
+      location: auditorium
+    - session: contributed2b
+      time: '12:00'
+      location: room1
+    - session: contributed2c
+      time: '12:00'
+      location: room2
+    - session: __lunch
+      time: '13:00'
+      location: entrance_hall
+    - session: invited_khurana
+      time: '14:30'
+      location: auditorium
+    - session: __break
+      time: '15:30'
+      location: entrance_hall
+    - session: contributed3
+      time: '16:00'
+      location: auditorium
+    - session: __reception
+      time: '18:00'
+      location: entrance_hall
+    - session: __endofday
+      time: '20:00'
+
+- day: '2026-09-01'
+  start: '09:00'
+  end: '21:00'
+  sessions:
+    - session: __updates&announcements
+      time: '09:00'
+      location: auditorium
+    - session: __coffee&snacks
+      time: '10:30'
+      location: entrance_hall
+    - session: __lunch
+      time: '12:30'
+      location: entrance_hall
+    - session: __break
+      time: '15:00'
+      location: entrance_hall
+    - session: light_dinner
+      time: '17:00'
+      location: entrance_hall
+    - session: poster_monday
+      time: '18:00'
+      location: poster
+    - session: __endofday
+      time: '21:00'
+
+- day: '2026-09-02'
+  start: '09:00'
+  end: '18:00'
+  sessions:
+    - session: __updates&announcements
+      time: '09:00'
+      location: auditorium
+    - session: __coffee&snacks
+      time: '10:30'
+      location: entrance_hall
+    - session: __lunch
+      time: '12:30'
+      location: entrance_hall
+    - session: __excursion
+      time: '14:00'
+    - session: __endofday
+      time: '18:00'
+
+- day: '2026-09-03'
+  start: '09:00'
+  end: '22:00'
+  sessions:
+    - session: __updates&announcements
+      time: '09:00'
+      location: auditorium
+    - session: __coffee&snacks
+      time: '10:30'
+      location: entrance_hall
+    - session: __lunch
+      time: '12:30'
+      location: entrance_hall
+    - session: business
+      time: '14:00'
+      location: auditorium
+    - session: __break
+      time: '15:00'
+      location: entrance_hall
+    - session: industry
+      time: '15:30'
+      location: industry
+    - session: rump
+      time: '17:30'
+      location: auditorium
+    - session: industry_dinner
+      time: '19:30'
+      location: industry
+    - session: __endofday
+      time: '22:00'
+
+- day: '2026-09-04'
+  start: '09:00'
+  end: '14:00'
+  sessions:
+    - session: __updates&announcements
+      time: '09:00'
+      location: auditorium
+    - session: __coffee&snacks
+      time: '10:30'
+      location: entrance_hall
+    - session: close
+      time: '11:00'
+      location: auditorium
+    - session: __lunch
+      time: '12:30'
+      location: entrance_hall
+    - session: __endofday
+      time: '14:00'
