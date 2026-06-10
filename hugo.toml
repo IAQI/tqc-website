@@ -175,6 +175,11 @@ unsafe = true
     weight = 20
     identifier = "technical-program"
   [[menu.2026]]
+    name = "Schedule"
+    weight = 25
+    identifier = "schedule"
+    pageRef = "/2026/schedule"
+  [[menu.2026]]
     name = "Attend"
     weight = 30
     identifier = "attend"
