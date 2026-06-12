@@ -19,7 +19,7 @@ All posters must be in portrait orientation, size A0 or 36"x48".
 
 <br><br>
 
-**All posters will be displayed on all three days, but the formal poster presentations of all posters will be scheduled only on the second and third days.**
+**All posters will be displayed in both poster sessions (August 31 and September 1).**
 
 </div>
 
