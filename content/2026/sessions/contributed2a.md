@@ -1,13 +1,16 @@
 ---
-title: "Contributed Talks 2a: Experimental Talks"
+title: "Learning"
 format: contributed
 type: sessions
 year: 2026
+tags:
+- track
 
 papers:
-- 81
-- 107
+- 36
+- 64
 videoId: null
 presentation: null
 draft: false
 ---
+

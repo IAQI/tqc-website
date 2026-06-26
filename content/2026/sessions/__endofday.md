@@ -2,7 +2,7 @@
 title: 'End of Day'
 format: 
 tags:
-  - other
+- logistics
 videoId: null
 presentation: null
 draft: false

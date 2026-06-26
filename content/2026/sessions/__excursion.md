@@ -2,7 +2,7 @@
 title: 'Lab Tour and Excursion to Cíes Islands (click for more details)'
 format: excursion
 tags:
-  - other
+- logistics
 videoId: null
 presentation: null
 draft: false

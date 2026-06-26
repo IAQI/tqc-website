@@ -3,7 +3,7 @@ title: Poster Session Monday (Click to see the list of posters)
 type: sessions
 format: poster
 tags:
-  - poster
+- logistics
 videoId: null
 presentation: null
 draft: false

@@ -4,6 +4,8 @@ title: "Industry Gala"
 format: industry
 type: sessions
 year: 2026
+tags:
+- sponsor
 id: industry
 speakers:
 - munro

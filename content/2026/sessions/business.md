@@ -3,7 +3,7 @@ title: 'Awards and Business Meeting'
 type: sessions
 format: business
 tags:
-  - other
+- logistics
 videoId: null
 presentation: null
 draft: false

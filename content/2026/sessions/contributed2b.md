@@ -1,16 +1,16 @@
 ---
-title: "Contributed Talks 2b"
+title: "Foundations"
 format: contributed
 type: sessions
 year: 2026
-
+tags:
+- track
 
 papers:
-- 24
-- 117
-- 121
-- 101
+- 282
+- 89
 videoId: null
 presentation: null
 draft: false
 ---
+

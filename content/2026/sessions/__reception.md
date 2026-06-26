@@ -2,7 +2,7 @@
 title: 'Welcome Reception at Palacio de la Oliva (click for more details)'
 format: start-of-day
 tags:
-  - other
+- logistics
 videoId: null
 presentation: null
 draft: false
