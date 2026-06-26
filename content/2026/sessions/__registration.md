@@ -2,7 +2,7 @@
 title: 'Registration & Coffee'
 format: checkin
 tags:
-  - other
+- logistics
 videoId: null
 presentation: null
 draft: false

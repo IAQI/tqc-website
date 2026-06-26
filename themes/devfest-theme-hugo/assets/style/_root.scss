@@ -65,6 +65,13 @@
   --complexity: #ead1db;
   --learning: #f5cbcc;
 
+  /* TQC 2026 schedule color code (matches the program spreadsheet) */
+  --sched-logistics: #cfe2f3; /* light blue: registration, breaks, meals, posters, social */
+  --sched-track: #e6e0f0;     /* pale lavender: contributed Track A/B/C talks */
+  --sched-invited: #d9d2e9;   /* lavender: invited talks */
+  --sched-plenary: #b4a7d6;   /* purple: opening address & AMA */
+  --sched-sponsor: #d9ead3;   /* green: sponsored talks & sponsor exhibition */
+
   --native-mobile-apps: var(--tag2);
   --web: var(--tag6);
   --method-tools: var(--tag5);

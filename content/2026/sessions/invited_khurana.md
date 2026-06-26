@@ -4,7 +4,7 @@ format: invited
 type: sessions
 year: 2026
 tags:
-- crypto
+- invited
 speakers:
   - khurana
 presentation: null

@@ -102,9 +102,30 @@
       }
     }
 
-    &.tag-open, &.tag-pause, &.tag-lunch, &.tag-party, &.tag-office-hours {
+    &.tag-open, &.tag-pause, &.tag-lunch, &.tag-party, &.tag-office-hours,
+    &.tag-logistics, &.tag-track, &.tag-invited, &.tag-plenary, &.tag-sponsor {
       .tags {
         display: none;
+      }
+    }
+
+    /* Track A/B/C sessions: centered, bold title; centered room label;
+       left-aligned paper list */
+    &.tag-track > a {
+      h4 {
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+        color: #000;
+        text-shadow: none;
+      }
+
+      .location {
+        text-align: center;
+      }
+
+      .paper-list {
+        text-align: left;
       }
     }
 

@@ -1,16 +1,12 @@
 ---
-title: "Learning"
-format: contributed
+title: "AMA Session"
+format: other
 type: sessions
 year: 2026
 tags:
-- track
-
-papers:
-- 36
-- 64
+- plenary
 videoId: null
 presentation: null
 draft: false
 ---
-
+Ask Me Anything session.

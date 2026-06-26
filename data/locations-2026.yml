@@ -11,6 +11,15 @@
 - key: room2
   label: Meeting Room 2
   description: TBD
+- key: room_a
+  label: Salle Sherbrooke A
+  description: Track A
+- key: room_b
+  label: Salle Sherbrooke B
+  description: Track B
+- key: room_c
+  label: Salle Sherbrooke C
+  description: Track C
 - key: poster
   label: Entrance Hall
   description: TBD

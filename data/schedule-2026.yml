@@ -1,44 +1,66 @@
 # TQC 2026 — Sherbrooke, Canada
-# Placeholder schedule. Times and slot assignments are tentative
-# and need to be confirmed by the program committee.
+# Schedule built from the program committee's talk schedule (sessions 1-29,
+# three parallel tracks A/B/C) and the draft program timing.
+# Times and slot assignments remain tentative.
 
 - day: '2026-08-31'
-  start: '09:00'
+  start: '08:00'
   end: '20:00'
   sessions:
     - session: __registration
-      time: '09:00'
+      time: '08:00'
       location: entrance_hall
     - session: __welcomingremarks
-      time: '10:00'
+      time: '09:00'
       location: auditorium
     - session: invited_eisert
-      time: '10:30'
+      time: '09:30'
       location: auditorium
     - session: __coffee&snacks
-      time: '11:30'
+      time: '10:30'
       location: entrance_hall
-    - session: contributed2a
-      time: '12:00'
-      location: auditorium
-    - session: contributed2b
-      time: '12:00'
-      location: room1
-    - session: contributed2c
-      time: '12:00'
-      location: room2
+    # Sessions 1-2
+    - session: contributed1a
+      time: '11:00'
+      location: room_a
+    - session: contributed1b
+      time: '11:00'
+      location: room_b
+    - session: contributed1c
+      time: '11:00'
+      location: room_c
     - session: __lunch
-      time: '13:00'
+      time: '12:00'
       location: entrance_hall
-    - session: invited_khurana
-      time: '14:30'
-      location: auditorium
+    # Sessions 3-4
+    - session: contributed2a
+      time: '14:00'
+      location: room_a
+    - session: contributed2b
+      time: '14:00'
+      location: room_b
+    - session: contributed2c
+      time: '14:00'
+      location: room_c
     - session: __break
-      time: '15:30'
+      time: '15:00'
       location: entrance_hall
-    - session: contributed3
-      time: '16:00'
+    # Sessions 5-7
+    - session: contributed3a
+      time: '15:30'
+      location: room_a
+    - session: contributed3b
+      time: '15:30'
+      location: room_b
+    - session: contributed3c
+      time: '15:30'
+      location: room_c
+    - session: sponsored1
+      time: '17:00'
       location: auditorium
+    - session: poster_monday
+      time: '18:00'
+      location: poster
     - session: __reception
       time: '18:00'
       location: entrance_hall
@@ -46,91 +68,186 @@
       time: '20:00'
 
 - day: '2026-09-01'
-  start: '09:00'
+  start: '08:30'
   end: '21:00'
   sessions:
-    - session: __updates&announcements
+    - session: __coffee&snacks
+      time: '08:30'
+      location: entrance_hall
+    - session: invited_khurana
       time: '09:00'
       location: auditorium
-    - session: __coffee&snacks
+    - session: sponsored2
+      time: '10:00'
+      location: auditorium
+    - session: __break
       time: '10:30'
       location: entrance_hall
+    # Sessions 8-10
+    - session: contributed4a
+      time: '11:00'
+      location: room_a
+    - session: contributed4b
+      time: '11:00'
+      location: room_b
+    - session: contributed4c
+      time: '11:00'
+      location: room_c
     - session: __lunch
       time: '12:30'
       location: entrance_hall
+    # Sessions 11-13
+    - session: contributed5a
+      time: '14:00'
+      location: room_a
+    - session: contributed5b
+      time: '14:00'
+      location: room_b
+    - session: contributed5c
+      time: '14:00'
+      location: room_c
     - session: __break
-      time: '15:00'
+      time: '15:30'
       location: entrance_hall
-    - session: light_dinner
+    # Sessions 14-15
+    - session: contributed6a
+      time: '16:00'
+      location: room_a
+    - session: contributed6b
+      time: '16:00'
+      location: room_b
+    - session: contributed6c
+      time: '16:00'
+      location: room_c
+    - session: sponsored3
       time: '17:00'
-      location: entrance_hall
-    - session: poster_monday
+      location: auditorium
+    - session: poster_tuesday
       time: '18:00'
       location: poster
     - session: __endofday
       time: '21:00'
 
 - day: '2026-09-02'
-  start: '09:00'
-  end: '18:00'
-  sessions:
-    - session: __updates&announcements
-      time: '09:00'
-      location: auditorium
-    - session: __coffee&snacks
-      time: '10:30'
-      location: entrance_hall
-    - session: __lunch
-      time: '12:30'
-      location: entrance_hall
-    - session: __excursion
-      time: '14:00'
-    - session: __endofday
-      time: '18:00'
-
-- day: '2026-09-03'
-  start: '09:00'
+  start: '08:30'
   end: '22:00'
   sessions:
-    - session: __updates&announcements
+    - session: __coffee&snacks
+      time: '08:30'
+      location: entrance_hall
+    - session: invited_wednesday
       time: '09:00'
       location: auditorium
-    - session: __coffee&snacks
-      time: '10:30'
+    - session: __break
+      time: '10:00'
       location: entrance_hall
+    # Sessions 16-19
+    - session: contributed7a
+      time: '10:30'
+      location: room_a
+    - session: contributed7b
+      time: '10:30'
+      location: room_b
+    - session: contributed7c
+      time: '10:30'
+      location: room_c
     - session: __lunch
       time: '12:30'
       location: entrance_hall
     - session: business
-      time: '14:00'
+      time: '12:30'
       location: auditorium
-    - session: __break
-      time: '15:00'
+    - session: __excursion
+      time: '14:00'
+    - session: board_games
+      time: '19:30'
+      location: auditorium
+    - session: __endofday
+      time: '22:00'
+
+- day: '2026-09-03'
+  start: '08:30'
+  end: '22:00'
+  sessions:
+    - session: __coffee&snacks
+      time: '08:30'
       location: entrance_hall
+    # Sessions 20-21
+    - session: contributed8a
+      time: '09:00'
+      location: room_a
+    - session: contributed8b
+      time: '09:00'
+      location: room_b
+    - session: contributed8c
+      time: '09:00'
+      location: room_c
+    - session: __break
+      time: '10:00'
+      location: entrance_hall
+    # Sessions 22-24
+    - session: contributed9a
+      time: '10:30'
+      location: room_a
+    - session: contributed9b
+      time: '10:30'
+      location: room_b
+    - session: contributed9c
+      time: '10:30'
+      location: room_c
+    - session: __lunch
+      time: '12:00'
+      location: entrance_hall
+    # Sessions 25-26
+    - session: contributed10a
+      time: '13:30'
+      location: room_a
+    - session: contributed10b
+      time: '13:30'
+      location: room_b
+    - session: contributed10c
+      time: '13:30'
+      location: room_c
+    - session: __break
+      time: '14:30'
+      location: entrance_hall
+    - session: ama
+      time: '15:00'
+      location: auditorium
     - session: industry
       time: '15:30'
       location: industry
-    - session: rump
-      time: '17:30'
-      location: auditorium
-    - session: industry_dinner
-      time: '19:30'
+    - session: banquet
+      time: '18:30'
       location: industry
     - session: __endofday
       time: '22:00'
 
 - day: '2026-09-04'
-  start: '09:00'
+  start: '08:30'
   end: '14:00'
   sessions:
-    - session: __updates&announcements
+    - session: __coffee&snacks
+      time: '08:30'
+      location: entrance_hall
+    - session: invited_friday
       time: '09:00'
       location: auditorium
-    - session: __coffee&snacks
-      time: '10:30'
+    - session: __break
+      time: '10:00'
       location: entrance_hall
+    # Sessions 27-29
+    - session: contributed11a
+      time: '10:30'
+      location: room_a
+    - session: contributed11b
+      time: '10:30'
+      location: room_b
+    - session: contributed11c
+      time: '10:30'
+      location: room_c
     - session: close
-      time: '11:00'
+      time: '12:00'
       location: auditorium
     - session: __lunch
       time: '12:30'

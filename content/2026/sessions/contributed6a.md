@@ -1,5 +1,5 @@
 ---
-title: "Learning"
+title: "Interactive Proofs"
 format: contributed
 type: sessions
 year: 2026
@@ -7,8 +7,8 @@ tags:
 - track
 
 papers:
-- 36
-- 64
+- 7
+- 258
 videoId: null
 presentation: null
 draft: false

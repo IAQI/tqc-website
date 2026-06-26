@@ -82,6 +82,27 @@
   background-color: var(--general);
 }
 
+/* TQC 2026 schedule color code (matches the program spreadsheet) */
+.tag-logistics {
+  background-color: var(--sched-logistics);
+}
+
+.tag-track {
+  background-color: var(--sched-track);
+}
+
+.tag-invited {
+  background-color: var(--sched-invited);
+}
+
+.tag-plenary {
+  background-color: var(--sched-plenary);
+}
+
+.tag-sponsor {
+  background-color: var(--sched-sponsor);
+}
+
 section .tags {
   padding: var(--space-1);
   border-radius: var(--space-2);

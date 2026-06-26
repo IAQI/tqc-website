@@ -1,5 +1,5 @@
 ---
-title: "Learning"
+title: "Simulations"
 format: contributed
 type: sessions
 year: 2026
@@ -7,8 +7,9 @@ tags:
 - track
 
 papers:
-- 36
-- 64
+- 161
+- 29
+- 26
 videoId: null
 presentation: null
 draft: false

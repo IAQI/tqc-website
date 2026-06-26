@@ -2,8 +2,8 @@
 title: Closing Remarks
 type: sessions
 format: closing
-tags: 
-- other
+tags:
+- logistics
 speakers:
 videoId: null
 videoTime: null

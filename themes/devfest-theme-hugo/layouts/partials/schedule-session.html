@@ -25,6 +25,7 @@
 <a href="{{ $session_page.RelPermalink }}">		
 	<h4>
 		{{ $session_page.Title }}
+		{{ with $session_page.Params.note }}<em class="session-note">({{ . }})</em>{{ end }}
 		{{/* <span class="language {{ anchorize $session_page.Params.language }}"></span> */}}
 	</h4>
 	{{ if $session.location }}
@@ -77,6 +78,7 @@
 		{{ end }}
 	</ul>
 
+	{{/* Speaker name and photo are hidden in the schedule until the program is finalized.
 	{{ if $session_page.Params.speakers }}
 	<ul class="speakers">
 		{{ range sort (where $session_page.Site.RegularPages "Params.key" "in" $session_page.Params.speakers) "Params.surname" }}
@@ -87,6 +89,7 @@
 		{{ end }}
 	</ul>
 	{{ end }}
+	*/}}
 
 	<div class="info">
 		{{ if $session_page.Params.tags }}

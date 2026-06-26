@@ -1,5 +1,5 @@
 ---
-title: "Learning"
+title: "Algorithms"
 format: contributed
 type: sessions
 year: 2026
@@ -7,8 +7,8 @@ tags:
 - track
 
 papers:
-- 36
-- 64
+- 296
+- 251
 videoId: null
 presentation: null
 draft: false

@@ -3,7 +3,7 @@ title: Welcoming Remarks
 type: sessions
 format: welcome
 tags:
-- other
+- plenary
 speakers: null
 videoId: null
 presentation: null
