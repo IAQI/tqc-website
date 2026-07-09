@@ -22,8 +22,10 @@ We warmly encourage attendees to book through our partner hotel to benefit from 
 
 ### Conference Venue 
 
-TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference Centre**, located in the heart of Sherbrooke (a traditional and unceded land of the W8banaki Nation, known as Ndakina).
+TQC 2026 will take place at the **Delta Hotels by Marriott Sherbrooke Conference Centre**, located in the heart of Sherbrooke (a traditional and unceded land of the W8banaki Nation, known as Ndakina). 
 <address>2685 Rue King Ouest, Sherbrooke, Quebec, Canada, J1L 1C1</address>
+
+For questions regarding your reservation, you may call: +1 819-822-1989 or email: dhr.yscdr.reservations@deltahotels.com.
 
 [Learn more about the venue.](https://www.marriott.com/en-us/hotels/yscdr-delta-hotels-sherbrooke-conference-centre/overview/)
 
