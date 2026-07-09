@@ -1,5 +1,5 @@
 ---
-title: Closing Remarks
+title: Closing Statements
 type: sessions
 format: closing
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Welcoming Remarks
+title: Opening Address
 type: sessions
 format: welcome
 tags:

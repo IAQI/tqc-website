@@ -7,5 +7,5 @@ videoId: null
 presentation: null
 draft: false
 type: sessions
-note: "not included"
+note: "Lunch not included"
 ---

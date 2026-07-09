@@ -8,5 +8,6 @@ tags:
 videoId: null
 presentation: null
 draft: false
+note: Included
 ---
 Conference banquet (included in registration).
