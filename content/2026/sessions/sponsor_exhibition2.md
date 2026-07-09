@@ -1,5 +1,5 @@
 ---
-title: "Sponsored Talk 3"
+title: Sponsor Exhibition 2
 format: sponsored
 type: sessions
 year: 2026

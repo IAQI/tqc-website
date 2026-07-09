@@ -1,5 +1,5 @@
 ---
-title: 'Lunch break'
+title: 'Lunch'
 format: lunch
 tags:
 - logistics
@@ -7,5 +7,5 @@ videoId: null
 presentation: null
 draft: false
 type: sessions
-note: "Lunch not included"
+note: "Lunch is included"
 ---
