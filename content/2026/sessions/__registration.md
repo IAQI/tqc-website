@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: 'Registration and coffee and snacks '
+=======
+title: 'Registration & Morning Fuel (Coffee & Pastries)'
+>>>>>>> 5d30e47 (V1 schedule)
 format: checkin
 tags:
 - logistics

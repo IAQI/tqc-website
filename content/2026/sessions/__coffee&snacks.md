@@ -1,5 +1,5 @@
 ---
-title: 'Coffee & Snacks'
+title: 'Morning Fuel (Coffee & Pastries)'
 format: coffee
 tags:
 - logistics

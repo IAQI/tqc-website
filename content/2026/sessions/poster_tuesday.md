@@ -1,5 +1,5 @@
 ---
-title: Poster Session Tuesday (Click to see the list of posters)
+title: Poster Session and Sponsor Exhibition
 type: sessions
 format: poster
 tags:

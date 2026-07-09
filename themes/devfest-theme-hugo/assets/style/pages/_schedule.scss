@@ -95,10 +95,9 @@
         box-shadow: none;
       }
 
-      /* These tags have dark background images, so the text needs to be white */
       h4, .location {
-        color: white;
-        text-shadow: 2px 1px 1px black;
+        color: #000;
+        text-shadow: none;
       }
     }
 
@@ -156,9 +155,25 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        text-shadow: 2px 1px 1px white;
+        text-shadow: none;
+        color: #000;
         font-size: 1.2em;
+        font-weight: 700;
         // flex: 0 0 80%;
+
+        .session-note {
+          font-weight: normal;
+        }
+      }
+
+      .card-options {
+        list-style: none;
+        margin: 0;
+        padding: 0 var(--space-2) var(--space-2);
+
+        li {
+          margin: var(--space-1) 0;
+        }
       }
 
       .location {
@@ -225,6 +240,21 @@
         p {
           max-width: 320px;
         }
+      }
+    }
+  }
+
+  .meals {
+    text-align: center;
+    margin: 2rem auto;
+
+    table {
+      margin: 1rem auto;
+      border-collapse: collapse;
+
+      th, td {
+        padding: var(--space-2) var(--space-4);
+        border: thin solid var(--darken-1);
       }
     }
   }

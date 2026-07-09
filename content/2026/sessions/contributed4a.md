@@ -10,6 +10,8 @@ papers:
 - 123
 - 160
 - 336
+paperTitleOverrides:
+  '123': "The code distance of Floquet codes (Best Paper Award)"
 videoId: null
 presentation: null
 draft: false
