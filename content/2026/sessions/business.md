@@ -1,5 +1,5 @@
 ---
-title: 'Awards and Business Meeting'
+title: 'Lunch Break, Awards and Business Meeting'
 type: sessions
 format: business
 tags:
@@ -7,6 +7,7 @@ tags:
 videoId: null
 presentation: null
 draft: false
+note: "lunch included"
 ---
 <!--
 ## Program

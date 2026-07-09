@@ -1,16 +1,16 @@
 # Location data for 2026
 - key: entrance_hall
   label: Entrance Hall
-  description: TBD
+  description: ""
 - key: auditorium
-  label: Auditorium
-  description: TBD
+  label: ""
+  description: ""
 - key: room1
   label: Meeting Room 1
-  description: TBD
+  description: ""
 - key: room2
   label: Meeting Room 2
-  description: TBD
+  description: ""
 - key: room_a
   label: Salle Sherbrooke A
   description: Track A
@@ -22,7 +22,10 @@
   description: Track C
 - key: poster
   label: Entrance Hall
-  description: TBD
+  description: ""
 - key: industry
   label: Industry Restaurant
-  description: TBD
+  description: ""
+- key: mont_bellevue
+  label: Salle Mont-Bellevue
+  description: ""

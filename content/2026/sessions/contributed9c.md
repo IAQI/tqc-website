@@ -10,6 +10,8 @@ papers:
 - 186
 - 162
 - 333
+paperTitleOverrides:
+  '186': "Optimal Qubit Purification and Unitary Schur Sampling via Random SWAP Tests (Best Student Paper Award)"
 videoId: null
 presentation: null
 draft: false

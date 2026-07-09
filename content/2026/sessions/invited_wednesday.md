@@ -1,5 +1,5 @@
 ---
-title: "Invited Talk"
+title: "Invited Speaker"
 format: invited
 type: sessions
 year: 2026
