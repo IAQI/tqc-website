@@ -16,15 +16,9 @@
     - session: invited_eisert
       time: '09:30'
       location: auditorium
-<<<<<<< HEAD
-    - session: __break
-      time: '10:30'
-      location: entrance_hall
-=======
     - session: __coffee&snacks
       time: '11:00'
       location: TBD
->>>>>>> 5d30e47 (V1 schedule)
     # Sessions 1-2
     - session: contributed1a
       time: '11:30'
@@ -68,12 +62,7 @@
       time: '17:30'
       location: TBD
     - session: __endofday
-<<<<<<< HEAD
-      time: '20:00'
-      location: entrance_hall
-=======
       time: '19:30'
->>>>>>> 5d30e47 (V1 schedule)
 
 - day: '2026-09-01'
   start: '08:30'
@@ -131,16 +120,8 @@
       time: '17:00'
       location: TBD
     - session: poster_tuesday
-<<<<<<< HEAD
-      time: '18:00'
-      location: poster
-    - session: sponsor_exhibition1
-      time: '18:00'
-      location: poster
-=======
       time: '17:30'
       location: TBD
->>>>>>> 5d30e47 (V1 schedule)
     - session: __endofday
       time: '19:30'
 
@@ -167,12 +148,6 @@
     - session: contributed7c
       time: '10:30'
       location: room_c
-<<<<<<< HEAD
-    - session: lunch_wednesday
-      time: '12:30'
-      location: entrance_hall
-=======
->>>>>>> 5d30e47 (V1 schedule)
     - session: business
       time: '12:30'
       location: auditorium
@@ -233,14 +208,9 @@
     - session: ama
       time: '15:00'
       location: auditorium
-<<<<<<< HEAD
-    - session: sponsor_exhibition2
-      time: '16:00'
-=======
     - session: industry
       time: '16:00'
       location: industry
->>>>>>> 5d30e47 (V1 schedule)
     - session: banquet
       time: '18:30'
     - session: __endofday
