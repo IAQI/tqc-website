@@ -6,13 +6,17 @@ draft: false
 horizontal: false
 ---
 
+ 
 <div class="meals">
+
+<p class="meals-note"><strong></strong> Schedule could be subject to change.</p>
+
 
 ### Meals
 
 | Meal | Included |
 |------|:--------:|
-| Morning coffee & pastries (daily) | ✔ |
+| Morning coffee & pastries (daily, does not constitute a full breakfast) | ✔ |
 | Coffee breaks (daily) | ✔ |
 | Lunch — Monday | ✗ |
 | Lunch — Tuesday | ✗ |
