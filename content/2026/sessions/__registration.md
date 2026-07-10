@@ -1,13 +1,13 @@
 ---
-title: 'Registration & Coffee'
+title: 'Registration & Morning Fuel (Coffee & Pastries)'
 format: checkin
 tags:
-  - other
+- logistics
 videoId: null
 presentation: null
 draft: false
 type: sessions
-
+note: Coffee and snacks included
 ---
 Registration & Coffee in the OIST conference center, entrance hall.
 

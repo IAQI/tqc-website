@@ -1,5 +1,5 @@
 ---
-title: 'Registration & Coffee'
+title: 'Registration & Morning Fuel (*Coffee & pastries, not a full breakfast*)'
 format: checkin
 tags:
   - other

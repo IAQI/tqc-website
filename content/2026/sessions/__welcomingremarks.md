@@ -1,9 +1,9 @@
 ---
-title: Welcoming Remarks
+title: Opening Address
 type: sessions
 format: welcome
 tags:
-- other
+- plenary
 speakers: null
 videoId: null
 presentation: null

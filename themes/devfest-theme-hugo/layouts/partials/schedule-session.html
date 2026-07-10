@@ -25,8 +25,14 @@
 <a href="{{ $session_page.RelPermalink }}">		
 	<h4>
 		{{ $session_page.Title }}
+		{{ with $session_page.Params.note }}<em class="session-note">({{ . }})</em>{{ end }}
 		{{/* <span class="language {{ anchorize $session_page.Params.language }}"></span> */}}
 	</h4>
+	{{ with $session_page.Params.cardOptions }}
+	<ul class="card-options">
+		{{ range . }}<li>{{ . }}</li>{{ end }}
+	</ul>
+	{{ end }}
 	{{ if $session.location }}
 		{{ $all_locations := printf "locations-%s" $currentYear }}
 		{{ $locationData := index site.Data $all_locations }}
@@ -37,8 +43,6 @@
 								{{ if gt (len $locationData) 0 }}
 										{{ $location := index $locationData 0 }}
 										{{ partial "location.html" $location }}
-								{{ else }}
-										<div class="location">location not found</div>
 								{{ end }}
 						{{ end }}
 				{{ else }}
@@ -46,15 +50,9 @@
 						{{ if gt (len $locationData) 0 }}
 								{{ $location := index $locationData 0 }}
 								{{ partial "location.html" $location }}
-						{{ else }}
-								<div class="location">location not found</div>
 						{{ end }}
 				{{ end }}
-		{{ else }}
-				<div class="location">location data not found</div>
 		{{ end }}
-	{{ else }}
-			<div class="location">no location set</div>
 	{{ end }}
 
 	<hr>
@@ -62,6 +60,10 @@
 	<ul class="paper-list">
 		{{ range $pid := $session_page.Params.papers }}
 		  {{ $paper := index (where $papers "pid" (int $pid) ) 0 }}
+		  {{ $titleOverride := index ($session_page.Params.paperTitleOverrides | default dict) (string $pid) }}
+		  {{ if $titleOverride }}
+			  {{ $paper = merge $paper (dict "title" $titleOverride) }}
+		  {{ end }}
 
 			{{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
 			{{ if or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid) }}
@@ -77,6 +79,7 @@
 		{{ end }}
 	</ul>
 
+	{{/* Speaker name and photo are hidden in the schedule until the program is finalized.
 	{{ if $session_page.Params.speakers }}
 	<ul class="speakers">
 		{{ range sort (where $session_page.Site.RegularPages "Params.key" "in" $session_page.Params.speakers) "Params.surname" }}
@@ -87,6 +90,7 @@
 		{{ end }}
 	</ul>
 	{{ end }}
+	*/}}
 
 	<div class="info">
 		{{ if $session_page.Params.tags }}

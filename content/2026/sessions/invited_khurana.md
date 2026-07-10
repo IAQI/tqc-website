@@ -1,10 +1,10 @@
 ---
-title: "Invited Talk: ''Adventures in Quantum Wonderland: Understanding Cryptographic Hardness in a Quantum World''"
+title: "Invited Speaker"
 format: invited
 type: sessions
 year: 2026
 tags:
-- crypto
+- invited
 speakers:
   - khurana
 presentation: null
