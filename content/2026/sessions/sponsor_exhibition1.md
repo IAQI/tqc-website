@@ -1,5 +1,5 @@
 ---
-title: Sponsor Exhibition 1
+title: Sponsor Exhibition 
 format: sponsored
 type: sessions
 year: 2026

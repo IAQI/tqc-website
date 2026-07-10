@@ -1,5 +1,5 @@
 ---
-title: "Sponsored Talk 3"
+title: "Sponsored Talk"
 format: sponsored
 type: sessions
 year: 2026

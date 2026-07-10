@@ -13,7 +13,7 @@
     - session: __welcomingremarks
       time: '09:00'
       location: auditorium
-    - session: invited_eisert
+    - session: invited_wednesday
       time: '09:30'
       location: auditorium
     - session: __coffee&snacks
@@ -71,7 +71,7 @@
     - session: __coffee&snacks
       time: '08:30'
       location: TBD
-    - session: invited_khurana
+    - session: invited_wednesday
       time: '09:00'
       location: auditorium
     - session: sponsored2
@@ -208,7 +208,7 @@
     - session: ama
       time: '15:00'
       location: auditorium
-    - session: industry
+    - session: sponsor_exhibition1
       time: '16:00'
       location: industry
     - session: banquet
