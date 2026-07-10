@@ -1,8 +1,10 @@
 ---
-title: "Invited Talk: ''Potential and Limitations of Near-Term Quantum Computing''"
+title: "Invited Speaker"
 format: invited
 type: sessions
 year: 2026
+tags:
+- invited
 speakers:
   - eisert
 presentation: null

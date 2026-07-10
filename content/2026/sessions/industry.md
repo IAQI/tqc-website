@@ -1,9 +1,11 @@
 ---
 key: industry
-title: "Industry Gala"
+title: "Sponsor Exhibition"
 format: industry
 type: sessions
 year: 2026
+tags:
+- sponsor
 id: industry
 speakers:
 - munro

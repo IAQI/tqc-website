@@ -2,9 +2,10 @@
 title: 'Lunch break'
 format: lunch
 tags:
-  - lunch
+- logistics
 videoId: null
 presentation: null
 draft: false
 type: sessions
+note: "Lunch not included"
 ---
