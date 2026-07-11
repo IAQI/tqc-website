@@ -111,6 +111,9 @@
     /* Track A/B/C sessions: centered, bold title; centered room label;
        left-aligned paper list */
     &.tag-track > a {
+      pointer-events: auto;
+      cursor: pointer;
+
       h4 {
         justify-content: center;
         text-align: center;
@@ -143,6 +146,11 @@
       color: inherit;
       height: 100%;
 
+      /* Only Track A/B/C talk cards link to a detail page; make every
+         other card non-clickable. */
+      pointer-events: none;
+      cursor: default;
+
       &:hover, &:focus {
         box-shadow: var(--space-2) var(--space-2) var(--space-2) var(--darken-3);
       }
@@ -158,11 +166,12 @@
         text-shadow: none;
         color: #000;
         font-size: 1.2em;
-        font-weight: 700;
+        font-weight: 400;
         // flex: 0 0 80%;
 
         .session-note {
           font-weight: normal;
+          font-size: 0.75em;
         }
       }
 
@@ -177,7 +186,7 @@
       }
 
       .location {
-        text-align: right;    
+        text-align: right;
         margin: var(--space-2);
         // flex: 0 0 20%;
         .location-label {
