@@ -18,6 +18,11 @@
     content: ''
   }
 
+  /* Duration for invited speaker talks is not yet known — hide "( min.)" */
+  .type-invited::after {
+    content: ''
+  }
+
   .time::before {
     content: 'Time : ';
   }
@@ -72,13 +77,22 @@
       display: flex;
       align-items: center;
 
+      /* No colored block behind the talk title on the session page */
+      background: none;
+
       h1 {
         flex-grow: 1;
+        font-weight: 700;
       }
 
       .tags {
         margin-right: 1ch;
         white-space: nowrap;
+
+        /* Hide the chip entirely when no category label matched */
+        &:empty {
+          display: none;
+        }
       }
     }
 

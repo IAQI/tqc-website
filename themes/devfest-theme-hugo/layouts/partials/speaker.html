@@ -6,6 +6,8 @@
 	<div class="info">
 		<div class="speaker-company">{{ .Params.company }}</div>
 		<strong class="speaker-name">{{ .Params.name }}</strong>
+		{{ $talks := where .Site.RegularPages "Params.speakers" "intersect" (slice .Params.key) }}
+		{{ if gt (len $talks) 0 }}<div class="speaker-talk">{{ (index $talks 0).Title }}</div>{{ end }}
 		<span class="speaker-country">{{ .Params.city }}</span>
 	</div>
 </a>

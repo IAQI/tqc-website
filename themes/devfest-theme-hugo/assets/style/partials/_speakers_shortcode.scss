@@ -43,5 +43,12 @@
       margin: var(--space-1);
     }
 
+    .speaker-talk {
+      font-style: italic;
+      text-align: center;
+      margin: var(--space-1);
+      opacity: .9;
+    }
+
   }
 }
