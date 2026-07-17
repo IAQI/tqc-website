@@ -9,14 +9,13 @@
   sessions:
     - session: __registration
       time: '08:00'
-      location: entrance_hall
     - session: __welcomingremarks
       time: '09:00'
       location: auditorium
     - session: invited_wednesday
       time: '09:30'
       location: auditorium
-    - session: __coffee&snacks
+    - session: __break
       time: '11:00'
       location: TBD
     # Sessions 1-2
@@ -31,7 +30,6 @@
       location: room_c
     - session: __lunch
       time: '12:30'
-      location: mont_bellevue
     # Sessions 3-4
     - session: contributed2a
       time: '14:00'
@@ -92,7 +90,6 @@
       location: room_c
     - session: __lunch
       time: '12:30'
-      location: entrance_hall
     # Sessions 11-13
     - session: contributed5a
       time: '14:00'
@@ -150,7 +147,7 @@
       location: room_c
     - session: business
       time: '12:30'
-      location: auditorium
+      location: main_foyer_sherbrooke
     - session: __excursion
       time: '14:00'
     - session: board_games
@@ -191,7 +188,6 @@
       location: room_c
     - session: __lunch
       time: '12:00'
-      location: entrance_hall
     # Sessions 25-26
     - session: contributed10a
       time: '13:30'
@@ -210,7 +206,6 @@
       location: auditorium
     - session: sponsor_exhibition1
       time: '16:00'
-      location: industry
     - session: banquet
       time: '18:30'
     - session: __endofday
@@ -218,8 +213,10 @@
 
 - day: '2026-09-04'
   start: '08:30'
-  end: '14:00'
+  end: '12:30'
   sessions:
+    - session: __checkout
+      time: '08:30'
     - session: __coffee&snacks
       time: '08:30'
       location: TBD
@@ -242,8 +239,5 @@
     - session: close
       time: '12:00'
       location: auditorium
-    - session: __lunch
+    - session: __endofconference
       time: '12:30'
-      location: entrance_hall
-    - session: __endofday
-      time: '14:00'

@@ -7,7 +7,7 @@ tags:
 videoId: null
 presentation: null
 draft: false
-note: "included"
+note: "1 drink and appetizers included"
 ---
 
 Join us for the poster session paired with a welcome cocktail, included in your registration.

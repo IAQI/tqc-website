@@ -29,3 +29,6 @@
 - key: mont_bellevue
   label: Salle Mont-Bellevue
   description: ""
+- key: main_foyer_sherbrooke
+  label: Main foyer / Salle Sherbrooke
+  description: ""
