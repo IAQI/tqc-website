@@ -33,13 +33,7 @@
 
 	{{ if .Params.tags }}
 	<header class="tag-{{ anchorize (delimit .Params.tags "" ) }}">
-	<div class="tags">
-		{{ range .Params.tags }}
-			{{ range first 1 (where $.Site.Data.categories "key" .) }}
-			<span>{{ .name }}</span>
-			{{ end }}
-		{{ end }}
-	</div>
+	<div class="tags">{{- range .Params.tags -}}{{- range first 1 (where $.Site.Data.categories "key" .) -}}<span>{{ .name }}</span>{{- end -}}{{- end -}}</div>
 	{{ else }}
 	<header>
 	{{ end }}
