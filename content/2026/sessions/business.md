@@ -1,5 +1,5 @@
 ---
-title: 'Lunch Break, Awards and Business Meeting'
+title: 'Lunch Break and Business Meeting'
 type: sessions
 format: business
 tags:

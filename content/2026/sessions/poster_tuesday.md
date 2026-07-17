@@ -3,7 +3,7 @@ title: Poster Session and Sponsor Exhibition
 type: sessions
 format: poster
 tags:
-- logistics
+- sponsor
 videoId: null
 presentation: null
 draft: false

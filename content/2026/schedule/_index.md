@@ -10,7 +10,7 @@ coming_soon: true
  
 <div class="meals">
 
-<p class="meals-note"><strong></strong> Schedule could be subject to change.</p>
+<p class="meals-note"><em>Schedule could be subject to change.</em></p>
 
 
 ### Meals
@@ -21,14 +21,14 @@ coming_soon: true
 | Coffee breaks (daily) | ✔ |
 | Lunch — Monday | ✗ |
 | Lunch — Tuesday | ✗ |
-| Lunch — Wednesday (Awards & Business Meeting) | ✔ |
+| Lunch — Wednesday (Business Meeting) | ✔ |
 | Lunch — Thursday | ✗ |
 | Lunch — Friday | ✗ |
-| Welcome cocktail — Monday | ✔ |
+| Welcome cocktail — Monday (1 drink and appetizers included) | ✔ |
 | Banquet — Thursday | ✔ |
 
 <small>✔ Included in registration &nbsp;·&nbsp; ✗ Not included</small>
 
-<p class="meals-note"><strong>Please note:</strong> outside food is not permitted inside the hotel.</p>
+<p class="meals-note"><strong>Please note:</strong> outside food is not permitted in the public spaces of the hotel, only in your individual rooms.</p>
 
 </div>

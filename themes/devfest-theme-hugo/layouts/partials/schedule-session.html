@@ -30,7 +30,7 @@
 	</h4>
 	{{ with $session_page.Params.cardOptions }}
 	<ul class="card-options">
-		{{ range . }}<li>{{ . }}</li>{{ end }}
+		{{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}
 	</ul>
 	{{ end }}
 	{{ if $session.location }}

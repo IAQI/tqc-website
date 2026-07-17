@@ -102,9 +102,28 @@
     }
 
     &.tag-open, &.tag-pause, &.tag-lunch, &.tag-party, &.tag-office-hours,
-    &.tag-logistics, &.tag-track, &.tag-invited, &.tag-plenary, &.tag-sponsor {
+    &.tag-logistics, &.tag-track, &.tag-invited, &.tag-plenary, &.tag-sponsor,
+    &.tag-checkout {
       .tags {
         display: none;
+      }
+    }
+
+    /* Check-out notice: amber highlight */
+    &.tag-checkout {
+      background-color: #fff3cd;
+
+      > a {
+        border-color: #e0a800;
+
+        h4, .card-options {
+          color: #000;
+          text-shadow: none;
+        }
+
+        h4 {
+          font-weight: 700;
+        }
       }
     }
 
@@ -128,6 +147,20 @@
 
       .paper-list {
         text-align: left;
+      }
+    }
+
+    /* Sponsor sessions: green highlight */
+    &.tag-sponsor {
+      background-color: #d7f2df;
+
+      > a {
+        border-color: #2e9e5b;
+
+        h4, .location {
+          color: #000;
+          text-shadow: none;
+        }
       }
     }
 
@@ -167,6 +200,7 @@
         color: #000;
         font-size: 1.2em;
         font-weight: 400;
+        padding-left: var(--space-4);
         // flex: 0 0 80%;
 
         .session-note {
@@ -178,7 +212,7 @@
       .card-options {
         list-style: none;
         margin: 0;
-        padding: 0 var(--space-2) var(--space-2);
+        padding: 0 var(--space-2) var(--space-2) var(--space-4);
 
         li {
           margin: var(--space-1) 0;
