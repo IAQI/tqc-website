@@ -81,15 +81,15 @@
       margin: 0 auto;
     }
     ul {
-      max-width: var(--theJdrSize);
+      max-width: 44rem;
       margin: 0 auto;
 
       padding-left: 0;
       list-style: none;
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-items: center;
+      align-items: start;
 
       li {
         margin: var(--space-4);
@@ -98,6 +98,11 @@
       // Keep only 4 first speakers
       li:nth-child(n+5) {
         display: none;
+      }
+
+      // Single column on narrow screens
+      @include mq.mq($until: sm) {
+        grid-template-columns: minmax(0, 1fr);
       }
     }
   }
