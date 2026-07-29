@@ -106,11 +106,11 @@
 					{{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
 					{{ if or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid) }}
 		  			<li>
-					{{ partial "paper.html" (dict "paper" $paper "currentYear" $currentYear) }}
+					{{ partial "paper.html" (dict "paper" $paper "currentYear" $currentYear "presenters" true) }}
 						{{ if isset $paper "mergedwith" }}
 		  				{{ $mergedpaper := index (where $papers "pid" $paper.mergedwith) 0 }}
 			   			merged with
-				  		{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" $currentYear) }}
+				  		{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" $currentYear "presenters" true) }}
 						{{ end }}
 	  				</li>
 			 		{{ end }}
