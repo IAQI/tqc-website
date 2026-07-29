@@ -1,11 +1,7 @@
+{{ $paper := .paper }}
 <div class="paper-simple">
-	<div class="paper-title">{{ .title }}</div>
+	<div class="paper-title">{{ $paper.title }}</div>
 
-	{{ $authors := .authors}}
-	<div class="paper-authors">
-		{{ range $key, $author := .authors }}
-		  {{ $author.first }} {{ $author.last }}{{ if ne $key (sub (len $authors) 1) }};{{ else }}{{ end }}
-		{{ end }}
-	</div>
+	{{ partial "paper-authors.html" (dict "paper" $paper "currentYear" .currentYear "presenters" true "emphasis" "em") }}
 
 </div>

@@ -1,0 +1,562 @@
+#!/usr/bin/env python3
+"""
+Derive the list of presenting authors from the registration spreadsheet.
+
+The registration export lists, for each registered person, the title of the talk
+they will present. This script matches those titles against the accepted-papers
+data and writes a `presenters-<year>.yml` data file mapping each paper id to the
+name(s) of its presenting author(s), so that Hugo can render them in bold.
+
+Matching is title-first and deliberately conservative: a registrant is only
+attached to a paper when their declared title identifies that paper, and their
+name is then used solely to pick which author of *that* paper to mark. Rows that
+cannot be resolved are reported for human review rather than guessed at, which is
+what keeps invited speakers and poster presenters out of the result even when
+they happen to co-author a contributed paper.
+"""
+
+import argparse
+import difflib
+import json
+import re
+import sys
+import unicodedata
+import zipfile
+from pathlib import Path
+from xml.etree import ElementTree
+
+import yaml
+
+NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+
+# Substring matching is only trusted once *both* strings are at least this long.
+# Bounding only the paper title would let a stub cell such as "N/A" fold to "na"
+# and be found inside dozens of unrelated titles.
+MIN_SUBSTRING_LEN = 20
+
+# Similarity above which two normalized titles are considered the same paper.
+TITLE_SIMILARITY_THRESHOLD = 0.85
+
+# Similarity below which a failed match is not even worth reporting as a near
+# miss; between this and the threshold above, the candidate is shown to a human.
+TITLE_NEAR_MISS_THRESHOLD = 0.5
+
+# Characters that transliterate to more than one ASCII letter, and so are not
+# handled by accent stripping alone ("Möbus" is spelled "Moebus" elsewhere).
+TRANSLITERATIONS = {
+    "ä": "ae", "ö": "oe", "ü": "ue",
+    "Ä": "ae", "Ö": "oe", "Ü": "ue",
+    "ß": "ss", "æ": "ae", "ø": "oe", "å": "aa",
+}
+
+
+def read_xlsx_rows(path):
+    """
+    Read the first worksheet of an .xlsx file as a list of column->value dicts.
+
+    Args:
+        path (Path): Path to the .xlsx workbook.
+
+    Returns:
+        list: One dict per row, keyed by column letter (e.g. {"A": "Uma", ...}).
+    """
+    with zipfile.ZipFile(path) as archive:
+        names = archive.namelist()
+        # Exports vary: shared strings are optional, and the worksheet is not
+        # always called sheet1.xml.
+        shared = []
+        if "xl/sharedStrings.xml" in names:
+            shared = [
+                "".join(node.text or "" for node in item.iter(NS + "t"))
+                for item in ElementTree.fromstring(
+                    archive.read("xl/sharedStrings.xml")
+                ).iter(NS + "si")
+            ]
+        worksheets = sorted(n for n in names if n.startswith("xl/worksheets/sheet"))
+        if not worksheets:
+            raise ValueError(f"{path}: contains no worksheet")
+        sheet = ElementTree.fromstring(archive.read(worksheets[0]))
+
+    rows = []
+    for row in sheet.iter(NS + "row"):
+        cells = {}
+        for cell in row.iter(NS + "c"):
+            column = re.match(r"[A-Z]+", cell.get("r")).group()
+            value = cell.find(NS + "v")
+            inline = cell.find(NS + "is")
+            if cell.get("t") == "s" and value is not None:
+                text = shared[int(value.text)]
+            elif inline is not None:
+                text = "".join(node.text or "" for node in inline.iter(NS + "t"))
+            else:
+                text = value.text if value is not None else ""
+            cells[column] = (text or "").strip()
+        rows.append(cells)
+    return rows
+
+
+def parse_registrations(rows):
+    """
+    Extract the registrant records that sit below the spreadsheet's header row.
+
+    Args:
+        rows (list): Rows as returned by read_xlsx_rows.
+
+    Returns:
+        list: Dicts with "first", "last", "kind" and "titles" keys.
+
+    Raises:
+        ValueError: If no header row can be located.
+    """
+    header_index = None
+    for index, row in enumerate(rows):
+        values = [value.lower() for value in row.values()]
+        if any(v.startswith("first name") for v in values) and any(
+            v.startswith("last name") for v in values
+        ):
+            header_index = index
+            break
+    if header_index is None:
+        raise ValueError("could not find the 'First name'/'Last name' header row")
+
+    columns = {}
+    for column, value in rows[header_index].items():
+        value = value.lower()
+        if value.startswith("first name"):
+            columns["first"] = column
+        elif value.startswith("last name"):
+            columns["last"] = column
+        elif value.startswith("will you be presenting"):
+            columns["kind"] = column
+        elif value.startswith("title of presentation"):
+            columns["titles"] = column
+
+    # Falling back to a fixed column letter here would silently read whatever
+    # happens to sit in that position -- affiliations, say -- as talk titles, and
+    # match nothing while reporting success.
+    missing = [name for name in ("first", "last", "titles") if name not in columns]
+    if missing:
+        raise ValueError(
+            f"missing expected column(s) {', '.join(missing)} in the header row: "
+            f"{sorted(rows[header_index].values())}"
+        )
+
+    registrations = []
+    for row in rows[header_index + 1:]:
+        first = row.get(columns["first"], "")
+        last = row.get(columns["last"], "")
+        if not first and not last:
+            continue
+        registrations.append({
+            "first": first,
+            "last": last,
+            "kind": row.get(columns.get("kind", ""), ""),
+            "titles": row.get(columns["titles"], ""),
+        })
+    return registrations
+
+
+def fold(text):
+    """
+    Reduce text to bare lowercase ASCII letters and digits for comparison.
+
+    Args:
+        text (str): Arbitrary text.
+
+    Returns:
+        str: Folded text, with accents removed and punctuation dropped.
+    """
+    for source, target in TRANSLITERATIONS.items():
+        text = text.replace(source, target)
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", text.lower())
+
+
+def name_variants(first, last):
+    """
+    Build the set of folded spellings under which a person may appear.
+
+    Accepted-paper author lists and the registration sheet disagree about middle
+    names, initials and multi-token surnames, so a person matches if any variant
+    of one spelling coincides with any variant of the other.
+
+    Args:
+        first (str): Given name, possibly including middle names or initials.
+        last (str): Family name, possibly made of several tokens.
+
+    Returns:
+        set: Folded name spellings.
+    """
+    first_tokens = [token for token in (fold(t) for t in first.split()) if token]
+    last_tokens = [token for token in (fold(t) for t in last.split()) if token]
+    folded_first = "".join(first_tokens)
+    folded_last = "".join(last_tokens)
+
+    variants = {folded_first + folded_last}
+    if first_tokens:
+        variants.add(first_tokens[0] + folded_last)
+    if last_tokens:
+        variants.add(folded_first + last_tokens[-1])
+    if first_tokens and last_tokens:
+        variants.add(first_tokens[0] + last_tokens[-1])
+    return {variant for variant in variants if variant}
+
+
+def closest_paper(folded, papers):
+    """
+    Find the paper whose folded title is most similar to the given text.
+
+    Args:
+        folded (str): Folded text to look up.
+        papers (list): Accepted-paper records.
+
+    Returns:
+        tuple: (paper, ratio), or (None, 0.0) if there are no papers.
+    """
+    best = None
+    best_ratio = 0.0
+    for paper in papers:
+        ratio = difflib.SequenceMatcher(None, folded, fold(paper["title"])).ratio()
+        if ratio > best_ratio:
+            best, best_ratio = paper, ratio
+    return best, best_ratio
+
+
+def match_papers(cell, papers):
+    """
+    Find every paper identified by a registrant's declared title(s).
+
+    A single cell may name several talks, so every paper whose folded title is
+    contained in the folded cell matches. Containment also absorbs suffixes the
+    organisers appended to a title after acceptance, and a fuzzy fallback absorbs
+    spelling drift between the sheet and the submission.
+
+    Whatever the matched titles do not account for is fed back through the fuzzy
+    matcher and surfaced as a note, so that a cell naming two talks of which only
+    one is recognised cannot lose the second one silently.
+
+    Args:
+        cell (str): The raw "Title of presentation or poster" cell.
+        papers (list): Accepted-paper records.
+
+    Returns:
+        tuple: (matches, notes), where notes explains anything left unaccounted
+            for, for human review.
+    """
+    folded_cell = fold(cell)
+    if len(folded_cell) < MIN_SUBSTRING_LEN:
+        return [], ["declared title is too short to identify a paper"]
+
+    matches = []
+    for paper in papers:
+        folded_title = fold(paper["title"])
+        if len(folded_title) < MIN_SUBSTRING_LEN:
+            continue
+        if folded_title in folded_cell or folded_cell in folded_title:
+            matches.append(paper)
+
+    if matches:
+        # Only titles found *inside* the cell consume part of it; a cell that is
+        # itself a fragment of one title accounts for the whole cell.
+        residual = folded_cell
+        for paper in matches:
+            residual = residual.replace(fold(paper["title"]), "", 1)
+        if residual == folded_cell:
+            residual = ""
+        if len(residual) < MIN_SUBSTRING_LEN:
+            return matches, []
+        near, ratio = closest_paper(residual, papers)
+        note = (
+            f"names {len(matches)} known paper(s) but {len(residual)} characters "
+            f"are unaccounted for"
+        )
+        if near is not None and ratio >= TITLE_NEAR_MISS_THRESHOLD:
+            note += f"; closest unmatched paper is #{near['pid']} {near['title']!r} ({ratio:.2f})"
+        return matches, [note]
+
+    best, ratio = closest_paper(folded_cell, papers)
+    if ratio >= TITLE_SIMILARITY_THRESHOLD:
+        return [best], []
+    if best is not None and ratio >= TITLE_NEAR_MISS_THRESHOLD:
+        return [], [
+            f"no accepted paper has this title; closest is #{best['pid']} "
+            f"{best['title']!r} ({ratio:.2f}, below the {TITLE_SIMILARITY_THRESHOLD} threshold)"
+        ]
+    return [], ["no accepted paper has this title"]
+
+
+def find_author(paper, registration):
+    """
+    Locate the registrant among a paper's authors.
+
+    Args:
+        paper (dict): An accepted-paper record.
+        registration (dict): A registrant record.
+
+    Returns:
+        dict or None: The matching author record, or None if absent.
+    """
+    wanted = name_variants(registration["first"], registration["last"])
+    for author in paper["authors"]:
+        if wanted & name_variants(author["first"], author["last"]):
+            return author
+    return None
+
+
+def settle_candidates(candidates):
+    """
+    Narrow registrants who name several talks down to the ones they must give.
+
+    Someone whose cell names a single talk is committed to it, which settles that
+    talk. A registrant naming several talks then need not cover a talk another
+    registrant is already committed to, and dropping it may in turn commit them
+    to what is left. Iterating that to a fixpoint resolves, for example, one
+    author naming two of their papers while a co-author of the second names only
+    that one: the co-author is committed, so the first presents the other.
+
+    A talk may still end up with several presenters when each of them named only
+    it, and a registrant who names several talks that nobody else claims keeps
+    all of them.
+
+    Args:
+        candidates (list): One list of candidate paper ids per registrant, in
+            registrant order.
+
+    Returns:
+        tuple: (settled, decisions, stranded), where settled holds the retained
+            paper ids per registrant, decisions describes each narrowing that
+            occurred, and stranded lists registrants every one of whose talks is
+            spoken for by someone else.
+    """
+    settled = [list(pids) for pids in candidates]
+    decisions = []
+    stranded = []
+    committed = {index for index, pids in enumerate(settled) if len(pids) == 1}
+    claimed = {settled[index][0] for index in committed}
+
+    narrowing = True
+    while narrowing:
+        narrowing = False
+        for index, pids in enumerate(settled):
+            if index in committed or len(pids) <= 1:
+                continue
+            remaining = [pid for pid in pids if pid not in claimed]
+            if not remaining:
+                # Every talk they named is spoken for. Eliminating further would
+                # leave them presenting nothing, so keep the cell as it stands
+                # and let a human decide.
+                if index not in stranded:
+                    stranded.append(index)
+                continue
+            if len(remaining) == len(pids):
+                continue
+            decisions.append((index, list(pids), list(remaining)))
+            settled[index] = remaining
+            narrowing = True
+            if len(remaining) == 1:
+                committed.add(index)
+                claimed.add(remaining[0])
+    return settled, decisions, stranded
+
+
+def resolve(registrations, papers):
+    """
+    Assign each registrant to the paper they present.
+
+    Args:
+        registrations (list): Registrant records.
+        papers (list): Accepted-paper records.
+
+    Returns:
+        tuple: (assignments, problems, decisions), where assignments maps paper
+            id to an ordered list of presenting author names, problems is a list
+            of (registrant name, declared title, reason) triples for human
+            review, and decisions describes the narrowings settle_candidates
+            made.
+    """
+    problems = []
+    per_registrant = []
+    for registration in registrations:
+        who = f"{registration['first']} {registration['last']}".strip()
+        matched, notes = match_papers(registration["titles"], papers)
+        for note in notes:
+            problems.append((who, registration["titles"], note))
+
+        usable = []
+        for paper in matched:
+            author = find_author(paper, registration)
+            if author is None:
+                problems.append((
+                    who,
+                    registration["titles"],
+                    f"matched paper #{paper['pid']} but is not among its authors",
+                ))
+                continue
+            usable.append((int(paper["pid"]), f"{author['first']} {author['last']}"))
+        per_registrant.append((who, usable))
+
+    settled, narrowings, stranded = settle_candidates(
+        [[pid for pid, _ in usable] for _, usable in per_registrant]
+    )
+    for index in stranded:
+        who = per_registrant[index][0]
+        named = ", ".join(f"#{pid}" for pid in settled[index])
+        problems.append((
+            who,
+            registrations[index]["titles"],
+            f"names only talks ({named}) that others registered to present; "
+            f"left on all of them",
+        ))
+
+    assignments = {}
+    for (who, usable), keep in zip(per_registrant, settled):
+        for pid, name in usable:
+            if pid not in keep:
+                continue
+            names = assignments.setdefault(pid, [])
+            if name not in names:
+                names.append(name)
+
+    decisions = [
+        (per_registrant[index][0], before, after)
+        for index, before, after in narrowings
+    ]
+    return assignments, problems, decisions
+
+
+def load_overrides(path):
+    """
+    Load the hand-maintained overrides file, if one exists.
+
+    The generated file is never read back: re-deriving it wholly from the sheet
+    is what stops a registrant who has since withdrawn from being preserved for
+    ever. Decisions a human makes instead live here, and this file is only ever
+    read, never written.
+
+    An entry replaces whatever the sheet produced for that paper, so it can add,
+    correct or (with an empty list) suppress a bolding.
+
+    Args:
+        path (Path): Path to the overrides file.
+
+    Returns:
+        dict: Paper id to list of names, keyed by int. Empty if absent.
+
+    Raises:
+        ValueError: If the file is not a mapping of paper id to a list of names.
+    """
+    if not path.exists():
+        return {}
+    loaded = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    if not isinstance(loaded, dict):
+        raise ValueError(f"{path}: expected a mapping of paper id to author names")
+
+    overrides = {}
+    for pid, names in loaded.items():
+        # A bare string would otherwise be accepted and iterated character by
+        # character, and Hugo would then match author names as substrings of it.
+        if isinstance(names, str) or not isinstance(names, (list, tuple)):
+            raise ValueError(
+                f"{path}: entry \"{pid}\" must be a list of names, got {names!r}. "
+                f"Write it as [\"{names}\"] if you meant a single presenter."
+            )
+        try:
+            key = int(pid)
+        except (TypeError, ValueError):
+            raise ValueError(f"{path}: \"{pid}\" is not a paper id") from None
+        overrides[key] = [str(name) for name in names]
+    return overrides
+
+
+def write_presenters(path, assignments, year):
+    """
+    Write the presenters data file with string keys sorted by paper id.
+
+    Args:
+        path (Path): Destination path.
+        assignments (dict): Paper id to list of presenting author names.
+        year (str): Conference year, used in the file header.
+    """
+    lines = [
+        f"# Presenting authors for {year}, rendered in bold in the author lists.",
+        "#",
+        "# Generated by scripts/mark_presenters.py from scripts/Registered_authors.xlsx.",
+        f"# Do not hand-edit: re-running the script rewrites this file from the",
+        f"# spreadsheet. Put manual decisions in presenters-overrides-{year}.yml instead.",
+    ]
+    for pid in sorted(assignments):
+        names = ", ".join(json.dumps(name, ensure_ascii=False) for name in assignments[pid])
+        lines.append(f'"{pid}": [{names}]')
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--year", default="2026", help="conference year (default: 2026)")
+    parser.add_argument(
+        "--registrations",
+        type=Path,
+        default=Path("scripts/Registered_authors.xlsx"),
+        help="registration spreadsheet (default: scripts/Registered_authors.xlsx)",
+    )
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=Path("data"),
+        help="directory holding the Hugo data files (default: data)",
+    )
+    args = parser.parse_args()
+
+    papers_path = args.data_dir / f"accepted-papers-{args.year}.json"
+    output_path = args.data_dir / f"presenters-{args.year}.yml"
+    overrides_path = args.data_dir / f"presenters-overrides-{args.year}.yml"
+
+    papers = json.loads(papers_path.read_text(encoding="utf-8"))
+    registrations = parse_registrations(read_xlsx_rows(args.registrations))
+    assignments, problems, decisions = resolve(registrations, papers)
+
+    overrides = load_overrides(overrides_path)
+    assignments.update(overrides)
+
+    if not assignments:
+        print(
+            f"error: matched no presenter at all from {len(registrations)} registration(s); "
+            f"refusing to write an empty {output_path}",
+            file=sys.stderr,
+        )
+        return 1
+
+    write_presenters(output_path, assignments, args.year)
+
+    presenters = sum(len(names) for names in assignments.values())
+    print(f"registrations read : {len(registrations)}")
+    print(f"accepted papers    : {len(papers)}")
+    if overrides:
+        print(f"manual overrides   : {len(overrides)} (from {overrides_path})")
+    print(f"papers with a presenter: {len(assignments)} ({presenters} presenters)")
+    print(f"wrote {output_path}")
+
+    if decisions:
+        print("\nnarrowed by elimination:")
+        for who, before, after in decisions:
+            dropped = ", ".join(f"#{pid}" for pid in before if pid not in after)
+            kept = ", ".join(f"#{pid}" for pid in after)
+            print(f"  {who}: named {len(before)} talks, {dropped} claimed by "
+                  f"someone who named only that one -> presents {kept}")
+
+    if problems:
+        print(f"\n{len(problems)} registration(s) need a human decision.", file=sys.stderr)
+        print(
+            f"Invited speakers and poster presenters are expected here. For anything\n"
+            f"else, add an entry to {overrides_path}:\n",
+            file=sys.stderr,
+        )
+        for who, title, reason in problems:
+            print(f"  {who}", file=sys.stderr)
+            print(f"    declared: {title}", file=sys.stderr)
+            print(f"    reason  : {reason}\n", file=sys.stderr)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
