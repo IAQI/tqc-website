@@ -301,6 +301,31 @@
       }
     }
   }
+
+  .full-schedule {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0 var(--space-4);
+
+    .full-schedule-note {
+      max-width: 60ch;
+      margin: 1rem auto;
+    }
+
+    .full-schedule-frame {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 1rem 0 1.5rem;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border: thin solid var(--darken-1);
+    }
+  }
 }
 
 @include mq.mq($until: lg) {
