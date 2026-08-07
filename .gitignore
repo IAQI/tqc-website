@@ -12,3 +12,7 @@ letter.log
 letter.synctex.gz
 node_modules
 _gen
+
+# Python bytecode
+__pycache__/
+*.py[cod]
