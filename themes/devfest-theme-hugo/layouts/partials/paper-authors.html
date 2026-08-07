@@ -9,11 +9,11 @@
        currentYear   - the conference year
        affiliations  - whether to print each author's affiliation (optional)
        presenters    - set to true to emphasise the presenting author. Off by
-                       default, so that only contributed talks opt in. Talks and
-                       posters are numbered in one shared submission space that
-                       happens not to overlap today; defaulting to off means the
-                       posters page stays correct even if that ever stops being
-                       true. (optional)
+                       default, so a caller has to opt in. Contributed talks and
+                       posters both do. They share one submission space, so one
+                       file can key both by paper id; mark_presenters.py refuses
+                       to write the file should those ids ever start to overlap.
+                       (optional)
        emphasis      - "strong" (default) or "em". The schedule packs many talks
                        together, where bold reads as too heavy, so its cards ask
                        for italics. (optional)
