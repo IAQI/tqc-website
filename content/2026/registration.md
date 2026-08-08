@@ -12,6 +12,9 @@ menu:
 Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to register.
 
 ### Summary prices for registration (before fees)
+
+<p style="text-align: center; font-size: 1.2rem;"><strong>✨ Good news! The On-time bird fee has been extended until <span style="color: firebrick;">August 12</span>! ✨</strong></p>
+
 <br>
 
 <table style="border-collapse: collapse; width: 100%;text-align: center;">
@@ -19,8 +22,8 @@ Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to 
     <tr>
       <th style="border: none; width: 15%; white-space: nowrap;"></th> 
       <th style="border: 2px solid black; padding: 8px;">Early bird (Until June 28)</th>
-      <th style="border: 2px solid black; padding: 8px;">On-time bird (June 29-July 31)</th>
-      <th style="border: 2px solid black; padding: 8px;">Late bird (August 1-August 12)</th>
+      <th style="border: 2px solid black; padding: 8px;">On-time bird (June 29-<s style="color: #999;">July 31</s> <span style="color: firebrick;">August 12</span>)</th>
+      <th style="border: 2px solid black; padding: 8px; color: #999;"><s>Late bird (August 1-August 12)</s></th>
     </tr>
   </thead>
   <tbody>
@@ -28,22 +31,24 @@ Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to 
       <td style="border: 2px solid black; padding: 8px;"><strong>Student & Postdocs</strong></td>
       <td style="border: 2px solid black; padding: 8px;"> CAD $ 475+ fees*</td>
       <td style="border: 2px solid black; padding: 8px;"> CAD $ 775 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 300 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px; color: #999;"><s>CAD $ 1 300 + fees*</s></td>
     </tr>
     <tr style="border: 2px solid black;">
       <td style="border: 2px solid black; padding: 8px;"><strong>Faculty & Staff</strong></td>
       <td style="border: 2px solid black; padding: 8px;"> CAD $ 725 + fees*</td>
       <td style="border: 2px solid black; padding: 8px;"> CAD $ 975 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 600 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px; color: #999;"><s>CAD $ 1 600 + fees*</s></td>
     </tr>
     <tr style="border: 2px solid black;">
       <td style="border: 2px solid black; padding: 8px;"><strong>Industry</strong></td>
       <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 200 + fees*</td>
       <td style="border: 2px solid black; padding: 8px;"> CAD $ 1 500 + fees*</td>
-      <td style="border: 2px solid black; padding: 8px;"> CAD $ 2 000 + fees*</td>
+      <td style="border: 2px solid black; padding: 8px; color: #999;"><s>CAD $ 2 000 + fees*</s></td>
     </tr>
   </tbody>
 </table>
+
+<p style="text-align: center; font-size: 1.1rem;"><strong>Registration deadline is <span style="color: firebrick;">August 12</span>.</strong></p>
 
 
 **\*Fees include:** 
