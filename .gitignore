@@ -5,6 +5,8 @@ public
 # Local Netlify folder
 .netlify
 .idea
+.claude
+__pycache__
 posters_bak.json
 QCrypt_background1old.png
 letter.aux
