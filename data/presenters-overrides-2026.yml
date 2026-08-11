@@ -1,0 +1,29 @@
+# Manual corrections to the presenting authors for 2026.
+#
+# Read by scripts/mark_presenters.py, and never written by it, so this file is
+# the place for decisions a human made. An entry replaces whatever the
+# spreadsheets produced for that submission, and each name must be spelled
+# exactly as it appears in the accepted-papers or posters data.
+#
+# 385: Devashish Tupkary registered for two posters in one cell, and its second
+#      title reads "... for understanding the limitations of ..." where the
+#      submission has "... for understanding limitations of ...". The script
+#      matched only the first one; he is the first author of #178 and the fourth
+#      author of #385, and presents both.
+"385": ["Devashish Tupkary"]
+
+# 1022: the submission spells the first author "Nastuki Nakajima"; he registered
+#       as "Natsuki Nakajima". He named this poster and nothing else, which also
+#       settles Naoki Yamamoto, who named all five of his group's posters
+#       (#1021-#1025): the other four are each claimed by their own registrant,
+#       so he presents none of them himself.
+"1022": ["Nastuki Nakajima"]
+
+# 1036: the submission records the first author's surname as "Mantilla"; he
+#       registered as "Luis Mantilla Calderon".
+"1036": ["Luis Mantilla"]
+
+# 408: Kaushik Sankar registered on the talks spreadsheet, but his submission is
+#      this poster, of which he is the sole author. Each spreadsheet is matched
+#      only against its own kind of submission, so nothing connects the two.
+"408": ["Kaushik Sankar"]
