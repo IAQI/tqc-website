@@ -1,5 +1,5 @@
 ---
-title: "Complexity"
+title: "Magic"
 format: contributed
 type: sessions
 year: 2026
@@ -7,8 +7,8 @@ tags:
 - track
 
 papers:
-- 121
-- 362
+- 294
+- 134
 - 18
 videoId: null
 presentation: null
