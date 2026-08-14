@@ -1,5 +1,5 @@
 ---
-title: "Discrete log, factoring, and proofs of quantumness in 2026"
+title: 'Invited Speaker: Greg Meyer — "Discrete log, factoring, and proofs of quantumness in 2026"'
 format: invited
 type: sessions
 year: 2026

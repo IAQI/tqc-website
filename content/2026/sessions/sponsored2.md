@@ -1,5 +1,5 @@
 ---
-title: "Sponsored Talk"
+title: "Sponsored Talk: Nord Quantique"
 format: sponsored
 type: sessions
 year: 2026
@@ -9,4 +9,4 @@ videoId: null
 presentation: null
 draft: false
 ---
-Sponsor to be announced.
+A sponsored talk by [Nord Quantique](https://nordquantique.ca), platinum sponsor of TQC 2026.
