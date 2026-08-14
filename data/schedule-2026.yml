@@ -5,7 +5,7 @@
 
 - day: '2026-08-31'
   start: '08:00'
-  end: '19:30'
+  end: '19:45'
   sessions:
     - session: __registration
       time: '08:00'
@@ -54,17 +54,17 @@
       time: '15:30'
       location: room_c
     - session: sponsored1
-      time: '17:00'
+      time: '17:15'
       location: TBD
     - session: poster_monday
-      time: '17:30'
+      time: '17:45'
       location: TBD
     - session: __endofday
-      time: '19:30'
+      time: '19:45'
 
 - day: '2026-09-01'
   start: '08:30'
-  end: '19:30'
+  end: '19:45'
   sessions:
     - session: __coffee&snacks
       time: '08:30'
@@ -114,13 +114,13 @@
       time: '16:00'
       location: room_c
     - session: sponsored3
-      time: '17:00'
+      time: '17:15'
       location: TBD
     - session: poster_tuesday
-      time: '17:30'
+      time: '17:45'
       location: TBD
     - session: __endofday
-      time: '19:30'
+      time: '19:45'
 
 - day: '2026-09-02'
   start: '08:30'
