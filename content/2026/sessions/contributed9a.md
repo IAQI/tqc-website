@@ -1,5 +1,5 @@
 ---
-title: "Learning"
+title: "Quantum Inputs"
 format: contributed
 type: sessions
 year: 2026
@@ -7,7 +7,7 @@ tags:
 - track
 
 papers:
-- 99
+- 162
 - 188
 - 357
 videoId: null

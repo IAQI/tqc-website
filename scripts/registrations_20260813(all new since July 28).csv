@@ -1,0 +1,195 @@
+First name;Last name;Will you be presenting:;Title of presentation or poster
+Nadish;de Silva;neither;
+Raghav;Banka;neither;
+Charlie;Pilon-Senterre;neither;
+Ala;Shayeghi;neither;
+Brent;Harrison;neither;
+Guanyu;Zhu;both;Topology for qLDPC: transversal non-Clifford gates and magic state fountain on homological product codes with constant rate and beyond the N¹?³ distance barrier
+Luke;Robitaille;oral;Characterization of permutation gates in the third level of the Clifford hierarchy
+Jessica;Lemieux;neither;
+Ghislain;Lefebvre;oral;Institut quantique, at the heart of Sherbrooke's Quantum Innovation Zone
+Grainne;Eager;neither;
+Benjamin;Tan;neither;
+Chunhao;Wang;oral;Quantum Speedups for Sampling and Non-convex Optimization with Stochastic Oracles
+Gabriele;Intoccia;neither;
+Guanyi;Heng;neither;
+Xingyu;Zhou;oral;Quantum Algorithms on Edge Lists: Hiding, Shuffling, and Cycle Finding
+Nai-Hui;Chia;oral;The Black-Box Simulation Barrier Persists in a Fully Quantum World
+Alex;May;oral;Lower bounds on non-local computation from controllable correlation
+Saachi;Mutreja;oral;Classical Obfuscation of Quantum Circuits via Publicly-Verifiable QFHE
+Anne-Marie;Paradis;neither;
+Sahil;Naik;neither;
+Amélie;Proulx;neither;
+Martin;Sandfuchs;oral;Randomness from causally independent processes
+Mandar;Thatte;neither;
+Hamna;Aslam;neither;
+Daniel;Bilsborrow;poster;Scalable non-Markovian process tomography with tensor networks
+Stefanos;Kourtis;neither;
+Alexandre;Charland;neither;
+Anastasiia;Pusenkova;neither;
+Dmitry;Guskov;poster;Benchmarking Classical Simulations of Random QAOA States
+Kabir;Tomer;oral;A New Approach to Arguments of Quantum Knowledge
+Gilles;Brassard;neither;
+Naren;Manjunath;neither;
+Enrico;Fontana;oral;End-to-end quantum algorithms for tensor problems
+Mark;Webster;neither;
+Abtin;Ameri;oral;Quantum lower bounds for simulating fluid dynamics
+Juan Carlos;Giraldo Vidal;poster;A Statistical Test for Black-Box Verification of Entangled States under Restricted Access
+SHERBROOKE;INNOVANTE;neither;
+Mathias Josef;Schmid;poster;Hierarchical divide and conquer quantum approach to combinatorial optimization problems with tunable reduction
+Britney;Tran;neither;
+Luke;Coffman;neither;
+Jonathan;Pelletier;neither;
+Jeremie;Boudreault;neither;
+Maxime;Tremblay;neither;
+Mathieu;Juan;neither;
+Kareem;Diab;poster;Lifting Integrality Gaps to Non-commutative SoS Lower Bounds for Local Hamiltonians
+Elizabeth;Iwasawa;neither;
+Dominic;Berry;oral;Quantum simulation of chemistry via quantum fast multipole method
+VARUN;UPRETI;neither;
+Xingjian;Zhang;neither;
+Ishaun;Datta;oral;Higher moment theory and learnability of bosonic states
+Louis-Charles;Thibodeau;neither;
+cameron;calcluth;poster;"""Classical simulation of circuits with realistic odd-dimensional Gottesman-Kitaev-Preskill states"" and ""Equivalence of continuous- and discrete-variable gate-based quantum computers with finite energy"""
+Jon;Nelson;oral;Limitations of Noisy Geometrically Local Quantum Circuits
+Philippe;Faist;oral;Universal thermodynamic implementation of a process with a variable work cost
+Éliane;Béliveau Leblanc;neither;
+Rémi;Ligez;neither;
+Pierre-Antoine;Bernard;neither;
+Olivier;Lalonde;neither;
+Yotam;Vaknin;neither;
+Thuy-Duong;Vuong;oral;A Sharp Computational Phase Transition for the Partition   Function of the Transverse-Field Ising Model
+Omri;Shmueli;oral;#231 Unclonable Cryptography in Linear Quantum Memory + Guest speaker talk Tuesday morning
+Fernando Santiago;Zamora Buen Abad;neither;
+Zahra;Khanian;neither;
+Farzin;Salek;poster;Extendability of Fermionic Gaussian States
+Lee;Gunderson;poster;Unfurling Inflation: Causal Bounds via Flag Algebras
+Gecia;Bravo-Hermsdorff;poster;Unfurling Inflation: Causal Bounds via Flag Algebras
+Louis;Salvail;neither;
+Tania;Belabbas;neither;
+Eunok;Bae;neither;
+Yao;Ma;neither;
+Philippe;Babin;neither;
+Saeed;Mehraban;neither;
+Luis;Mantilla Calderon;poster;Quantum supervised learning with springs and sticks
+Nicolas;Delfosse;neither;
+Kaiyuan;Ji;poster;Retrocausal capacity of a quantum channel, Fundamental limits for thermodynamic control with quantum feedback
+Rahul;Jain;neither;
+Jérémie;Gince;neither;
+Rezwanul Karim;Prottay;neither;
+Ivan;Supic;neither;
+Noam;Scully;neither;
+Kyle;Campbell;poster;The Circuit Harmonic Matrix: A Spectral Framework for Quantum Machine Learning
+Tomoyuki;Morimae;neither;
+Simon;Verret;poster;Computing Green's functions and improving ground state energy estimation on quantum computers with Liouvillian recursion
+Olivier;Nahman-Lévesque;neither;
+Chenxun;Weng;neither;
+Blake;Holman;neither;
+Daochen;Wang;neither;
+Luke;Schaeffer;neither;
+Islam;Faisal;poster;Rounding Almost Commuting Hamiltonians
+Alessandro;Falco;neither;
+Upendra;Kapshikar;neither;
+Noah;Brüstle;neither;
+Haeum;Kim;poster;Liouvillian Gap in Dissipative Haar-Doped Clifford Circuits
+Zitai;Xu;poster;Entanglement distillation based on Hamiltonian dynamics
+Fedor;Prikolab;neither;
+Sayantan;Chakraborty;neither;
+Sami;Abdul Sater;poster;Efficient certification of intractable quantum states with few Pauli measurements
+Arul;Mazumder;poster;Resource-efficient quantum matrix processing with commutator scaling
+Naoki;Yamamoto;poster;Total Cost Reduction of Time-Dependent Hamiltonian Simulation, An Ancilla-Free Randomized Algorithm for Topological Data Analysis, Resource Analysis of Scalable Quantum Topological Data Analysis via Logarithmic-Depth Dirac Block Encoding, Efficient dissipative preparation of excited states exploiting conserved quantities, Photonic Quantum Reservoir Computing with stochastic internal state
+SHEN;CAO;neither;
+Jun;Takahashi;poster;Operator-loop quantum Monte Carlo mixes in polynomial-time for all stoquastic XY models
+Megan;Dahlhauser;neither;
+Ulysse;Chabaud;neither;
+Yaroslav;Herasymenko;neither;
+Pranav;Trivedi;poster;Quantum Hierarchical Locally Recoverable Codes
+Senrui;Chen;neither;
+Ziyue;Xin;neither;
+Amin Shiraz;Gilani;neither;
+Philip;Verduyn Lunel;poster;A complexity theory for NLQC
+Yosuke;Mitsuhashi;neither;
+Atsuya;Hasegawa;neither;
+James;Moran;neither;
+Rabah Abdelmouheymen;Khamadja;neither;
+Devashish;Tupkary;poster;A rigorous and complete security proof of decoy-state BB84 quantum key distribution, AND, Semidefinite Programming for understanding the limitations of Lindblad Equations
+Mingyu;Lee;neither;
+Yisoo;Kang;neither;
+Hyunjun;Jang;neither;
+Beomjoon;Kim;poster;Estimating quantum umlaut information via variational quantum generative adversarial networks
+Kabgyun;Jeong;neither;
+Donghwa;Ji;poster;Estimating quantum umlaut information via variational quantum generative adversarial networks
+Gabrielle;Blanchet;neither;
+Jeffrey;Bringolf;neither;
+Sameer;Nautiyal;neither;
+Benjamin;Lovitz;neither;
+Kevin;Thompson;neither;
+Hsuan-Cheng;Wu;poster;Universal Dilation of Linear It\^o SDEs: Quantum Trajectories and Lindblad Simulation of Second Moments
+Anantha Krishnan;Sunilkumar;poster;Quantum-informed learning of genuine network nonlocality beyond idealized resources
+Aabhas;Gulati;poster;Entanglement in the Dicke subspace
+Po-Wei;Huang;poster;Fullqubit alchemist: Quantum algorithm for alchemical free energy calculations, Low-depth amplitude estimation via statistical eigengap estimation
+Shohei;Miyakoshi;poster;A Concurrent Hybrid Framework for Variational Quantum SVD via Classical Orthogonality Correction
+Barak;Nehoran;neither;
+Bennett;Hon;neither;
+Ningping;Cao;neither;
+Khurshed P.;Fitter;poster;Non-stabilizerness and Temporal Entanglement in the Kicked Ising Model
+Mao;Kaneyasu;neither;
+Ali;Moradi;poster;From Local Complementation to the T Gate: Code-Changing Transversal Gates on Graph Codes
+Louis;Desruisseaux;neither;
+Elisabeth;Mailhot;neither;
+Hannah;McAleese;neither;
+Urjjarani;Patel;poster;Analytical success probability of Hardy non-locality for multipartite qubit systems
+Sabyasachi;Chakraborty;poster;Marked vertex search on disordered graphs with Rosenzweig-Porter phases
+Krystal;Maughan;neither;
+Christopher;Cardullo;poster;Optimization of a Fully Generalized Grover's Algorithm
+Maxime;Dion;poster;Approximated Trotter Error Bounds
+Fabian;Wiesner;poster;Fundamental trade-offs for cut-and-choose quantum verification
+Joshua Tyler;Cantin;neither;
+Philippe;Karan;neither;
+Frederic;Laprade;neither;
+Ari John;Boon;poster;Generalised all-optical correction and Kerr-based preparation of the cat code
+Gabriel;Moniz Arantes;poster;Optimal Distillation of Non-Markovianity: Bound, Multi-Copy Gain, and the Weak-to-Essential Transition
+Chunxin;Zheng;neither;
+Mio;Komuro;poster;Resource Analysis of Scalable Quantum Topological Data Analysis via Logarithmic-Depth Dirac Block Encoding
+Natsuki;Nakajima;poster;An Ancilla-Free Randomized Algorithm for Topological Data Analysis
+Satoshi;Nakabayashi;poster;Total Cost Reduction of Time-Dependent Hamiltonian Simulation
+Takumi;Yoshiura;poster;Photonic Quantum Reservoir Computing with stochastic internal state
+Eiichiro;Mori;poster;Efficient dissipative preparation of excited states exploiting conserved quantities
+Gurleen;Padda;poster;Bipartite Nonsignalling Resources and Tripartite Quantum States Are Not Universal for Tripartite Nonsignalling Correlations
+Slimane;Thabet;poster;When Quantum and Classical Models Disagree: Learning Beyond Minimum Norm Least Square
+Cédrick;Perron;neither;
+Benjamin;Wong;neither;
+Min;Ye;poster;Beam search decoder for quantum LDPC codes
+Nolan;Coble;neither;
+Étienne;Lord;poster;Evaluation of Hybrid Quantum Machine Learning Models for Agricultural Land Classification
+Sumanth;Puttur;neither;
+Mitali;Nanda;neither;
+IOSIFINA;ANGELIDI;poster;Level Statistics anPoincaré Recurrences in Translationally-Invariant Clifford and Clifford+T Circuits
+Junseok;Jeong;poster;Efficient Transversal Non-Clifford Gadgets with Single-Shot Decoding
+Serge;Adonsou;poster;Entanglement Assisted Operator Algebra Quantum Error Correction codes
+Himanshu;Sahu;poster;Achieving the Heisenberg limit using fault-tolerant quantum error correction
+Perrine;Vantalon;poster;Influence of chaotic vs integrable level statistics of random Hamiltonians on the fluctuations of Nielsen's complexity
+Samuel;González-Castillo;poster;Search-Driven Clause Learning for Product-State Quantum k-SAT (PRODSAT-QSAT)
+Edouard;Debry;neither;
+Samuel;Whaite;neither;
+Yota;Maeda;poster;Quantum Algorithm for Approximate Torus Point Counting for Sparse Laurent Polynomials
+Fariba;Hosseinynejad;poster;Realistic GKP Stabilizer States Enable Universal Quantum Computation
+Mear;Koochakie;poster;AI-aided Tensor Network Framework for Quantum Error-Correcting Codes
+Frédéric;Dupuis;neither;
+Bora;Basyildiz;poster;Speed Limits of Two-Qutrit Gates
+Simon;Lapointe;neither;
+Pulkit;Sinha;neither;
+Ayana;Sarkar;neither;
+Felix;Tripier;neither;
+Cunlu;Zhou;neither;
+Alexandre;Leblanc;neither;
+Antoine;Carrier;neither;
+Huda;Idrees;neither;
+christopher;sicotte;neither;
+Honghao;Fu;neither;
+Daniel;Bilsborrow;poster;Scalable non-Markovian process tomography with tensor networks
+Dmitry;Guskov;poster;Benchmarking Classical Simulations of Random QAOA States
+Farzin;Salek;poster;Extendability of Fermionic Gaussian States
+Juan Carlos;Giraldo Vidal;poster;A Statistical Test for Black-Box Verification of Entangled States under Restricted Access
+Kareem;Diab;poster;Lifting Integrality Gaps to Non-commutative SoS Lower Bounds for Local Hamiltonians
+Mathias Josef;Schmid;poster;Hierarchical divide and conquer quantum approach to combinatorial optimization problems with tunable reduction

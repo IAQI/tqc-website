@@ -1,5 +1,5 @@
 ---
-title: "Algorithms"
+title: "Cryptography"
 format: contributed
 type: sessions
 year: 2026
@@ -7,10 +7,10 @@ tags:
 - track
 
 papers:
-- 108
-- 334
-- 338
-- 176
+- 330
+- 355
+- 298
+- 121
 videoId: null
 presentation: null
 draft: false

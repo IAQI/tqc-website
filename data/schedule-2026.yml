@@ -1,19 +1,19 @@
 # TQC 2026 — Sherbrooke, Canada
 # Schedule built from the program committee's talk schedule (sessions 1-29,
-# three parallel tracks A/B/C) and the draft program timing.
-# Times and slot assignments remain tentative.
+# three parallel tracks A/B/C) and the program overview grid published as
+# static/pdf/TQC_2026_schedule.pdf. Keep the two in sync.
 
 - day: '2026-08-31'
   start: '08:00'
-  end: '19:30'
+  end: '19:45'
   sessions:
     - session: __registration
       time: '08:00'
     - session: __welcomingremarks
-      time: '09:00'
-      location: auditorium
-    - session: invited_wednesday
       time: '09:30'
+      location: auditorium
+    - session: invited_greg_meyer
+      time: '10:00'
       location: auditorium
     - session: __break
       time: '11:00'
@@ -54,22 +54,22 @@
       time: '15:30'
       location: room_c
     - session: sponsored1
-      time: '17:00'
+      time: '17:15'
       location: TBD
     - session: poster_monday
-      time: '17:30'
+      time: '17:45'
       location: TBD
     - session: __endofday
-      time: '19:30'
+      time: '19:45'
 
 - day: '2026-09-01'
   start: '08:30'
-  end: '19:30'
+  end: '19:45'
   sessions:
     - session: __coffee&snacks
       time: '08:30'
       location: TBD
-    - session: invited_wednesday
+    - session: invited_omri_shmueli
       time: '09:00'
       location: auditorium
     - session: sponsored2
@@ -114,22 +114,22 @@
       time: '16:00'
       location: room_c
     - session: sponsored3
-      time: '17:00'
+      time: '17:15'
       location: TBD
     - session: poster_tuesday
-      time: '17:30'
+      time: '17:45'
       location: TBD
     - session: __endofday
-      time: '19:30'
+      time: '19:45'
 
 - day: '2026-09-02'
   start: '08:30'
-  end: '22:00'
+  end: '23:00'
   sessions:
     - session: __coffee&snacks
       time: '08:30'
       location: TBD
-    - session: invited_wednesday
+    - session: invited_uma_girish
       time: '09:00'
       location: auditorium
     - session: __break
@@ -151,10 +151,10 @@
     - session: __excursion
       time: '14:00'
     - session: board_games
-      time: '19:30'
+      time: '20:00'
       location: auditorium
     - session: __endofday
-      time: '22:00'
+      time: '23:00'
 
 - day: '2026-09-03'
   start: '08:30'
@@ -204,7 +204,7 @@
     - session: ama
       time: '15:00'
       location: auditorium
-    - session: sponsor_exhibition1
+    - session: sponsor_exhibition2
       time: '16:00'
     - session: banquet
       time: '18:30'
@@ -220,7 +220,7 @@
     - session: __coffee&snacks
       time: '08:30'
       location: TBD
-    - session: invited_friday
+    - session: invited_sevag_gharibian
       time: '09:00'
       location: auditorium
     - session: __break

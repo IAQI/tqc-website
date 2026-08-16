@@ -1,5 +1,5 @@
 ---
-title: "Sponsored Talk"
+title: "Sponsored Talk: IonQ"
 format: sponsored
 type: sessions
 year: 2026
@@ -9,4 +9,4 @@ videoId: null
 presentation: null
 draft: false
 ---
-Sponsor to be announced.
+A sponsored talk by [IonQ](https://www.ionq.com), platinum sponsor of TQC 2026.

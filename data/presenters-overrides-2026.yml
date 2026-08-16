@@ -27,3 +27,9 @@
 #      this poster, of which he is the sole author. Each spreadsheet is matched
 #      only against its own kind of submission, so nothing connects the two.
 "408": ["Kaushik Sankar"]
+
+# 338: Xingyu Zhou registered the two halves of the title the other way round,
+#      as "Quantum Algorithms on Edge Lists: Hiding, Shuffling, and Cycle
+#      Finding", which the similarity check scores far too low to accept. He is
+#      the fourth author, and the talk schedule names him as its speaker.
+"338": ["Xingyu Zhou"]

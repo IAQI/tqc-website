@@ -2,12 +2,19 @@
 """
 Derive the list of presenting authors from the registration spreadsheet.
 
-The registration exports list, for each registered person, the title of the talk
-or poster they will present. The organisers send one spreadsheet per presentation
-type, so this script reads them all, matches those titles against the matching
+The registration exports list, for each registered person, whether they present a
+talk or a poster and the title of it. They arrive in whatever shape the organisers
+have to hand -- one spreadsheet per presentation type at first, later a combined
+csv of everyone registered so far -- so this script reads them all, sorts their
+rows by the kind each declares, matches those titles against the matching
 accepted-submission data and writes the union to a `presenters-<year>.yml` data
 file mapping each paper id to the name(s) of its presenting author(s), so that
 Hugo can render them in bold.
+
+Later exports repeat rows from earlier ones, and sometimes rows of their own, so
+identical declarations are read once. Counting a person twice would not merely be
+redundant: it defeats the elimination that decides which of several talks someone
+actually presents.
 
 Matching is title-first and deliberately conservative: a registrant is only
 attached to a paper when their declared title identifies that paper, and their
@@ -18,7 +25,9 @@ presentation, out of the result even when they happen to co-author a submission.
 """
 
 import argparse
+import csv
 import difflib
+import io
 import json
 import re
 import sys
@@ -43,14 +52,24 @@ TITLE_SIMILARITY_THRESHOLD = 0.85
 # miss; between this and the threshold above, the candidate is shown to a human.
 TITLE_NEAR_MISS_THRESHOLD = 0.5
 
-# Each registration spreadsheet, paired with the accepted-submission file whose
-# titles it declares. Every sheet is matched only against its own submissions, so
-# a poster title can never be fuzzy-matched to a similarly named talk, and the
-# results are merged into one presenters file. Add a row here when the organisers
-# start sending a further list.
+# Each presentation kind, the values its registrants pick in the "will you be
+# presenting" column, and the accepted-submission file whose titles they declare.
+# Every kind is matched only against its own submissions and only against the
+# rows that declare it, so a poster title can never be fuzzy-matched to a
+# similarly named talk, and the results are merged into one presenters file.
 SOURCES = [
-    ("talks", "scripts/Registered_authors.xlsx", "accepted-papers-{year}.json"),
-    ("posters", "scripts/Registered_authors_posters.xlsx", "posters-{year}.json"),
+    ("talks", {"oral", "both"}, "accepted-papers-{year}.json"),
+    ("posters", {"poster", "both"}, "posters-{year}.json"),
+]
+
+# The registration exports, read for every kind above. The organisers first sent
+# one sheet per kind and now send a single combined list of everyone who has
+# registered since the last one, so these accumulate rather than replace each
+# other: drop the new export in scripts/ and add it here.
+REGISTRATIONS = [
+    "scripts/Registered_authors.xlsx",
+    "scripts/Registered_authors_posters.xlsx",
+    "scripts/registrations_20260813(all new since July 28).csv",
 ]
 
 # Characters that transliterate to more than one ASCII letter, and so are not
@@ -105,6 +124,62 @@ def read_xlsx_rows(path):
             cells[column] = (text or "").strip()
         rows.append(cells)
     return rows
+
+
+def read_csv_rows(path):
+    """
+    Read a .csv export as a list of column->value dicts, shaped like read_xlsx_rows.
+
+    The organisers' exports are not consistently encoded or delimited -- the
+    registration system emits cp1252 with semicolons where the spreadsheets it
+    exports from use UTF-8 with commas -- so both are sniffed rather than assumed.
+
+    Args:
+        path (Path): Path to the .csv file.
+
+    Returns:
+        list: One dict per row, keyed by spreadsheet column letter.
+    """
+    raw = Path(path).read_bytes()
+    for encoding in ("utf-8-sig", "cp1252"):
+        try:
+            text = raw.decode(encoding)
+            break
+        except UnicodeDecodeError:
+            continue
+    else:
+        raise ValueError(f"{path}: is neither UTF-8 nor cp1252")
+
+    # Sniffing on the header alone: a title cell may well contain the delimiter
+    # that was not chosen, which is exactly what confuses csv.Sniffer.
+    header = text.splitlines()[0] if text.splitlines() else ""
+    delimiter = max(";,\t", key=header.count)
+
+    rows = []
+    for record in csv.reader(io.StringIO(text), delimiter=delimiter):
+        rows.append({
+            # Column 27 onwards would need a two-letter name, and no registration
+            # export comes close, so refuse rather than mislabel one.
+            chr(ord("A") + index): (value or "").strip()
+            for index, value in enumerate(record)
+            if index < 26
+        })
+    return rows
+
+
+def read_rows(path):
+    """
+    Read a registration export, whether it arrived as a spreadsheet or a csv.
+
+    Args:
+        path (Path): Path to the export.
+
+    Returns:
+        list: One dict per row, keyed by spreadsheet column letter.
+    """
+    if Path(path).suffix.lower() == ".csv":
+        return read_csv_rows(path)
+    return read_xlsx_rows(path)
 
 
 def parse_registrations(rows):
@@ -162,10 +237,72 @@ def parse_registrations(rows):
         registrations.append({
             "first": first,
             "last": last,
-            "kind": row.get(columns.get("kind", ""), ""),
+            # None, not "", when the export has no such column at all: a sheet
+            # that never says what its rows present must not be filtered on it.
+            "kind": row.get(columns["kind"], "") if "kind" in columns else None,
             "titles": row.get(columns["titles"], ""),
         })
     return registrations
+
+
+def select_kind(registrations, wanted):
+    """
+    Keep the registrations that declare one of the presentation kinds wanted.
+
+    The organisers send both one sheet per kind and, later, a single combined
+    list of everyone who registered since. Filtering on the declared kind is what
+    lets the two be read the same way, and it keeps a poster title from being
+    fuzzy-matched against a similarly named talk.
+
+    A row is filtered only on what it actually declares. One that says nothing --
+    because the export has no such column, or because it was left blank -- is
+    offered to every kind instead of being dropped, so that a presenter is never
+    lost silently. It then either matches a submission or is reported for review.
+
+    Args:
+        registrations (list): Records as returned by parse_registrations.
+        wanted (set): Declared kinds to keep, lowercased.
+
+    Returns:
+        list: The matching records, plus any that declare no kind at all.
+    """
+    return [
+        registration for registration in registrations
+        if not (registration["kind"] or "").strip()
+        or registration["kind"].strip().lower() in wanted
+    ]
+
+
+def dedupe(registrations):
+    """
+    Drop repeated registrations, keeping the first of each.
+
+    The organisers' combined list is not only the people who registered since the
+    last one: it repeats most of the earlier sheet, and a handful of its own rows
+    twice. Reading one person twice would be worse than merely redundant, because
+    settle_candidates commits the first copy to the one talk left unclaimed and
+    then finds the second copy has nothing left, which strands it on every talk
+    it named -- the opposite of the narrowing that was wanted.
+
+    Args:
+        registrations (list): Records as returned by parse_registrations.
+
+    Returns:
+        list: The records, in order, with later repeats of a person's identical
+            declaration removed.
+    """
+    unique = []
+    seen = set()
+    for registration in registrations:
+        key = (
+            fold(f"{registration['first']} {registration['last']}"),
+            fold(registration["titles"]),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(registration)
+    return unique
 
 
 def fold(text):
@@ -513,8 +650,8 @@ def main():
         "--registrations",
         type=Path,
         nargs="+",
-        help="registration spreadsheets, one per kind in the order listed in "
-             "SOURCES (default: the paths in SOURCES)",
+        help="registration exports (.xlsx or .csv), each read for every "
+             "presentation kind (default: the paths in REGISTRATIONS)",
     )
     parser.add_argument(
         "--data-dir",
@@ -524,11 +661,12 @@ def main():
     )
     args = parser.parse_args()
 
-    sheets = args.registrations or [Path(sheet) for _, sheet, _ in SOURCES]
-    if len(sheets) != len(SOURCES):
+    sheets = args.registrations or [Path(sheet) for sheet in REGISTRATIONS]
+    missing = [sheet for sheet in sheets if not sheet.is_file()]
+    if missing:
         parser.error(
-            f"--registrations expects {len(SOURCES)} spreadsheet(s), one for each of: "
-            f"{', '.join(kind for kind, _, _ in SOURCES)}"
+            "no such registration export: "
+            f"{', '.join(sheet.as_posix() for sheet in missing)}"
         )
 
     output_path = args.data_dir / f"presenters-{args.year}.yml"
@@ -539,7 +677,7 @@ def main():
     decisions = []
     tallies = []
     claimed_by = {}
-    for (kind, _, papers_name), sheet in zip(SOURCES, sheets):
+    for kind, declared, papers_name in SOURCES:
         papers_path = args.data_dir / papers_name.format(year=args.year)
         papers = json.loads(papers_path.read_text(encoding="utf-8"))
 
@@ -558,12 +696,15 @@ def main():
             return 1
         claimed_by.update({int(paper["pid"]): kind for paper in papers})
 
-        registrations = parse_registrations(read_xlsx_rows(sheet))
+        registrations = []
+        for sheet in sheets:
+            registrations += select_kind(parse_registrations(read_rows(sheet)), declared)
+        registrations = dedupe(registrations)
         found, issues, narrowings = resolve(registrations, papers)
         assignments.update(found)
         problems += [(kind, *issue) for issue in issues]
         decisions += [(kind, *narrowing) for narrowing in narrowings]
-        tallies.append((kind, sheet, papers_path, len(registrations), len(papers), len(found)))
+        tallies.append((kind, sheets, papers_path, len(registrations), len(papers), len(found)))
 
     # Checked before the overrides are merged in: they are a handful of hand-written
     # entries, and letting them stand in for a run that matched nothing would turn a
@@ -583,8 +724,9 @@ def main():
     write_presenters(output_path, assignments, args.year, sheets)
 
     presenters = sum(len(names) for names in assignments.values())
-    for kind, sheet, papers_path, registered, accepted, found in tallies:
-        print(f"{kind:<8}: {registered} registration(s) from {sheet}")
+    for kind, from_sheets, papers_path, registered, accepted, found in tallies:
+        named = ", ".join(sheet.as_posix() for sheet in from_sheets)
+        print(f"{kind:<8}: {registered} registration(s) from {named}")
         print(f"{'':<8}  {accepted} accepted from {papers_path} -> {found} with a presenter")
     if overrides:
         print(f"manual overrides: {len(overrides)} (from {overrides_path})")
