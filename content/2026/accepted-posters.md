@@ -16,6 +16,15 @@ menu:
 ### Poster Format Guideline
 All posters must be in portrait orientation, size A0 or 36"x48".
 
+If you wish to print out your poster in Sherbrooke, you may do so here:
+
+&nbsp;&nbsp;&nbsp; **Staples (Bureau en gros)** <br>
+&nbsp;&nbsp;&nbsp; <ins>Address</ins>: 3325 Portland Boulevard, Sherbrooke <br>
+&nbsp;&nbsp;&nbsp; <ins>Phone</ins>: (819) 562-1966 <br>
+&nbsp;&nbsp;&nbsp; <ins>To print</ins>: https://shop.staplescopyandprint.ca/pages/printme <br>
+&nbsp;&nbsp;&nbsp; <ins>Turnaround time</ins>: 2 to 10 business days: $59.99 + taxes for a 36 × 48 in. poster <br>
+&nbsp;&nbsp;&nbsp; <ins>Turnaround time</ins>: Same day if submitted in the morning. $79.99 + taxes <br> 
+
 
 <br><br>
 
