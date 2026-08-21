@@ -28,8 +28,9 @@
 #      only against its own kind of submission, so nothing connects the two.
 "408": ["Kaushik Sankar"]
 
-# 338: Xingyu Zhou registered the two halves of the title the other way round,
-#      as "Quantum Algorithms on Edge Lists: Hiding, Shuffling, and Cycle
-#      Finding", which the similarity check scores far too low to accept. He is
-#      the fourth author, and the talk schedule names him as its speaker.
-"338": ["Xingyu Zhou"]
+# 166 and 339: neither Vishnu Iyer nor Li-Yang Tan appears on any registration
+#      export -- both talks are given online, and no sheet lists either name.
+#      The program committee named them as their speakers in the 19 August
+#      schedule; the submissions spell them "Vishnu Iyer" and "Li-Yang Tan".
+"166": ["Vishnu Iyer"]
+"339": ["Li-Yang Tan"]
