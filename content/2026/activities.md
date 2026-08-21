@@ -1,7 +1,6 @@
 ---
 title: Activities
 year: 2026
-
 type: text_page
 menu:
     2026:
@@ -9,6 +8,8 @@ menu:
         parent: attend
 
 ---
+
+## Excursions
 
 As part of the TQC 2026 social program, participants are invited to choose one of the following three excursions, taking place on the afternoon of Wednesday, September 2.
 
@@ -260,3 +261,13 @@ As part of the TQC 2026 social program, participants are invited to choose one o
     });
 })();
 </script>
+
+## Business Meeting
+
+## Welcome Cocktail
+
+## Board Games
+
+## AMA Session
+
+## Banquet
