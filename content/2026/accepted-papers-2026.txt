@@ -217,7 +217,7 @@ Shrinidhi Teganahally Sridhara, Yassine Hamoudi, Yvan Le Borgne
 Space–Time Efficient Transversal Architectures for Large-Scale Quantum Computation.
 Hengyun Zhou, Casey Duckering, Chen Zhao, Dolev Bluvstein, Madelyn Cain, Aleksander Kubica, Sheng-Tao Wang, Mikhail Lukin
 
-Hiding, Shuﬄing, and Cycle Finding: Quantum Algorithms on Edge Lists.
+Quantum Algorithms on Edge Lists: Hiding, Shuffling, and Cycle Finding.
 Amin Shiraz Gilani, Daochen Wang, Pei Wu, Xingyu Zhou
 
 The Power of Quantum Circuits in Sampling.
