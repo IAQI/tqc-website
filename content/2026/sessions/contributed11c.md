@@ -1,5 +1,5 @@
 ---
-title: "Information Theory"
+title: "Cryptography"
 format: contributed
 type: sessions
 year: 2026
@@ -7,9 +7,9 @@ tags:
 - track
 
 papers:
-- 354
-- 376
-- 101
+- 139
+- 256
+- 137
 videoId: null
 presentation: null
 draft: false
