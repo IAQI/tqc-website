@@ -43,6 +43,15 @@ CurrentYear: {{ $currentYear }}
 	</div>
   {{ end }}
 
+	{{/* figure out if an extended abstract with that id exists for this year */}}
+	{{ $extAbstFile := printf "%.0f_ext_abst.pdf" .pid }}
+	{{ $extAbstPath := printf "/content/%s/extended_abstracts/%s" $currentYear $extAbstFile }}
+	{{ if fileExists $extAbstPath }}
+	<div class="paper-extended-abstract">
+		<a href="/{{ $currentYear }}/extended_abstracts/{{ $extAbstFile }}" target="_blank">[extended abstract]</a>
+	</div>
+	{{ end }}
+
   {{ $dataKey := printf "youtube-%s" (string $currentYear) }}
   {{ $youtube := index site.Data $dataKey | default slice }}
   <div class="paper-youtubeid">
