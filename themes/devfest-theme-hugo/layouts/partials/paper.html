@@ -52,6 +52,15 @@ CurrentYear: {{ $currentYear }}
 	</div>
 	{{ end }}
 
+	{{/* proceedings (LIPIcs) version, if this paper is in the volume for this year */}}
+	{{ $procKey := printf "proceedings-%s" $currentYear }}
+	{{ $proceedings := index site.Data $procKey | default dict }}
+	{{ with index $proceedings (printf "%.0f" .pid) }}
+	<div class="paper-proceedings">
+		<a href="https://doi.org/{{ . }}" target="_blank">[proceedings]</a>
+	</div>
+	{{ end }}
+
   {{ $dataKey := printf "youtube-%s" (string $currentYear) }}
   {{ $youtube := index site.Data $dataKey | default slice }}
   <div class="paper-youtubeid">
