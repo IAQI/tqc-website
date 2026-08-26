@@ -44,5 +44,8 @@ For questions regarding these presentation guidelines, you may write to [talks_t
 
 ## List of Accepted Contributed Talks
 (in order of submission)
+
+Papers whose authors opted in are published in the conference proceedings, [LIPIcs Volume 389](https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-389); those entries carry a `[proceedings]` link below.
+
 {{< papers-accepted year=2026 >}}
 {{< /papers-accepted >}}
