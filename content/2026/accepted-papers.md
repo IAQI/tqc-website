@@ -18,7 +18,7 @@ menu:
 
 **Time Allocation**
 
-Each presentation slot is **30 minutes** total: maximum **25 minutes** for the presentation, followed by **5 minutes** for questions and discussion. As a general guideline, we recommend the one-slide-per-minute rule, which gives roughly 25 slides.
+Each talk is maximum **20 minutes**, followed by **5 minutes** for questions and discussion. As a general guideline, we recommend the one-slide-per-minute rule, which gives roughly 20 slides.
 
 **Slide Format and Submission**
 
