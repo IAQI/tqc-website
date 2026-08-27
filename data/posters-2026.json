@@ -3012,34 +3012,6 @@
     },
     {
         "object": "paper",
-        "pid": 180,
-        "title": "Bipartite Nonsignalling Resources and Tripartite Quantum States Are Not Universal for Tripartite Nonsignalling Correlations",
-        "abstract": "A central question in the study of nonlocal correlations is whether there exists a universal unit of nonlocality, by which any nonsignalling correlation can be obtained using local operations and shared randomness. The Popescu-Rohrlich (PR) box was proposed as a candidate unit, and while it can approximate all bipartite nonsignalling correlations, it is known to be insufficient for reproducing certain multipartite quantum correlations. In particular, there exist tripartite quantum correlations that cannot be simulated using only classical PR boxes. Motivated by the observation that PR boxes are inherently classical in their input-output interface, we study an upgraded resource set that includes classical-quantum PR boxes and tripartite entanglement. We show that there exists a nonlocal game such that even with this quantum generalization, players cannot outperform strategies that use only tripartite quantum states. Consequently, there exist tripartite nonsignalling correlations that remain unattainable under this augmented resource set. This result then extends immediately to the set of bipartite nonsignalling correlations, with classical inputs and outputs, combined with tripartite quantum states.",
-        "authors": [
-            {
-                "first": "Gurleen",
-                "last": "Padda",
-                "affiliation": "Université de Sherbrooke",
-                "contact": true
-            },
-            {
-                "first": "Claude",
-                "last": "Crépeau",
-                "affiliation": "École de Technologie Supérieur Montréal"
-            },
-            {
-                "first": "Dave",
-                "last": "Touchette",
-                "affiliation": "Université de Sherbrooke"
-            }
-        ],
-        "topics": [
-            "quantum foundations",
-            "quantum information theory"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 181,
         "title": "Certified randomness on NISQ devices with quantum computational advantage",
         "abstract": "Achieving computational advantage using NISQ devices on practically useful problems is a long standing challenge. We report two papers that experimentally demonstrate a concrete application, namely certified randomness generation, which could be useful for multi-party cryptographic protocols and improving imperfect physical sources of randomness. Both papers involve substantial theoretical contributions to the protocol.\n \nWe devise a realistic protocol that maximizes practical hardness. The verifier first asks the server to prepare a quantum state using a random circuit and then sends a random measurement basis right before the result must be received. This is repeated for many rounds. We show complexity theoretic evidence for entropy generation and provide improved entropy bounds against adversaries with oracle access to the random circuits. We also construct an end-to-end application of randomness amplification of imperfect sources into nearly perfect randomness, notably achieving everlasting security which uplifts computational security to information theoretic security.",
@@ -9578,13 +9550,31 @@
     {
         "object": "paper",
         "pid": 1039,
-        "title": "Optimal Distillation of Non-Markovianity: Bound, Multi-Copy Gain, and the Weak-to-Essential Transition",
-        "abstract": "Quantum channels generally reduce the distinguishability of quantum states, thereby constraining information transmission and processing in open quantum systems. While it is known that distinguishability can be partially recovered through suitable post-processing protocols, a systematic characterization of the maximal achievable gain has remained elusive. \nHere, we establish a general framework to determine and optimize the recovery of distinguishability induced by a quantum channel. We introduce an algorithm that identifies the optimal implementation of a multi-copy distillation protocol and applies efficiently to arbitrary channels. Within this framework, we derive a general upper bound on the attainable distinguishability gain and quantify the performance of the protocol in terms of its tightness relative to this bound.\nOur results show that weakly non-Markovian dynamics can be operationally promoted to the essentially non-Markovian regime via multi-copy coarse graining, as witnessed by the emergence of information backflow. A detailed analysis reveals a nontrivial trade-off between bound saturation and operational advantage, as well as a strong dependence on both the input ensemble and the number of copies. \nTaken together, these findings provide a unified and quantitative approach to assess, optimize, and interpret distinguishability recovery in open quantum systems, and establish multi-copy processing as a viable mechanism for activating non-Markovian behavior.",
+        "title": "k-Uniform Complete Hypergraph-State Stabilizers in Terms of Local Operators",
+        "abstract": "In this work, we introduce a method to express the stabilizer of a k-uniform complete hypergraph state as a linear combination of local operators. Quantum hypergraph states generalize graph states and exhibit properties that are not shared by their graph counterparts—most notably, their stabilizers are intrinsically nonlocal, as hyperedges can involve arbitrary subsets of vertices. Our formulation provides an explicit description of the stabilizers for k-uniform complete hypergraphs and may offer insights for exploring these states within the stabilizer formalism. In particular, this approach could facilitate the construction of new Bell inequalities or find applications in quantum error correction.",
         "authors": [
             {
                 "first": "Gabriel",
                 "last": "Moniz Arantes",
                 "affiliation": "Instituto de Física da Universidade de São Paulo",
+                "contact": true
+            },
+            {
+                "first": "Vincíus",
+                "last": "Salem",
+                "affiliation": "Universidad de Valladolid",
+                "contact": false
+            },
+            {
+                "first": "Danilo",
+                "last": "Cius",
+                "affiliation": "Instituto de Física da Universidade de São Paulo",
+                "contact": true
+            },
+            {
+                "first": "Barbara",
+                "last": "Amaral",
+                "affiliation": "Instituto de Física da Universidade de São Paulo and University of Toronto",
                 "contact": true
             }
         ],
