@@ -297,6 +297,28 @@ The session is intended to be open and conversational, allowing participants to 
 
 Come curious, leave with new perspectives and connections across the quantum community.
 
+See who will be there to answer your questions : 
+| Name                      | Title                         | Affiliation                      |
+| ------------------------- | ----------------------------- | -------------------------------- |
+| Mark Wilde                | Professor                     | Cornell University               |
+| Dominic Berry             | Professor                     | Macquarie University             |
+| Naoki Yamamoto            | Professor                     | Keio University                  |
+| Sevag Gharibian           | Professor                     | Paderborn University             |
+| Saeed Mehraban            | Assistant Professor           | Tufts University                 |
+| Gecia Bravo-Hermsdorff    | Lecturer                      | University of Bath               |
+| Ningping Cao              | Researcher                    | National Research Council Canada |
+| Kevin Thompson            | R&D S&E, Computer Science     | Sandia National Laboratories     |
+| Noah Shutty               | Researcher                    | Google Quantum AI                |
+| Sumanth Puttur            | Vice President of People      | Horizon Quantum                  |
+| Maxime Tremblay           | Researcher                    | Hydro-Québec (IREQ)              |
+| Mark Webster              | Researcher                    | IonQ                             |
+| Jacob Watkins             | Quantum Algorithms Researcher | JPMorganChase                    |
+| Aarthi Meenakshi Sundaram | Researcher                    | Microsoft                        |
+| Takashi Yamakawa          | Researcher                    | NTT                              |
+| Elizabeth Iwasawa         | Director of Quantum           | RBC                              |
+| Yota Maeda                | Researcher                    | Toyota Central R&D Labs. Inc.    | 
+| Étienne Lord              | Research Scientist            | Agriculture and Agri-Food Canada | 
+
 ## Banquet
 
 Join us on **Thursday** for an evening of good food and conversation with fellow conference participants!
