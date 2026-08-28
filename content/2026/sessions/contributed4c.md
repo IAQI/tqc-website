@@ -9,7 +9,6 @@ tags:
 papers:
 - 262
 - 403
-- 113
 videoId: null
 presentation: null
 draft: false
