@@ -72,7 +72,7 @@ If you observe or experience a violation of this Code, you are encouraged to rep
 - Contact the organizing institution’s staff and volunteers in person (they will be
 introduced and will
 be identifiable).
-- Email [2026@tqc-conference.org](mailto:2026@tqc-conference.org). If you desire your
+- Email [tqc2026@usherbrooke.ca](mailto:tqc2026@usherbrooke.ca). If you desire your
 report to be anonymous, you may email us from an anonymized email address. Note that
 anonymity may limit our ability to respond to incidents.
 
