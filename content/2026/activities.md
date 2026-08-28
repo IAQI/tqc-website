@@ -8,6 +8,19 @@ menu:
         parent: attend
 
 ---
+## Sponsor Exhibition
+
+Visit the TQC 2026 Sponsor Exhibition to meet representatives from organizations across the quantum ecosystem and learn more about their research, technologies, and opportunities.
+
+The exhibitions will take place in the foyer during two dedicated networking periods:
+
+&nbsp;&nbsp;&nbsp; **Tuesday, September 1**, 6:00 PM to 8:00 PM (with snacks available and bar service at your expense)
+
+&nbsp;&nbsp;&nbsp; **Thursday, September 3**, 4:00 PM to 6:00 PM (bar service at your expense)
+
+Whether you are interested in quantum research, industry developments, career opportunities, or simply connecting with members of the broader quantum community, we encourage you to stop by and visit the exhibits!
+
+
 
 ## Excursions
 
@@ -262,12 +275,34 @@ As part of the TQC 2026 social program, participants are invited to choose one o
 })();
 </script>
 
-## Business Meeting
 
-## Welcome Cocktail
+## TQC Board Games Night
 
-## Board Games
+Join us on Wednesday 8:00 PM in Salle Sherbrooke (conference room) for a fun evening of board games with fellow conference participants!
 
-## AMA Session
+The activity will be hosted by Montagu Sherbrooke, whose facilitators will be available throughout the evening to explain rules, suggest games, and help people join a table. Whether you're an experienced gamer or completely new to board games, you're welcome to participate. We'll also be joined by several Québec game designers, who will be sharing some of their games and playing alongside participants. This is a great chance to discover new games and meet their creators.
+
+We look forward to seeing you there!
+
+## Ask Me Anything (AMA) Session
+Bring your questions and join the conversation.
+
+The Ask Me Anything (AMA) session at TQC 2026 will provide an informal and interactive space for conference participants, particularly students and early-career researchers, to connect with experienced members of the quantum community. 
+
+Through small-group conversations, participants will have the opportunity to engage directly with advisors from academia, industry, and government, hear about their experiences, and ask questions that may not normally come up during technical conference sessions.
+
+The questions can include research journeys and directions, graduate studies, academic and industry careers, professional development, publishing and collaboration, work–life balance, and perspectives on the future of quantum computing and quantum information.
+
+The session is intended to be open and conversational, allowing participants to exchange ideas, explore different career and research paths, and learn directly from the experiences of members of the TQC community.
+
+Come curious, leave with new perspectives and connections across the quantum community.
 
 ## Banquet
+
+Join us on **Thursday** for an evening of good food and conversation with fellow conference participants!
+
+The banquet will take place in **Salle Sherbrooke (conference room)** and we kindly ask all attendees to **be seated by 6:30 PM**. The evening includes a four-course meal and two glasses of wine per guest. A cash bar will also be available in the foyer for additional beverage purchases.
+
+**Bonus!** A photo booth will be available throughout the evening, offering a fun opportunity to capture memories with colleagues and friends and take home a printed photo souvenir from TQC 2026.
+
+We look forward to celebrating with you!
