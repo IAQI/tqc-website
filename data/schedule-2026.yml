@@ -53,14 +53,11 @@
     - session: contributed3c
       time: '15:30'
       location: room_c
-    - session: sponsored1
-      time: '17:15'
-      location: TBD
     - session: poster_monday
-      time: '17:45'
+      time: '17:00'
       location: TBD
     - session: __endofday
-      time: '19:45'
+      time: '19:00'
 
 - day: '2026-09-01'
   start: '08:30'
@@ -116,11 +113,14 @@
     - session: sponsored3
       time: '17:15'
       location: TBD
-    - session: poster_tuesday
+    - session: pitch
       time: '17:45'
       location: TBD
+    - session: poster_tuesday
+      time: '18:00'
+      location: TBD
     - session: __endofday
-      time: '19:45'
+      time: '20:00'
 
 - day: '2026-09-02'
   start: '08:30'
@@ -209,7 +209,7 @@
     - session: banquet
       time: '18:30'
     - session: __endofday
-      time: '20:30'
+      time: '21:00'
 
 - day: '2026-09-04'
   start: '08:30'
