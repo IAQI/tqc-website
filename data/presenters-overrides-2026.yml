@@ -33,10 +33,13 @@
 #      The program committee named them as their speakers in the 19 August
 #      schedule; the submissions spell them "Vishnu Iyer" and "Li-Yang Tan".
 "166": ["Vishnu Iyer"]
-"339": ["Li-Yang Tan"]
+"339": ["Carmen Strassle"]
 
 # 258: This talk appears to be missing from the spreadsheet entirely.
 "258": ["Kunal Marwaha"]
 
 # 1039: This poster was re-titled manually.
 "1039": ["Gabriel Moniz Arantes"]
+
+# 18: Presenter not specified.
+"18": ["Alex May"]
