@@ -62,7 +62,7 @@ possible.
 
 #### From Montreal airport
 
-* The easiest and cheapest way to get to Sherbrooke is to take the [747 bus](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to the __Montreal bus station (Gare d'autocars)__ and then take the Limocar [as described below](#from-montreal-bus-station-gare-dautocars).
+* The easiest and cheapest way to get to Sherbrooke is to take the [747 bus](https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown) to __downtown Montreal (800 De La Gauchetière Street West),__ and then take the Limocar [as described below](#from-montreal-bus-station-gare-dautocars).
 
 * [Aeroshuttle](https://aeronavette.ca/en/home/) is a shuttle service between the regions of Sherbrooke, Magog/Orford, Bromont, Granby, L’Ange-Gardien, Richelieu and Montreal’s Pierre Elliott Trudeau International Airport. The shuttle is available to and from the airport, 24/7 and 365 days a year. It works with your flight information to bring you directly to the hotel. The cost is $125 one way or $175 return.
 
@@ -71,11 +71,14 @@ possible.
 * [Car rental](https://www.admtl.com/en/access/car-rental): Several options are available; you can view them [here](https://www.admtl.com/en/access/car-rental). Note that we do not recommend this option since it is not environmentally friendly.
 
 
-#### From Montreal bus station (Gare d'autocars)
+#### From downtown Montreal
 
-* [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada. The cost to Sherbrooke Terminus is $50.05 (or $42.54 for students) one-way and $90.10 (or $76.58 for students) return. From the terminus, the Delta Hotel is 4 km west along King Street West, the main thoroughfare, at Place des Congrès.
+* [Limocar](https://limocar.ca/en/home/) is an interurban bus service operated by Transdev Canada. It is recommended to take the route departing from [downtown Montreal (800 De La Gauchetière Street West)](https://limocar.ca/nouvelles/guide-du-voyageur-les-indications-pour-le-nouvel-arret-au-centre-ville-de-montreal/) to the [Limocar terminal](https://maps.app.goo.gl/ufeiUpmHyaezhPnK8) in Sherbrooke. The fare to the Sherbrooke terminal is $50.05 (or $42.54 for students) for a one-way ticket, and $90.10 (or $76.58 for students) for a round-trip ticket. From the terminus, the Delta Hotel is 4 km west along King Street West, the main thoroughfare, at Place des Congrès.
 
 Note: Local buses cost $4 cash.
+
+#### <span style='color:rgb(255,0,0)'>IMPORTANT for those taking the BUS from Montreal to Sherbrooke</span>
+**Limocar has relocated its bus stop in Montreal – it is now situated at 800 de la Gauchetière O.**, and you should reach it from Bonaventure metro station. Please consult their website carefully. News about the changes can be found [here](https://limocar.ca/en/news/limocar-annonce-une-relocalisation-de-ses-services-au-centre-ville-de-montreal-et-une-mise-a-jour-de-ses-horaires-a-compter-du-4-mai-2026/). Instructions how to get to the new bus stop at 800 de la Gauchetière O. are in French only, [here](https://limocar.ca/nouvelles/guide-du-voyageur-les-indications-pour-le-nouvel-arret-au-centre-ville-de-montreal/).
 
 
 #### From anywhere in Montreal
