@@ -5,5 +5,5 @@ type: partner
 draft: false
 category: community
 logo: /2025/partners/logos/iaqi.png
-website: https://www.iaqi.org
+website: https://iaqi.org/
 ---
