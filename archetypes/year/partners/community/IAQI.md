@@ -7,5 +7,5 @@ type: partner
 draft: false
 category: community
 logo: /{{ $year }}/partners/logos/iaqi.png
-website: https://www.iaqi.org
+website: https://iaqi.org/
 ---
