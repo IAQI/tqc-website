@@ -16,6 +16,11 @@ Omri Shmueli is a postdoctoral fellow at the CIS Lab, NTT Research, hosted by Ma
 
 ## Abstract
 
+Quantum computing is reshaping the foundations of computer science, and few areas have been transformed as profoundly as cryptography. Over the past decade, we have learned that combining computational hardness with quantum capabilities for honest parties can yield powerful new primitives -- in some cases, functionalities that are out of reach in a purely classical world.
+
+In this talk, I will first give a high-level overview of quantum cryptography. We will discuss the distinction between private-key and public-key quantum cryptography, the primitives known in each setting, and the assumptions on which they (currently) rely.
+
+We will then turn to decentralization & blockchains, and some key challenges in this field. Finally, we will explore how recent advances in quantum cryptography can address some of the fundamental barriers in decentralized systems, while also enabling new applications within quantum cryptography itself. We will conclude with some open challenges.
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
