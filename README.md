@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d3b6d5c-0a7d-4fea-a32e-9a1f7cbaa79a/deploy-status)](https://app.netlify.com/sites/tqc-website/deploys)
 
-Hugo-powered website for the Theory of Quantum Computation, Communication and Cryptography (TQC), live at https://tqc-conference.org/. TQC is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science.
+Hugo-powered website for the Theory of Quantum Computation, Communication and Cryptography (TQC), live at https://tqc-conference.org/ (and https://tqc-website.netlify.app). TQC is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science.
 
 [Hugo](https://gohugo.io/) is a fast static website generator. Deploy previews and production builds are generously hosted by [Netlify](https://www.netlify.com/) under an [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
 
