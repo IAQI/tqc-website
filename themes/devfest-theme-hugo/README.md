@@ -9,7 +9,7 @@ The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It origi
 > [!WARNING]
 > This has only been tested on macOS so far, so sharing your experience with other platforms here is very appreciated!
 
-Some version of `npm` might already be installed on your system, check which one with `$ npm --version`. If that works, you can run in the main `\qcrypt-website` folder
+Some version of `npm` might already be installed on your system, check which one with `$ npm --version`. If that works, you can run in the main `tqc-website` folder
 ```bash
 $ npm clean-install
 ```
@@ -19,7 +19,7 @@ This has installed the PostCSS features, so now you should be able to run
 ```bash
 $ hugo build
 ```
-which builds the whole site to the `/public` subfolder, which is also excluded from the git repository. You can always delete this whole folder (`$ rm -rf qcrypt-website/public`) and rebuild it with the command above.
+which builds the whole site to the `/public` subfolder, which is also excluded from the git repository. You can always delete this whole folder (`$ rm -rf tqc-website/public`) and rebuild it with the command above.
 
 ### Install Node.js
 If you don't have `npm` already, install [Node.js](https://nodejs.org/en/download), in particular install `v22.12.0 (LTS)` for `macOS/linux/windows` using `nvm` with `npm`. `nvm` is a cross-platform Node.js version manager. 
@@ -35,7 +35,7 @@ Hugo is a static website generator. This means that it takes content files encod
 
 The HTML content mainly comes from the mark-down content files in [/content](/content). These files are organized in subfolders, starting with the year, and then further subdivisions. 
 
-The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](https://github.com/QCrypt/qcrypt-website/tree/main?tab=readme-ov-file#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
+The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](../../README.md#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
 
 [Hugo templates](https://gohugo.io/templates/introduction/) make the content appear in a structured way. The templates are all in [/themes/devfest-theme-hugo/assets/layouts](/themes/devfest-theme-hugo/layouts). It takes a while to figure out which template is used to create particular content. 
 * The basis is [baseof.html](/themes/devfest-theme-hugo/layouts/_default/baseof.html). It's quite instructive to try to understand its structure. It uses various others [partial templates](/themes/devfest-theme-hugo/layouts/partials), it defines *blocks* like "header", "banner", "main" that contain some content, but which might be overwritten by other templates later on. 
@@ -100,9 +100,9 @@ Parameters are mostly set in [hugo.toml](../../hugo.toml)
 
 ```toml
 #...
-baseURL = "https://qcrypt.net"
+baseURL = "https://tqc-conference.org/"
 languageCode = "en"
-title = "QCrypt Conference Website"
+title = "TQC Conference Website"
 
 # Theme
 theme = "devfest-theme-hugo"
@@ -115,40 +115,31 @@ enableMissingTranslationPlaceholders = true
 GoogleAnalytics = "G-XXXXXXXX-X"
 
 [params]
-    title = "QCrypt Conference Website"
-    date = "2024-09-02"
-    currentYear = 2024
-    description = "International Conference on Quantum Cryptography"
+    title = "TQC Conference Website"
+    date = "2026-09-15"
+    currentYear = 2026
+    description = "International Conference on Theory of Quantum Computation, Communication and Cryptography (TQC)"
     images = ["/images/social-share.jpg"]
-    email = "webmaster@qcrypt.net"
-    keywords = "event, quantum cryptography, QCrypt"
-    copyright = "We :heart: sheep"
-    copyright_link = "https://github.com/QCrypt/qcrypt-website"
-    # cfpUrl = "/2024/call"
+    email = "2026@tqc-conference.org"
+    keywords = "event, quantum computation, communication, cryptography, TQC"
+    copyright = "We :heart: quantum"
+    copyright_link = "https://github.com/IAQI/tqc-website"
+    # cfpUrl = "/2026/call"
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"
-    manifest = "/manifest.json"
-    safariPinnedTab = "/safari-pinned-tab.svg"
+    manifest = "/site.webmanifest"
+    # safariPinnedTab = "/safari-pinned-tab.svg"
 
-[params.2023]
-  city = "Washington DC, USA"
-  timeanddate_cityid = 263
-  themeColor = "#ac191c"
-  [params.2023.logos]
-    jumbo = "/images/2023/QuCrC23_Logo.png"
-    header = "/images/2023/QuCrC23_Logo.png"
-    banner = "/images/2023/banner-2023.jpeg"
-
-[params.2024]
-  city = "Vigo, Spain"
-  timeanddate_cityid = 4529
-  themeColor = "#0099cc"
-  [params.2024.logos]
-    jumbo = "/images/2024/QCrypt_2024_logo_final.png"
-    header = "/images/2024/QCrypt_24_logo_2.png"
-    banner = "/images/2024/banner-2024.jpg"
+[params.2026]
+  city = "Sherbrooke, Canada"
+  timeanddate_cityid = 1221
+  themeColor = "#4500fa"
+  [params.2026.logos]
+    jumbo = "/images/2026/background-2026.jpg"
+    header = "/images/2026/logo-2026.png"
+    banner = "/images/2026/banner-2026.png"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -157,7 +148,7 @@ GoogleAnalytics = "G-XXXXXXXX-X"
 [server]
   [[server.redirects]]
       from = "/"
-      to = "/2024/"
+      to = "/2026/"
       status = 302
       force = true 
 
@@ -252,15 +243,15 @@ content:
   - title: footer_about
     links:
       - nameKey: footer_charter
-        name: QCrypt Charter
+        name: TQC Charter
         url: /charter/
         newTab: false
       - nameKey: footer_history
-        name: QCrypt History
+        name: TQC History
         url: /history/
         newTab: false
       - nameKey: footer_coc
-        name: QCrypt Code of Conduct
+        name: TQC Code of Conduct
         url: /code-of-conduct/
         newTab: false
 ```
@@ -277,9 +268,9 @@ The Home page is build with markdown and calling some shortcodes like `jumbo`, `
 #### Jumbo bloc
 
 ```hugo
-{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QCrypt 2024 background" logo="/images/2024/QCrypt_2024_logo_final.png" %}}
+{{% jumbo img="/images/2026/background-2026.jpg" imgLabel="TQC 2026 background" logo="/images/2026/logo-2026.png" %}}
 
-## 2-6 September 2024
+## 15-19 September 2026
 
 {{< button-link label="Conference Program"
                 url="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx"
@@ -287,8 +278,8 @@ The Home page is build with markdown and calling some shortcodes like `jumbo`, `
 {{< button-link label="Download Photos"
                 url="pictures"
                 icon="picture" >}}
-{{< button-link label="Organize QCrypt 2026"
-                url="2025"
+{{< button-link label="Organize TQC 2027"
+                url="2027"
                 icon="map-marker" >}}
 {{% /jumbo %}}
 ```
@@ -300,9 +291,9 @@ With main description and key figures.
 
 ```hugo
 {{% home-info what="Participants:900,Day:1,Sessions:36,Parallel Tracks:4" class="primary" %}}
-## What is QCrypt 2024?
+## What is TQC 2026?
 
-QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
+TQC 2026 is the 21st edition of the yearly international scientific conference presenting recent top results in quantum computation, communication, and cryptography. See the list of previous conferences <a style="color: yellow" href="/2026/history/">here</a>.
 {{% /home-info %}}
 ```
 
@@ -314,7 +305,7 @@ Define the two important tables with key dates and website updates.
 ```hugo
 {{% home-keydates %}}
 
-{{% home-keydate-table title="Key Dates QCrypt 2023" %}}
+{{% home-keydate-table title="Key Dates TQC 2026" %}}
 |Date |Event|
 |:----|:----|
 |<strike> 27 March 2023 </strike> | <!-- <a href="https://hotcrp.science.uva.nl/" target="_blank"> --> <strike> Talk submission open now </strike>|
@@ -326,20 +317,20 @@ Define the two important tables with key dates and website updates.
 |<strike>Sat, 8 July 2023</strike>| <strike>Poster acceptance notification</strike>|
 |<strike>Sat, 15 July 2023</strike>| <strike>Early bird rate deadline</strike>|
 |<strike>Tue, 08 August 2023</strike>| <strike>Registration deadline</strike>|
-|<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
+|<strong>Tue, 15 - Sat, 19 September 2026</strong>| <strong>TQC 2026</strong>|
 {{% /home-keydate-table %}}
 
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
-|December 12, 2023 |Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
-|August 17, 2023 | QCrypt 2024 Venue Announced <a href="/2023/2024"> here</a>.|
+|September 20, 2026 |Slides and videos from TQC 2026 will be linked from the presentations page as they become available.|
+|January 15, 2026 |TQC 2026 venue and travel information published <a href="/2026/venue/">here</a>.|
 |August 17, 2023 | <strong>Student Paper Awards Announced</strong> <a href="/2023/sessions/business/">here</a>.|
 |August 15, 2023 | The group photo from Monday evening is now <a href="https://umd.box.com/s/ro56fac22mf5j8xkjcb06ggw0igil4nv">available to view and download.</a>|
 |August 14, 2023 | The <a href="/2023/sessions/rump/">Rump Session</a> theme is: “We love turtles” ❤️🐢❤️|
 |August 14, 2023 | Attendees are encouraged to fill out the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform">exit questionnaire</a> about their conference experience.|
 |August 11, 2023 | The digital version of the <a href="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx">conference program is now available.|
-|August 4, 2023 | Updated Rump Session Instructions: Have a breakthrough result or an amusing quantum cryptography anecdote? Share it at the QCrypt 2023 Rump Session! Submit your proposal <a href="/2023/sessions/rump/"><strong>here</strong></a> before the early submission deadline on Tuesday, August 15, at 11:30 a.m. to secure your spot.|
+|September 10, 2026 |Updated rump session instructions published on the <a href="/2026/sessions/rump/"><strong>Rump Session</strong></a> page.|
 {{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
@@ -516,7 +507,7 @@ website: '/2024/sessions/invited_diamanti'
 `surname` is used for sorting speakers.
 
 > [!WARNING]
-> The bio of the speaker should be put into the description of the session, like on [this example](https://qcrypt.net/2023/sessions/invited_kalai/). There are **no individual speaker pages!**
+> The bio of the speaker should be put into the description of the session, like on [this example](/2026/sessions/invited_uma_girish/). There are **no individual speaker pages!**
 
 
 additional parameters we are not using:
@@ -550,9 +541,9 @@ speakers:
 draft: false
 format: invited
 type: sessions
-year: 2023
+year: 2026
 videoID : 8VNh1dyQxsg
-presentation: "/2023/sessions/slides/QCrypt2023InvitedKalai.pdf"
+presentation: "/2026/sessions/slides/TQC2026InvitedUmaGirish.pdf"
 ---
 ## Bio
 **Yael Tauman Kalai** is a Senior Principal Researcher at Microsoft Research and Adjunct Professor at the Massachusetts Institute of Technology (MIT). Kalai earned a B.Sc in Mathematics from the Hebrew University of Jerusalem, an MS in Computer Science and Applied Mathematics from The Weizmann Institute of Science, and a Ph.D. in Computer Science from MIT.
@@ -658,7 +649,7 @@ The `session` field refers to the `.md` content file in `/YEAR/sessions/`.
 The `time` field is the start time of the day.
 
 > [!NOTE]
-> When displaying a single session like [this one](https://qcrypt.net/2023/sessions/tutorial_yuen/), the start and end time are inferred from the schedule. In particular, the **end time** is the start time of the next event. Therefore, it's wise to include a `__endofday` event in the schedule of every day.
+> When displaying a single session like [this one](/2026/sessions/invited_uma_girish/), the start and end time are inferred from the schedule. In particular, the **end time** is the start time of the next event. Therefore, it's wise to include a `__endofday` event in the schedule of every day.
 
 
 ### Charter, History, Code of Conduct, other pages
@@ -717,7 +708,7 @@ This information is not displayed in a production environment, so don't worry ab
 For debugging, various `warnf` messages are ready to be un-commented in the crucial [css.html](/themes/devfest-theme-hugo/layouts/partials/css.html), [js.html](/themes/devfest-theme-hugo/layouts/partials/js.html) and [icon.html](/themes/devfest-theme-hugo/layouts/shortcodes/icon.html) files.
 
 ### Debugging SASS
-For testing and debugging purposes, you can also build the `css` outside of Hugo. Make sure you have [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/) installed. The run the following in the `qcrypt-website` main folder 
+For testing and debugging purposes, you can also build the `css` outside of Hugo. Make sure you have [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/) installed. Then run the following in the `tqc-website` main folder 
 ```bash
 $ sass themes/devfest-theme-hugo/assets/style/theme-2024.scss themes/devfest-theme-hugo/assets/style/theme-2024.css
 ```
