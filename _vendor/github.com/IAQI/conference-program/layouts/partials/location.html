@@ -1,6 +1,5 @@
-{{/* This template is used to render the location of a session */}}
-{{/* It is called from the schedule-session.html template and expects the data from locations-YEAR.yml as argument */}}
-
+{{/* Renders the room of a session. Called from schedule-session.html with an
+     entry of data/locations-YEAR.yml: {key, label, description}. */}}
 {{ if or .label .description }}
 <div class="location">
 	{{ with .label }}<div class="location-label">{{ . }}</div>{{ end }}

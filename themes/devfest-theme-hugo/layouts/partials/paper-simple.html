@@ -1,7 +1,0 @@
-{{ $paper := .paper }}
-<div class="paper-simple">
-	<div class="paper-title">{{ $paper.title }}</div>
-
-	{{ partial "paper-authors.html" (dict "paper" $paper "currentYear" .currentYear "presenters" true "emphasis" "em") }}
-
-</div>

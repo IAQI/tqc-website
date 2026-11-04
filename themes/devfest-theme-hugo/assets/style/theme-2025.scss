@@ -38,6 +38,7 @@
 @use "pages/with_banner";
 @use "pages/text_page";
 @use "pages/papers";
+@use "program";
 
 :root {
     --primary: #4e8803; // trying to match the green in the logo
