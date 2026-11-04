@@ -4,8 +4,16 @@ baseURL = "https://tqc-conference.org/"
 languageCode = "en"
 title = "TQC Conference Website"
 
-# Theme
-theme = "devfest-theme-hugo"
+# Theme and shared program templates.
+# github.com/IAQI/conference-program provides the schedule, session and
+# accepted-papers templates shared by the QCrypt, TQC and QIP websites; it is
+# vendored in _vendor/ (update with `hugo mod get -u && hugo mod vendor`).
+# Files in the site's own layouts/ override both.
+[module]
+  [[module.imports]]
+    path = "github.com/IAQI/conference-program"
+  [[module.imports]]
+    path = "devfest-theme-hugo"
 
 # Params
 enableEmoji = true
@@ -22,6 +30,7 @@ enableMissingTranslationPlaceholders = true
 #     id = "G-221GMGECQ6"
 
 [params]
+    programScheduleSpeakers = false
     title = "TQC Conference Website"
     date = "2026-09-15"
     currentYear = 2026
