@@ -21,3 +21,6 @@ _gen
 # Python bytecode
 __pycache__/
 *.py[cod]
+
+# raw HotCRP exports and registration lists (personal data)
+private_data/
