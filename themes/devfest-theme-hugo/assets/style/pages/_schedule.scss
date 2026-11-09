@@ -150,6 +150,12 @@
       }
     }
 
+    /* Invited talks link to their page too (speaker bio and abstract) */
+    &.tag-invited > a {
+      pointer-events: auto;
+      cursor: pointer;
+    }
+
     /* Sponsor sessions: green highlight */
     &.tag-sponsor {
       background-color: #d7f2df;
