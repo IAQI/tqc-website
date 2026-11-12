@@ -27,7 +27,7 @@ draft: false
 {{% partners categories="Local stars" year=2026 %}}
 {{% /partners %}}
 
-{{% partners categories="Other Sponsors" year=2026 %}}
+{{% partners categories="Other Sponsors and Partners" year=2026 %}}
 {{% /partners %}}
 
 
