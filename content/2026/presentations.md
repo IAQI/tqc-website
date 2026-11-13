@@ -44,8 +44,8 @@ Poster boards will be identified by <strong>lastname_day_title. </strong>
 
 Poster sessions will be 90 minutes from 4:30 p.m. to 6 p.m. on Monday and Tuesday.
 <br><br>
-{{< button-link label="Monday's Schedule" url="/2024/sessions/poster1/" icon="" >}}
-{{< button-link label="Tuesday's Schedule" url="/2024/sessions/poster2/" icon="" >}}
+{{< button-link label="Monday's Schedule" url="/2026/sessions/poster_monday/" icon="" >}}
+{{< button-link label="Tuesday's Schedule" url="/2026/sessions/poster_tuesday/" icon="" >}}
 <br>
 
 -->
