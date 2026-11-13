@@ -4,18 +4,16 @@ baseURL = "https://tqc-conference.org/"
 languageCode = "en"
 title = "TQC Conference Website"
 
-# Theme and shared program templates.
-# github.com/IAQI/conference-program provides the schedule, session and
-# accepted-papers templates shared by the QCrypt, TQC and QIP websites. The
-# version is pinned in go.mod / go.sum and downloaded at build time (Netlify
-# needs Go for this: GO_VERSION in netlify.toml). Update it with
-# `hugo mod get -u github.com/IAQI/conference-program`.
-# Files in the site's own layouts/ override both.
+# Theme: github.com/IAQI/conference-theme, shared by the QCrypt, TQC and QIP
+# websites (layouts, styles, schedule and accepted-papers templates, scripts).
+# The version is pinned in go.mod / go.sum and downloaded at build time
+# (Netlify needs Go for this: GO_VERSION in netlify.toml). Update it with
+# `hugo mod get -u github.com/IAQI/conference-theme`.
+# This site's own files in layouts/, assets/, i18n/ override the module's;
+# this year's colours are in assets/style/theme-YEAR.scss.
 [module]
   [[module.imports]]
-    path = "github.com/IAQI/conference-program"
-  [[module.imports]]
-    path = "devfest-theme-hugo"
+    path = "github.com/IAQI/conference-theme"
 
 # Params
 enableEmoji = true
@@ -50,33 +48,14 @@ enableMissingTranslationPlaceholders = true
     manifest = "/site.webmanifest"
     # safariPinnedTab = "/safari-pinned-tab.svg"
 
-[params.2024]
-  city = "Okinawa, Japan"
-  timeanddate_cityid = 775
-  themeColor = "#f3a31b"
-  [params.2024.logos]
-    jumbo = "/images/2024/background-2024.png"
-    header = "/images/2024/tqc2024-logo.jpg"
-    banner = "/images/2024/banner-2024.jpg"
-
-[params.2025]
-  city = "Bengaluru, India"
-  timeanddate_cityid = 775
-  themeColor = "#4e8803"
-  [params.2025.logos]
-    jumbo = "/images/2025/background-2025.png"
-    header = "/images/2025/tqc-logo-2025.png"
-    banner = "/images/2025/banner-2025.jpg"
-
 [params.2026]
   city = "Sherbrooke, Canada"
   timeanddate_cityid = 1221
-  themeColor = "#4500fa"
+  themeColor = "#74C5DE" # same as --primary in assets/style/theme-2026.scss
   [params.2026.logos]
     jumbo = "/images/2026/background-2026.jpg"
     header = "/images/2026/logo-2026.png"
     banner = "/images/2026/banner-2026.png"
-
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -88,7 +67,6 @@ enableMissingTranslationPlaceholders = true
       to = "/2026/"
       status = 302
       force = true 
-
 
 [languages]
 [languages.en]
@@ -124,57 +102,6 @@ unsafe = true
     [privacy.youtube]
         disable = true
         privacyEnhanced = true
-
-
-[[menu.2024]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  pageRef = '/2024'
-[[menu.2024]]
-  name = "Technical Program"
-  weight = 20
-  identifier = "technical-program"
-[[menu.2024]]
-  name = "Attend"
-  weight = 30
-  identifier = "attend"
-[[menu.2024]]
-  name = "Sponsors"
-  weight = 40
-  identifier = "sponsors"
-  pageRef = "/2024/partners"
-[[menu.2024]]
-  name = "Committees"
-  weight = 50
-  identifier = "committees"
-  pageRef = "/2024/team"
-
-[[menu.2025]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  pageRef = '/2025'
-[[menu.2025]]
-  name = "Technical Program"
-  weight = 20
-  identifier = "technical-program"
-[[menu.2025]]
-  name = "Attend"
-  weight = 30
-  identifier = "attend"
-[[menu.2025]]
-  name = "Sponsors"
-  weight = 40
-  identifier = "sponsors"
-  pageRef = "/2025/partners"
-[[menu.2025]]
-  name = "Committees"
-  weight = 50
-  identifier = "committees"
-  pageRef = "/2025/team"
-
-
 
   [[menu.2026]]
     name = "Home"

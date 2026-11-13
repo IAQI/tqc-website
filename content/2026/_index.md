@@ -29,6 +29,7 @@ layout: home
 {{% home-location
     address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"
     booking_link="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fapp.marriott.com%2Freslink%3Fid%3D1774892407579%26key%3DGRP%26app%3Dresvlink&data=05%7C02%7Ctqc2026%40USherbrooke.ca%7Cd550584d7e24432878b108de8f12022d%7C3a5a8744593545f99423b32c3a5de082%7C0%7C0%7C639105505098330560%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=A0vvRMeB58qAY4oVTLO8T0drX5GzGcjdWNuR97ui5uU%3D&reserved=0"
+    booking_note="Book your group rate accommodation before July 30"
     %}}
 
 
