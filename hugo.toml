@@ -103,20 +103,18 @@ unsafe = true
         disable = true
         privacyEnhanced = true
 
+  # The shared menu structure (conference-theme docs/website-guide.md, "Menus"):
+  # Home | Program | Schedule | Attend | Sponsors | Committees | About
+  # (Schedule is set in content/2026/schedule/_index.md.)
   [[menu.2026]]
     name = "Home"
     weight = 10
     identifier = "home"
     pageRef = '/2026'
   [[menu.2026]]
-    name = "Technical Program"
+    name = "Program"
     weight = 20
-    identifier = "technical-program"
-  [[menu.2026]]
-    name = "Schedule"
-    weight = 25
-    identifier = "schedule"
-    pageRef = "/2026/schedule"
+    identifier = "program"
   [[menu.2026]]
     name = "Attend"
     weight = 30
@@ -131,3 +129,8 @@ unsafe = true
     weight = 50
     identifier = "committees"
     pageRef = "/2026/team"
+  [[menu.2026]]
+    name = "About"
+    weight = 60
+    identifier = "about"
+

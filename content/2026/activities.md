@@ -4,9 +4,8 @@ year: 2026
 type: text_page
 menu:
     2026:
-        weight: 30
         parent: attend
-
+        weight: 40
 ---
 ## Sponsor Exhibition
 

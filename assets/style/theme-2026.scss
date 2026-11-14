@@ -33,3 +33,15 @@ position: relative;
         font-weight: 700;
     }
 }
+/* the length of the invited talks is not announced: hide "( min.)" on their session pages */
+.type-invited::after {
+    content: "";
+}
+
+/* Sponsor slots on the schedule: green with a darker border */
+:root {
+    --sched-sponsor: #d7f2df;
+}
+.section.schedule .session.tag-sponsor > a {
+    border-color: #2e9e5b;
+}
