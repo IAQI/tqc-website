@@ -15,7 +15,7 @@ speakers:
 - morimae
 videoId: null
 presentation: null
-draft: false
+draft: true # copied from an earlier conference, not part of TQC 2026
 ---
 
 The Industry Gala is scheduled for Tuesday late afternoon. The agenda includes:

@@ -5,6 +5,10 @@ type: schedule
 draft: false
 horizontal: false
 coming_soon: true
+menu:
+    2026:
+        weight: 25
+        identifier: schedule
 ---
 
  

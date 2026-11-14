@@ -3,7 +3,7 @@ title: 'Hotel Check-out'
 format: info
 type: sessions
 tags:
-- checkout
+- notice
 videoId: null
 presentation: null
 draft: false

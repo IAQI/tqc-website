@@ -4,10 +4,9 @@ year: 2026
 
 type: text_page
 menu:
-  2026:
-    weight: 10
-    parent: attend
-
+    2026:
+        parent: attend
+        weight: 30
 ---
 
 # TQC 2026 Student Support

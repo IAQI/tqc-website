@@ -1,4 +1,5 @@
 [build.environment]
+GO_VERSION = "1.23.4" # Hugo downloads the conference-program module with Go
 HUGO_VERSION = "0.140.0"
 DART_SASS_VERSION = "1.83.0"
 TZ = "Europe/Amsterdam"
@@ -39,5 +40,31 @@ TZ = "Europe/Amsterdam"
 [[redirects]]
     from = "/tqc2023"
     to = "https://tqc.iaqi.org/2025/tqc2023"
+    status = 301
+    force = true
+
+# TQC 2024 and 2025 are archived on tqc.iaqi.org. The archive has its own page
+# structure, so every old page goes to that year's archive page.
+[[redirects]]
+    from = "/2024/*"
+    to = "https://tqc.iaqi.org/2025/tqc-2024/"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/2024"
+    to = "https://tqc.iaqi.org/2025/tqc-2024/"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/2025/*"
+    to = "https://tqc.iaqi.org/2025/"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/2025"
+    to = "https://tqc.iaqi.org/2025/"
     status = 301
     force = true
