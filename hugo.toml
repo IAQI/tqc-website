@@ -30,7 +30,6 @@ enableMissingTranslationPlaceholders = true
 #     id = "G-221GMGECQ6"
 
 [params]
-    programScheduleSpeakers = false
     title = "TQC Conference Website"
     date = "2026-09-15"
     currentYear = 2026

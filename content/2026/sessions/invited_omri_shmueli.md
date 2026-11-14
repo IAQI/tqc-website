@@ -1,5 +1,5 @@
 ---
-title: 'Invited Speaker: Omri Shmueli — "Quantum Cryptography without Secret Keys"'
+title: "Invited Talk: Quantum Cryptography without Secret Keys"
 format: invited
 type: sessions
 year: 2026

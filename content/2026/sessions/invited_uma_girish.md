@@ -1,5 +1,5 @@
 ---
-title: 'Invited Speaker: Uma Girish — "The Story of Forrelation"'
+title: "Invited Talk: The Story of Forrelation"
 format: invited
 type: sessions
 year: 2026

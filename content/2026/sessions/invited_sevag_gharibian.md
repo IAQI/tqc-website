@@ -1,5 +1,5 @@
 ---
-title: 'Invited Speaker: Sevag Gharibian — "Unentangled quantum proofs"'
+title: "Invited Talk: Unentangled quantum proofs"
 format: invited
 type: sessions
 year: 2026
