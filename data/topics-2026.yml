@@ -1,0 +1,43 @@
+# Topic areas of the TQC 2026 contributed sessions.
+# The schedule shows a strip in the area's colour on the left of each session
+# card, and a legend above the schedule. `sessions` lists the session titles
+# (as in content/2026/sessions/*.md) that belong to the area; a session page
+# can also set `topic: <key>` itself.
+- key: algorithms
+  name: Algorithms
+  color: "#e6194b"
+  sessions: [Algorithms, Optimization]
+- key: complexity
+  name: Complexity
+  color: "#3cb44b"
+  sessions: [Complexity, Interactive Proofs, Sampling Supremacy, Quantum Inputs]
+- key: cryptography
+  name: Cryptography
+  color: "#4363d8"
+  sessions: [Cryptography, Random Unitaries]
+- key: foundations
+  name: Foundations
+  color: "#d4a900"
+  sessions: [Foundations]
+- key: information
+  name: Information Theory
+  color: "#f58231"
+  sessions: [Information Theory]
+- key: error-correction
+  name: Error Correction
+  color: "#469990"
+  sessions: [Error Correction, Magic]
+- key: learning
+  name: Learning
+  color: "#911eb4"
+  sessions: [Learning, Learning Hamiltonians]
+- key: simulation
+  name: Simulation
+  color: "#9a6324"
+  sessions:
+    - Simulations
+    - Simulation of Quantum Circuits
+    - Tensor Networks
+    - Circuits
+    - Bosonic Computation
+    - Fermionic Computation
