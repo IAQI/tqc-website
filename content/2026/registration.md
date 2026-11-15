@@ -5,9 +5,8 @@ year: 2026
 type: text_page
 menu:
     2026:
-        weight: 2
         parent: attend
-
+        weight: 10
 ---
 Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to register.
 

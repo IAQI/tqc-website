@@ -4,9 +4,8 @@ year: 2026
 type: no_toc
 menu:
     2026:
-        weight: 50
         parent: attend
-
+        weight: 60
 ---
 
 ## Venue

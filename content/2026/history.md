@@ -3,7 +3,10 @@ title: TQC History
 year: 2026
 draft: false
 type: text_page
-# no menu entry necessary, as the charter, history and code of conduct are accessible from the links in the footer
+menu:
+    2026:
+        parent: about
+        weight: 20
 ---
 
 

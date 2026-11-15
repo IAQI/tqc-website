@@ -5,11 +5,8 @@ type: list_with_header
 draft: false
 menu:
     2026:
+        parent: program
         weight: 10
-        identifier: accepted-papers
-        parent: technical-program
-
-
 ---
 
 <div style="background: var(--base); border: 1px solid var(--darken-2); border-radius: 1rem; padding: 2rem 2.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px var(--darken-1);">

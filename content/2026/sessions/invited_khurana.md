@@ -8,7 +8,7 @@ tags:
 speakers:
   - khurana
 presentation: null
-draft: false
+draft: true # copied from an earlier conference, not part of TQC 2026
 ---
 ## Bio
 **Dakshita Khurana** is ... 

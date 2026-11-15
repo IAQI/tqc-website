@@ -5,10 +5,8 @@ draft: true
 type: sessions
 menu:
     2026:
-        weight: 50
-        identifier: sessions
-        parent: technical-program
-
+        parent: program
+        weight: 25
 ---
 
 This page gives an overview of the sessions. The {{< button-link label="schedule" url="/2026/schedule" icon="cfp">}} is now available.
