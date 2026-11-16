@@ -59,6 +59,6 @@ The shared theme's [README](https://github.com/IAQI/conference-theme#from-accept
 Raw HotCRP exports and registration lists contain personal data: keep them in `private_data/` (git-ignored), never in `data/` or `scripts/`.
 
 ## What this site does differently
-TQC keeps its own versions of a few theme styles, in [assets/style/](assets/style/): the colours of the schedule categories (`_root.scss`, `partials/_tags.scss`), talk durations (`partials/_type.scss`), the schedule with three parallel tracks (`pages/_schedule.scss`, `_session.scss`, `_papers.scss`), and the home page, banner and sponsor layout (`pages/_home.scss`, `_with_banner.scss`, `partials/_banner.scss`, `_base.scss`, `_jumbo.scss`, `_partners_group.scss`). Fixes to these parts of the shared theme do not reach TQC automatically.
+TQC keeps its own versions of a few theme styles, in [assets/style/](assets/style/): the colours, including those of the schedule categories (`_root.scss`), talk durations (`partials/_type.scss`), and the home page, banner and sponsor layout (`pages/_home.scss`, `pages/_with_banner.scss`, `partials/_banner.scss`, `partials/_base.scss`, `partials/_jumbo.scss`, `partials/_partners_group.scss`). This year's colours are in `theme-2026.scss`. Fixes to these parts of the shared theme do not reach TQC automatically; everything else, including the schedule and session styles, comes from the theme.
 
-On the schedule only the Track A/B/C and invited-talk cards link to their pages; speaker photos are hidden on schedule cards (`programScheduleSpeakers = false` in `hugo.toml`).
+Speaker photos on schedule cards can be hidden with `programScheduleSpeakers = false` under `[params]` in `hugo.toml`; this site does not set it, so the theme's default (photos shown) applies.
