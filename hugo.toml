@@ -1,7 +1,7 @@
 # publishDir = "docs"
 
 baseURL = "https://tqc-conference.org/"
-languageCode = "en"
+locale = "en"
 title = "TQC Conference Website"
 
 # These must stay above the first [table]: below [module] they would be
@@ -90,7 +90,7 @@ enableMissingTranslationPlaceholders = true
 [languages]
 [languages.en]
     weight = 1
-    languageName = "us"
+    label = "us"
 
 [taxonomies]
     tag = "tags"
