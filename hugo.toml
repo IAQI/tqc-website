@@ -76,6 +76,16 @@ enableMissingTranslationPlaceholders = true
     address = "2685 Rue King Ouest, Sherbrooke, QC J1L 1C1, Canada"
     attendanceMode = "offline"
 
+[params.2027]
+  city = "Grenoble, France"
+  timeanddate_cityid = 1268 # Grenoble
+  themeColor = "#660038" # stand-in (IAQI maroon); TODO: same as --primary in theme-2027.scss
+  [params.2027.logos]
+    jumbo = "/images/placeholder/background.svg" # TODO: the 2027 image
+    header = "/images/placeholder/header-logo.svg" # TODO: the 2027 image
+    banner = "/images/placeholder/banner.svg" # TODO: the 2027 image
+  # TODO: [params.2027.event] (name, startDate, endDate, timezone, venue, address), once the dates are known
+
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
     footer_link = "https://www.netlify.com"
@@ -149,6 +159,34 @@ unsafe = true
     identifier = "committees"
     pageRef = "/2026/team"
   [[menu.2026]]
+    name = "About"
+    weight = 60
+    identifier = "about"
+
+  [[menu.2027]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2027'
+  [[menu.2027]]
+    name = "Program"
+    weight = 20
+    identifier = "program"
+  [[menu.2027]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2027]]
+    name = "Sponsors"
+    weight = 40
+    identifier = "sponsors"
+    pageRef = "/2027/partners"
+  [[menu.2027]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageRef = "/2027/team"
+  [[menu.2027]]
     name = "About"
     weight = 60
     identifier = "about"
