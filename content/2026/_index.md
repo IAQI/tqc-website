@@ -9,23 +9,34 @@ layout: home
 
 ## TQC 2026
 ## August 31–September 4, 2026
-## Welcome to Sherbrooke, Québec, Canada!
+## Sherbrooke, Québec, Canada
 
-{{< button-link label="Call For Papers"
-                url="call"
-                icon="direction" >}}
+{{< button-link label="Schedule"
+                url="schedule"
+                icon="slides" >}}
 
-{{< button-link label="Registration is now open!"
-                url= https://event.fourwaves.com/tqc2026
-                icon="direction" >}}
+{{< button-link label="Accepted Papers"
+                url="accepted-papers"
+                icon="cfp" >}}
+
+{{< button-link label="Proceedings (LIPIcs Volume 389)"
+                url="https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-389"
+                target="_blank"
+                icon="link" >}}
+
+{{< button-link label="Speakers"
+                url="speakers"
+                icon="talk" >}}
+
+{{< button-link label="TQC 2027 in Grenoble"
+                url="2027"
+                icon="map-marker" >}}
 
 {{% /jumbo %}}
 
 <!-- THE MAP -->
 {{% home-location
     address="Delta Hotels by Marriott Sherbrooke Conference Center, 2685 Rue King Ouest, Sherbrooke, CA J1L 1C1"
-    booking_link="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fapp.marriott.com%2Freslink%3Fid%3D1774892407579%26key%3DGRP%26app%3Dresvlink&data=05%7C02%7Ctqc2026%40USherbrooke.ca%7Cd550584d7e24432878b108de8f12022d%7C3a5a8744593545f99423b32c3a5de082%7C0%7C0%7C639105505098330560%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=A0vvRMeB58qAY4oVTLO8T0drX5GzGcjdWNuR97ui5uU%3D&reserved=0"
-    booking_note="Book your group rate accommodation before July 30"
     %}}
 
 
@@ -40,6 +51,9 @@ The Theory of Quantum Computation, Communication and Cryptography (TQC) is a lea
 students and researchers working in the theoretical aspects of quantum information science. The scientific objective 
 is to bring together the theoretical quantum information science community to present and discuss the latest advances 
 in the field. 
+
+TQC 2026 took place from August 31 to September 4, 2026, at the Delta Hotels by Marriott Sherbrooke Conference Center
+in Sherbrooke, Québec, Canada. Thank you to everyone who took part! TQC 2027 will be held in Grenoble, France.
 
 See the list of previous conferences <a style="color: yellow" href="/2026/history">here</a>.
 {{% /home-info %}}
@@ -74,11 +88,12 @@ authorizations. Submissions accepted at this stage will continue through the tal
 
 
 
-<!--{{% home-keydate-table title="Website Updates" %}}
+{{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
+|16 Nov 2026 | Home page updated after the conference; registration closed|
 |1 Feb 2026 | New website created|
-{{% /home-keydate-table %}}-->
+{{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
 
@@ -120,9 +135,6 @@ authorizations. Submissions accepted at this stage will continue through the tal
 </div>
 
 
-<div style="padding-left: 10%; padding-right: 10%;">
-TQC 2026 is seeking sponsors to help make the event a success. Sponsorship provides organizations with visibility among a highly specialized audience and demonstrates support for cutting-edge research in quantum information science. To know more about sponsor packages and other information, contact {{< button-link label="2026@tqc-conference.org" url="mailto:2026@tqc-conference.org?subject=Sponsorship Enquiry" icon="email" >}} 
-</div>
 
 
 {{% home-logo-credit heading="2026 TQC Logo" img="/images/2026/logo-2026.png" %}}

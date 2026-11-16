@@ -8,13 +8,9 @@ menu:
         parent: attend
         weight: 10
 ---
-Registration is now open! Click [here](https://event.fourwaves.com/tqc2026/) to register.
+Registration for TQC 2026 is closed. The conference took place from August 31 to September 4, 2026.
 
 ### Summary prices for registration (before fees)
-
-<p style="text-align: center; font-size: 1.2rem;"><strong>✨ Good news! The On-time bird fee has been extended until <span style="color: firebrick;">August 12</span>! ✨</strong></p>
-
-<br>
 
 <table style="border-collapse: collapse; width: 100%;text-align: center;">
   <thead>

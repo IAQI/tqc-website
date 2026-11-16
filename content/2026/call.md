@@ -17,7 +17,7 @@ menu:
 |Date |Event|
 |:----|:----|
 | January 10th, 2026 | Opening of submission server |
-| Febuary 1st, 2026 |  Talk submission deadline |
+| February 1st, 2026 |  Talk submission deadline |
 | March 1st, 2026 | Early (poster) notification deadline |
 | April 2nd, 2026 | Notification to authors |
 | TBA |Final manuscript deadline (for accepted proceedings)|
