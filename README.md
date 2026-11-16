@@ -28,6 +28,38 @@ hugo server        # needs Hugo (extended), Dart Sass and Go; see the guide
 
 Push to a branch and open a pull request to get a Netlify deploy preview; merging into `main` publishes https://tqc-conference.org.
 
+### Using Nix
+
+If you have [Nix](https://nixos.org/download/) installed, you can also build and run this project via:
+```
+$ nix build https://github.com/IAQI/tqc-website.git
+```
+or if you want to work with a local copy:
+```
+$ git clone https://github.com/IAQI/tqc-website.git
+$ cd tqc-website
+$ nix build
+```
+
+The resulting static website will be placed in `result/share/tqc-website/`, and you can preview it via:
+```
+$ ./result/bin/tqc-website
+```
+
+If you want to start a debug server with hot reload (quicker to see changes), just run instead:
+```
+$ nix develop
+$ hugo server
+```
+
+To automatically load `nix develop`, you can install `nix-direnv` and run:
+```
+$ echo 'use flake' > .envrc
+$ direnv allow .
+```
+
+Note that if you want to run the production version with hot-reload (via `hugo serve -e "production"`), you will need to first run `npm i` to install in the current folder the `npm` dependencies needed by `hugo`. Due to [this hugo issue](https://github.com/gohugoio/hugo/issues/15580), you may also need to remove any folder linking outside of the current directory (like `result` produced by `nix` or `.direnv`) or [disable `hugo`'s sandbox](https://gohugo.io/configuration/security/).
+
 ## Setting up the next year
 
 Follow the guide's [new year](https://github.com/IAQI/conference-theme/blob/main/docs/website-guide.md#a-new-year) section (`new_year.py` copies the previous year's pages as drafts). TQC specifics:
