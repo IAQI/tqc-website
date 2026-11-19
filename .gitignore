@@ -33,3 +33,6 @@ result
 
 # Temporary files
 *#
+*~
+
+*.kra

@@ -94,3 +94,38 @@ Raw HotCRP exports and registration lists contain personal data: keep them in `p
 TQC keeps its own versions of a few theme styles, in [assets/style/](assets/style/): the colours, including those of the schedule categories (`_root.scss`), talk durations (`partials/_type.scss`), and the home page, banner and sponsor layout (`pages/_home.scss`, `pages/_with_banner.scss`, `partials/_banner.scss`, `partials/_base.scss`, `partials/_jumbo.scss`, `partials/_partners_group.scss`). This year's colours are in `theme-2026.scss`. Fixes to these parts of the shared theme do not reach TQC automatically; everything else, including the schedule and session styles, comes from the theme.
 
 Speaker photos on schedule cards can be hidden with `programScheduleSpeakers = false` under `[params]` in `hugo.toml`; this site does not set it, so the theme's default (photos shown) applies.
+
+## Upgrade the theme
+
+To upgrade the conference theme, run:
+```
+$ hugo mod get -u github.com/IAQI/conference-theme
+```
+
+Note that this will break nix's packaging since it needs to hardcode the hash of the theme for purity. To fix nix, in `flake.nix`, replace the `outputHash` with:
+```
+outputHash = "";
+```
+Then run (with nix installed):
+```
+$ nix --extra-experimental-features "nix-command flakes" build
+```
+You should get an error like:
+```
+         specified: sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+            got:    sha256-ZD+lwouj4XLEzZk0CnjvqgAvU8HFZLHa57mvYW0Ctr4=
+```
+Use this hash to replace the hash in `flake.nix`:
+```
+outputHash = "sha256-ZD+lwouj4XLEzZk0CnjvqgAvU8HFZLHa57mvYW0Ctr4=";
+```
+To test your change, **after adding to git all needed files** (nix will only consider files tracked by git for reproducibility reasons), you can then run again:
+```
+$ nix --extra-experimental-features "nix-command flakes" build
+$ ./result/bin/tqc-website
+```
+
+To work on a local copy, you can also do:
+```
+HUGO_MODULE_REPLACEMENTS="github.com/IAQI/conference-theme -> /absolute/path/to/conference-theme" hugo server
+```

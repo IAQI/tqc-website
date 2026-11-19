@@ -3,12 +3,10 @@
 
 // Custom styles for TQC 2027
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --primary: #660038; // stand-in (IAQI maroon). TODO: the 2027 colour, also themeColor in hugo.toml
+    --primary: #bcaff7; // if you update, change themeColor in hugo.toml
     --primary-txt: #fff;
 }  
 
@@ -44,4 +42,38 @@ position: relative;
 }
 .section.schedule .session.tag-sponsor > a {
     border-color: #2e9e5b;
+}
+
+.keydates {
+    flex-direction: column;
+    align-items: center;
+}
+
+.keydate-table {
+    text-align: center;
+}
+
+/*
+ * :not(body) is used since partners may also be a class applied to the whole body
+ * specifically when we are in the partners/ folder since it will use the partners type layout first
+ * and the name of the type is written in the body as can be seen in the baseof.html file 
+ */
+.partners:not(body) p, .logo-credit:not(body) p, .keydate-table:not(body) p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keydate-table table {
+    padding: 2rem;
+}
+
+.home main > section.partners {
+    // Dirty hack: the partner section has an empty section when no partners are set. So we put a 0 padding
+    // to counter this extra gap.
+    padding-bottom: 0rem;
+}
+
+section a, section a:visited, .content a, .content a:visited {
+    color: #71679c;
 }

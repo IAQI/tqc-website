@@ -22,7 +22,7 @@
           ];
           outputHashMode = "recursive";
           outputHashAlgo = "sha256";
-          outputHash = "sha256-ydkooLoam47VNWUo/c/I2Mbxy66NW0Yajob+i+2kpG0=";
+          outputHash = "sha256-ZD+lwouj4XLEzZk0CnjvqgAvU8HFZLHa57mvYW0Ctr4=";
           # Go will use $HOME to know where to put files, and we tell it to store the cache in $out
           buildPhase = ''
             export HOME=$TMPDIR GOMODCACHE=$out
