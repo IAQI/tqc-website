@@ -75,7 +75,7 @@ See the list of previous conferences <a style="color: yellow" href="/2027/histor
 | TBA  | Talk notification to authors                   |
 | TBA  | Poster-only submission deadline                |
 | TBA  | Poster-only acceptance notification to authors |
-| **Mon, August 31 – Fri, September 4** | TQC 2027                  |
+| **Sat, August 28 – Fri, September 3** | TQC 2027 (tutorials during the week-end) |
 
 *The intention of the early poster notification is to facilitate logistics related to registration and travel
 authorizations. Submissions accepted at this stage will continue through the talk selection process.
@@ -157,6 +157,6 @@ We are currently seeking sponsors. If you want to sponsor TQC 2027, please conta
 
 {{% home-logo-credit heading="2027 TQC Logo" img="/images/2027/logo-2027.png" %}}
 
-Our logo, taking inspiration from the dolphin present in the [Dauphiné's coat of arms](https://fr.wikipedia.org/wiki/Fichier:Blason_province_fr_Dauphine.svg), was created by [Nuriya Nurgalieva](https://theoryverse.com/art/), physicist by training and science illustration enthusiast. Discover more of her artwork [here](https://theoryverse.com/art/).
+Our logo, taking inspiration from the dolphin present in the [Dauphiné's coat of arms](https://fr.wikipedia.org/wiki/Fichier:Blason_province_fr_Dauphine.svg), was created by [Nuriya Nurgalieva](https://theoryverse.com), physicist by training and science illustration enthusiast. Discover more of her artwork [here](https://theoryverse.com/art/).
 
 {{% /home-logo-credit %}}
