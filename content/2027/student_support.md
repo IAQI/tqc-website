@@ -9,6 +9,6 @@ menu:
 draft: true
 ---
 
-# TQC 2026 Student Support
+# TQC 2027 Student Support
 Information about financial support for students attending TQC 2027 will be announced in due course.
 

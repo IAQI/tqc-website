@@ -147,4 +147,4 @@ For more information about the physical features of our accessible rooms, common
 
 ### Accommodation
 
-To ensure a comfortable and convenient stay, TQC 2027 will partner with local hotels, exclusively offering a limited number of discounted rooms for TQC 2026 participants. Stay tuned!
+To ensure a comfortable and convenient stay, TQC 2027 will partner with local hotels, exclusively offering a limited number of discounted rooms for TQC 2027 participants. Stay tuned!
