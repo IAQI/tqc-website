@@ -1,8 +1,7 @@
 ---
 title: Code of Conduct
 year: 2027
-draft: true
-type: 
+type: text_page
 menu:
     2027:
         parent: attend
@@ -70,7 +69,7 @@ If you observe or experience a violation of this Code, you are encouraged to rep
 - Contact the organizing institution’s staff and volunteers in person (they will be
 introduced and will
 be identifiable).
-- Email [2027@tqc-conference.org](mailto:2027@tqc-conference.org).<!-- TODO: confirm the address for reports with the 2027 organizers --> If you desire your
+- Email [2027@tqc-conference.org](mailto:2027@tqc-conference.org). If you desire your
 report to be anonymous, you may email us from an anonymized email address. Note that
 anonymity may limit our ability to respond to incidents.
 
@@ -108,4 +107,3 @@ explanation or an opportunity to appeal these measures.
 ### 4. Accommodations and Accessibility
 Information about accessibility, accommodations, and inclusion measures is available on
 the TQC website under the Accessibility section.
-   

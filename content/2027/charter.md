@@ -1,7 +1,6 @@
 ---
 title: TQC Charter
 year: 2027
-draft: true
 type: text_page
 menu:
     2027:
