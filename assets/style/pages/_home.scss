@@ -267,3 +267,27 @@
     }
   }
 }
+
+// Narrow screens: the text above the figures instead of next to them
+@include mq.mq($until: xl) {
+  .home main .info {
+    .wrapper {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .numbers {
+      flex: 0 0 auto;
+      min-width: 0;
+      margin: 0;
+    }
+  }
+}
+
+// Words such as a city or a date must fit too
+@include mq.mq($until: md) {
+  .home main .info .number strong {
+    font-size: 2.5rem;
+    overflow-wrap: anywhere;
+  }
+}
