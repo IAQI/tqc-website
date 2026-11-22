@@ -67,7 +67,6 @@ The second track is **Without Proceedings** (talk without publication).  Accepte
 
 **Note**: If you submitted your work to the Without Proceedings track and would like to switch to the With Proceedings track within a week after the talk submission deadline, please contact the PC chairs at pcchairs2027@tqc-conference.org. 
 
-
 In recent years the overall **acceptance rate** for all papers submitted to TQC has been approximately 20-25%. The PC will target a minimum of 10 articles to be published in the proceedings and therefore the acceptance rates could differ between the two tracks.
 It is possible to present a poster if a submission is not accepted for a talk, in either track, and poster-only submissions are also possible.
 

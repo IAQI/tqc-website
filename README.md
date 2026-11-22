@@ -28,6 +28,38 @@ hugo server        # needs Hugo (extended), Dart Sass and Go; see the guide
 
 Push to a branch and open a pull request to get a Netlify deploy preview; merging into `main` publishes https://tqc-conference.org.
 
+### Using Nix
+
+If you have [Nix](https://nixos.org/download/) installed, you can also build and run this project via:
+```
+$ nix build https://github.com/IAQI/tqc-website.git
+```
+or if you want to work with a local copy:
+```
+$ git clone https://github.com/IAQI/tqc-website.git
+$ cd tqc-website
+$ nix build
+```
+
+The resulting static website will be placed in `result/share/tqc-website/`, and you can preview it via:
+```
+$ ./result/bin/tqc-website
+```
+
+If you want to start a debug server with hot reload (quicker to see changes), just run instead:
+```
+$ nix develop
+$ hugo server
+```
+
+To automatically load `nix develop`, you can install `nix-direnv` and run:
+```
+$ echo 'use flake' > .envrc
+$ direnv allow .
+```
+
+Note that if you want to run the production version with hot-reload (via `hugo serve -e "production"`), you will need to first run `npm i` to install in the current folder the `npm` dependencies needed by `hugo`. Due to [this hugo issue](https://github.com/gohugoio/hugo/issues/15580), you may also need to remove any folder linking outside of the current directory (like `result` produced by `nix` or `.direnv`) or [disable `hugo`'s sandbox](https://gohugo.io/configuration/security/).
+
 ## Setting up the next year
 
 Follow the guide's [new year](https://github.com/IAQI/conference-theme/blob/main/docs/website-guide.md#a-new-year) section (`new_year.py` copies the previous year's pages as drafts). TQC specifics:
@@ -62,3 +94,38 @@ Raw HotCRP exports and registration lists contain personal data: keep them in `p
 TQC keeps its own versions of a few theme styles, in [assets/style/](assets/style/): the colours, including those of the schedule categories (`_root.scss`), talk durations (`partials/_type.scss`), and the home page, banner and sponsor layout (`pages/_home.scss`, `pages/_with_banner.scss`, `partials/_banner.scss`, `partials/_base.scss`, `partials/_jumbo.scss`, `partials/_partners_group.scss`). This year's colours are in `theme-2026.scss`. Fixes to these parts of the shared theme do not reach TQC automatically; everything else, including the schedule and session styles, comes from the theme.
 
 Speaker photos on schedule cards can be hidden with `programScheduleSpeakers = false` under `[params]` in `hugo.toml`; this site does not set it, so the theme's default (photos shown) applies.
+
+## Upgrade the theme
+
+To upgrade the conference theme, run:
+```
+$ hugo mod get -u github.com/IAQI/conference-theme
+```
+
+Note that this will break nix's packaging since it needs to hardcode the hash of the theme for purity. To fix nix, in `flake.nix`, replace the `outputHash` with:
+```
+outputHash = "";
+```
+Then run (with nix installed):
+```
+$ nix --extra-experimental-features "nix-command flakes" build
+```
+You should get an error like:
+```
+         specified: sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+            got:    sha256-ZD+lwouj4XLEzZk0CnjvqgAvU8HFZLHa57mvYW0Ctr4=
+```
+Use this hash to replace the hash in `flake.nix`:
+```
+outputHash = "sha256-ZD+lwouj4XLEzZk0CnjvqgAvU8HFZLHa57mvYW0Ctr4=";
+```
+To test your change, **after adding to git all needed files** (nix will only consider files tracked by git for reproducibility reasons), you can then run again:
+```
+$ nix --extra-experimental-features "nix-command flakes" build
+$ ./result/bin/tqc-website
+```
+
+To work on a local copy, you can also do:
+```
+HUGO_MODULE_REPLACEMENTS="github.com/IAQI/conference-theme -> /absolute/path/to/conference-theme" hugo server
+```

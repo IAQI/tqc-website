@@ -3,7 +3,6 @@ title: Committees
 year: 2027
 type: team
 layout: list_with_header
-draft: true
 ---
 
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
@@ -27,3 +26,4 @@ You can contact the PC chair via email: {{< button-link label="pcchairs2027@tqc-
 ### PC Members
 
 To be announced.
+
