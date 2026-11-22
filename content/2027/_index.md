@@ -85,6 +85,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
+|22 Nov 2026 | History page now links to the TQC archive of past editions|
 |18 Nov 2026 | Website 2027 created|
 {{% /home-keydate-table %}}
 

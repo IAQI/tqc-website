@@ -91,6 +91,7 @@ authorizations. Submissions accepted at this stage will continue through the tal
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
+|22 Nov 2026 | History page now links to the TQC archive of past editions|
 |16 Nov 2026 | Home page updated after the conference; registration closed|
 |1 Feb 2026 | New website created|
 {{% /home-keydate-table %}}
