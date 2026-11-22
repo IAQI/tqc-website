@@ -1,7 +1,6 @@
 ---
 title: TQC History
 year: 2027
-draft: true
 type: text_page
 menu:
     2027:
@@ -15,6 +14,12 @@ menu:
 All editions of TQC since 2006, with links to their original websites and archived copies, are listed in the [TQC archive](https://tqc.iaqi.org/).
 
 ## Websites & Logos
+
+### 2026
+
+<a href="https://tqc-conference.org/2026/" title="Website" target="_blank">
+	<img src="/images/conferences/2026.png" width="800" alt="TQC 2026 website"/>
+</a>
 
 ### 2025
 

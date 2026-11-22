@@ -38,11 +38,11 @@ enableMissingTranslationPlaceholders = true
 
 [params]
     title = "TQC Conference Website"
-    date = "2026-09-15"
-    currentYear = 2026
+    date = "2027-08-28"
+    currentYear = 2027
     description = "International Conference on Theory of Quantum Computation, Communication and Cryptography (TQC)"
     images = ["/images/social-share.jpg"]
-    email = "2026@tqc-conference.org"
+    email = "2027@tqc-conference.org"
     keywords = "event, quantum computation, communication, cryptography, TQC"
     copyright = "We :heart: quantum"
     copyright_link = "https://github.com/IAQI/tqc-website"
@@ -78,13 +78,20 @@ enableMissingTranslationPlaceholders = true
 
 [params.2027]
   city = "Grenoble, France"
-  timeanddate_cityid = 1268 # Grenoble
-  themeColor = "#660038" # stand-in (IAQI maroon); TODO: same as --primary in theme-2027.scss
+  timeanddate_cityid = 1268
+  themeColor = "#bcaff7" # If you update, update also --primary in theme-2027.scss
   [params.2027.logos]
-    jumbo = "/images/placeholder/background.svg" # TODO: the 2027 image
-    header = "/images/placeholder/header-logo.svg" # TODO: the 2027 image
-    banner = "/images/placeholder/banner.svg" # TODO: the 2027 image
-  # TODO: [params.2027.event] (name, startDate, endDate, timezone, venue, address), once the dates are known
+    jumbo = "/images/2027/banner-main-page.jpg"
+    header = "/images/2027/logo-2027-head.png"
+    banner = "/images/2027/banner-small-v2.jpg"
+  [params.2027.event]
+    name = "TQC 2027"
+    startDate = "2027-08-28"
+    endDate = "2027-09-03"
+    timezone = "Europe/Paris"
+    venue = "Maison MINATEC in Grenoble (France)"
+    address = "3 parvis Louis Néel - 38000 Grenoble, France"
+    attendanceMode = "offline"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -168,10 +175,10 @@ unsafe = true
     weight = 10
     identifier = "home"
     pageRef = '/2027'
-  [[menu.2027]]
-    name = "Program"
-    weight = 20
-    identifier = "program"
+  # [[menu.2027]]
+  #   name = "Program"
+  #   weight = 20
+  #   identifier = "program"
   [[menu.2027]]
     name = "Attend"
     weight = 30
