@@ -2,7 +2,10 @@
 
 .jumbo {
   position: relative;
-  height: calc(100vh - var(--toolbar-height));
+  min-height: calc(100vh - var(--toolbar-height));
+  // Grow with the content on small screens, and keep it clear of the scroll-down icon
+  box-sizing: border-box;
+  padding: var(--space-4) 0 5rem;
   max-width: 100%;
   display: flex;
   justify-content: center;
@@ -123,5 +126,22 @@
     }
 
     font-size: 1.5rem;
+  }
+}
+
+// Narrow screens: wider text block and smaller headings, so that title, dates and
+// place wrap onto fewer lines
+@include mq.mq($until: md) {
+  .jumbo .inner-wrapper {
+    max-width: 90vw;
+
+    .inner {
+      h2 {
+        font-size: 1.5rem;
+      }
+      h3 {
+        font-size: 1.3rem;
+      }
+    }
   }
 }
