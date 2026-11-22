@@ -40,7 +40,7 @@ menu:
 ### 2026
 
 <a href="https://tqc-conference.org/2026/" title="Website" target="_blank">
-	<img src="/images/conferences/2026.png" width="800"/>
+	<img src="/images/conferences/2026.png" width="800" alt="TQC 2026 website"/>
 </a>
 
 ### 2025
