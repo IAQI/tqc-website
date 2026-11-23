@@ -8,6 +8,6 @@ job: LOC Chair
 type: LOC
 year: 2027
 socials: 
-  - link: 'https://qi.lip6.fr/fr/people/ivan-supic/'
+  - link: 'https://quantumsupic.github.io'
     name: Site
 ---

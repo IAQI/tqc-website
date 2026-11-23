@@ -42,7 +42,7 @@ layout: home
 
 <!-- THE MAP -->
 {{% home-location
-    address="Maison MINATEC 3 parvis Louis Néel - 38000 Grenoble, France"
+    address="Maison MINATEC, 3 parvis Louis Néel, 38000 Grenoble, France"
     %}}
 
 
