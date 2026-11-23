@@ -32,7 +32,7 @@ Push to a branch and open a pull request to get a Netlify deploy preview; mergin
 
 If you have [Nix](https://nixos.org/download/) installed, you can also build and run this project via:
 ```
-$ nix build https://github.com/IAQI/tqc-website.git
+$ nix build github.com:IAQI/tqc-website.git
 ```
 or if you want to work with a local copy:
 ```
