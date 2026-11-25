@@ -79,7 +79,7 @@ enableMissingTranslationPlaceholders = true
 [params.2027]
   city = "Grenoble, France"
   timeanddate_cityid = 1268
-  themeColor = "#bcaff7" # If you update, update also --primary in theme-2027.scss
+  themeColor = "#796DB4" # If you update, update also --primary in assets/style/theme-2027.scss
   [params.2027.logos]
     jumbo = "/images/2027/banner-main-page.jpg"
     header = "/images/2027/logo-2027-head.png"
@@ -90,7 +90,7 @@ enableMissingTranslationPlaceholders = true
     endDate = "2027-09-03"
     timezone = "Europe/Paris"
     venue = "Maison MINATEC in Grenoble (France)"
-    address = "3 parvis Louis Néel - 38000 Grenoble, France"
+    address = "3 parvis Louis Néel, 38000 Grenoble, France"
     attendanceMode = "offline"
 
 [params.logos]

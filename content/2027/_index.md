@@ -50,7 +50,7 @@ layout: home
 {{% /home-location %}}
 
 <!-- TODO: add Invited Talks:4, Contributed Talks:87 when known, Dates:TBA -->
-{{% home-info what="Participants:>300,Days:7,City:Grenoble,Starting:August 28" class="primary" %}}
+{{% home-info what="Expected participants:>300,Days:7,City:Grenoble,Starting:August 28" class="primary" %}}
 ## **What is TQC 2027?**
 
 The Theory of Quantum Computation, Communication and Cryptography (TQC) is a leading annual international conference for 
